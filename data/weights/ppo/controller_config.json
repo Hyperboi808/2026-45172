@@ -1,0 +1,270 @@
+{
+  "policy_name": "piano_ppo_camera_domain_fivekey_v11",
+  "strategy_by_midi": {
+    "69": 1,
+    "65": 2,
+    "72": 3,
+    "62": 4,
+    "71": 5
+  },
+  "task_keys_midi": [
+    69,
+    65,
+    72,
+    62,
+    71
+  ],
+  "sequence": "random permutation, all five exactly once, then home",
+  "phases": {
+    "0": "prepare",
+    "1": "press",
+    "2": "release",
+    "3": "home"
+  },
+  "pose_tolerance_rad": 0.04,
+  "thumb_spread_tolerance_rad_above_1_5": 0.22,
+  "prepare_stability_s": 0.15,
+  "prepare_timeout_s": 8.0,
+  "press_timeout_s": 4.0,
+  "release_timeout_s": 2.0,
+  "home_timeout_s": 8.0,
+  "home_joint_tolerance_rad": 0.07,
+  "home_tip_tolerance_m": 0.025,
+  "press_depth_threshold": 0.55,
+  "release_depth_threshold": 0.2,
+  "fixed_servo_13_rad": 3.14,
+  "servo_12_max_speed_steps_s": 500,
+  "action_filter_alpha": 0.1,
+  "play_correction_deg_by_servo": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    3,
+    0,
+    0,
+    0.5,
+    1.5,
+    0,
+    0
+  ],
+  "home_joint_radians": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -3.17,
+    3.14,
+    0.802
+  ],
+  "home_tips_base_m": [
+    [
+      -0.02685714723939006,
+      0.026511566937683445,
+      0.34241518758180356
+    ],
+    [
+      -0.018123167127872562,
+      0.057304410414630684,
+      0.3302104201007622
+    ]
+  ],
+  "home_goal_base_m": [
+    -0.022490157183631312,
+    0.04190798867615707,
+    0.33631280384128287
+  ],
+  "home_observation": "zero visual residuals/confidences/jitter/clouds; goal target=home_goal_base_m; target confidence=1; tracking age=0; progress=1",
+  "keyboard_position_m": [
+    0.439,
+    0.085,
+    0.0
+  ],
+  "inference_input": "encoder joint position/velocity + detected keyboard pose/key geometry; no simulator hand truth",
+  "key_feedback": "MIDI or independent key sensors; provide all key states as depth fractions or binary 0/1",
+  "model_load_protection": false,
+  "hardware_driver_included": false,
+  "controller_revision": "press_direction_refinement_20261102",
+  "press_correction_by_strategy": {
+    "1": {
+      "min_deg": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deg": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        1.5,
+        0.0,
+        0.0
+      ]
+    },
+    "2": {
+      "min_deg": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deg": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        1.5,
+        0.0,
+        0.0
+      ]
+    },
+    "3": {
+      "min_deg": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deg": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        1.5,
+        0.0,
+        0.0
+      ]
+    },
+    "4": {
+      "min_deg": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deg": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.0,
+        0.0,
+        0.0,
+        0.5,
+        1.5,
+        0.0,
+        0.0
+      ]
+    },
+    "5": {
+      "min_deg": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deg": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.0,
+        0.0,
+        0.0,
+        0.5,
+        1.5,
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

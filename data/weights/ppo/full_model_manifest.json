@@ -1,0 +1,393 @@
+{
+  "format": "piano_ppo_full_fp32_stdlib_v1",
+  "total_parameters": 312445,
+  "weights_file": "weights_full_fp32.bin",
+  "weights_sha256": "14bf7d6e5f8d48f06f66706a9d3b28addcb79f4aa95e748f64b2a7354f561956",
+  "source_checkpoint_name": "final_candidate.zip",
+  "source_checkpoint_sha256": "23a54b15d7e647696fd51890574fb4f60ebda83cba10611af1cec810f9bb57e7",
+  "inference_uses": "Actor subset in weights_fp32.bin; Critic and log_std retained here",
+  "tensors": {
+    "log_std": {
+      "shape": [
+        14
+      ],
+      "offset_bytes": 0,
+      "length_bytes": 56,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.feedback.0.weight": {
+      "shape": [
+        128,
+        76
+      ],
+      "offset_bytes": 56,
+      "length_bytes": 38912,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.feedback.0.bias": {
+      "shape": [
+        128
+      ],
+      "offset_bytes": 38968,
+      "length_bytes": 512,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.feedback.2.weight": {
+      "shape": [
+        128,
+        128
+      ],
+      "offset_bytes": 39480,
+      "length_bytes": 65536,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.feedback.2.bias": {
+      "shape": [
+        128
+      ],
+      "offset_bytes": 105016,
+      "length_bytes": 512,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.cloud.mlp.0.weight": {
+      "shape": [
+        32,
+        3
+      ],
+      "offset_bytes": 105528,
+      "length_bytes": 384,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.cloud.mlp.0.bias": {
+      "shape": [
+        32
+      ],
+      "offset_bytes": 105912,
+      "length_bytes": 128,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.cloud.mlp.2.weight": {
+      "shape": [
+        32,
+        32
+      ],
+      "offset_bytes": 106040,
+      "length_bytes": 4096,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.cloud.mlp.2.bias": {
+      "shape": [
+        32
+      ],
+      "offset_bytes": 110136,
+      "length_bytes": 128,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.target_cloud.mlp.0.weight": {
+      "shape": [
+        32,
+        3
+      ],
+      "offset_bytes": 110264,
+      "length_bytes": 384,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.target_cloud.mlp.0.bias": {
+      "shape": [
+        32
+      ],
+      "offset_bytes": 110648,
+      "length_bytes": 128,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.target_cloud.mlp.2.weight": {
+      "shape": [
+        16,
+        32
+      ],
+      "offset_bytes": 110776,
+      "length_bytes": 2048,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.target_cloud.mlp.2.bias": {
+      "shape": [
+        16
+      ],
+      "offset_bytes": 112824,
+      "length_bytes": 64,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.goal.0.weight": {
+      "shape": [
+        64,
+        56
+      ],
+      "offset_bytes": 112888,
+      "length_bytes": 14336,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.goal.0.bias": {
+      "shape": [
+        64
+      ],
+      "offset_bytes": 127224,
+      "length_bytes": 256,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.fusion.0.weight": {
+      "shape": [
+        256,
+        288
+      ],
+      "offset_bytes": 127480,
+      "length_bytes": 294912,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.fusion.0.bias": {
+      "shape": [
+        256
+      ],
+      "offset_bytes": 422392,
+      "length_bytes": 1024,
+      "dtype": "little_endian_float32"
+    },
+    "vf_features_extractor.feedback.0.weight": {
+      "shape": [
+        128,
+        76
+      ],
+      "offset_bytes": 423416,
+      "length_bytes": 38912,
+      "dtype": "little_endian_float32"
+    },
+    "vf_features_extractor.feedback.0.bias": {
+      "shape": [
+        128
+      ],
+      "offset_bytes": 462328,
+      "length_bytes": 512,
+      "dtype": "little_endian_float32"
+    },
+    "vf_features_extractor.feedback.2.weight": {
+      "shape": [
+        128,
+        128
+      ],
+      "offset_bytes": 462840,
+      "length_bytes": 65536,
+      "dtype": "little_endian_float32"
+    },
+    "vf_features_extractor.feedback.2.bias": {
+      "shape": [
+        128
+      ],
+      "offset_bytes": 528376,
+      "length_bytes": 512,
+      "dtype": "little_endian_float32"
+    },
+    "vf_features_extractor.cloud.mlp.0.weight": {
+      "shape": [
+        32,
+        3
+      ],
+      "offset_bytes": 528888,
+      "length_bytes": 384,
+      "dtype": "little_endian_float32"
+    },
+    "vf_features_extractor.cloud.mlp.0.bias": {
+      "shape": [
+        32
+      ],
+      "offset_bytes": 529272,
+      "length_bytes": 128,
+      "dtype": "little_endian_float32"
+    },
+    "vf_features_extractor.cloud.mlp.2.weight": {
+      "shape": [
+        32,
+        32
+      ],
+      "offset_bytes": 529400,
+      "length_bytes": 4096,
+      "dtype": "little_endian_float32"
+    },
+    "vf_features_extractor.cloud.mlp.2.bias": {
+      "shape": [
+        32
+      ],
+      "offset_bytes": 533496,
+      "length_bytes": 128,
+      "dtype": "little_endian_float32"
+    },
+    "vf_features_extractor.target_cloud.mlp.0.weight": {
+      "shape": [
+        32,
+        3
+      ],
+      "offset_bytes": 533624,
+      "length_bytes": 384,
+      "dtype": "little_endian_float32"
+    },
+    "vf_features_extractor.target_cloud.mlp.0.bias": {
+      "shape": [
+        32
+      ],
+      "offset_bytes": 534008,
+      "length_bytes": 128,
+      "dtype": "little_endian_float32"
+    },
+    "vf_features_extractor.target_cloud.mlp.2.weight": {
+      "shape": [
+        16,
+        32
+      ],
+      "offset_bytes": 534136,
+      "length_bytes": 2048,
+      "dtype": "little_endian_float32"
+    },
+    "vf_features_extractor.target_cloud.mlp.2.bias": {
+      "shape": [
+        16
+      ],
+      "offset_bytes": 536184,
+      "length_bytes": 64,
+      "dtype": "little_endian_float32"
+    },
+    "vf_features_extractor.goal.0.weight": {
+      "shape": [
+        64,
+        56
+      ],
+      "offset_bytes": 536248,
+      "length_bytes": 14336,
+      "dtype": "little_endian_float32"
+    },
+    "vf_features_extractor.goal.0.bias": {
+      "shape": [
+        64
+      ],
+      "offset_bytes": 550584,
+      "length_bytes": 256,
+      "dtype": "little_endian_float32"
+    },
+    "vf_features_extractor.fusion.0.weight": {
+      "shape": [
+        256,
+        288
+      ],
+      "offset_bytes": 550840,
+      "length_bytes": 294912,
+      "dtype": "little_endian_float32"
+    },
+    "vf_features_extractor.fusion.0.bias": {
+      "shape": [
+        256
+      ],
+      "offset_bytes": 845752,
+      "length_bytes": 1024,
+      "dtype": "little_endian_float32"
+    },
+    "mlp_extractor.policy_net.0.weight": {
+      "shape": [
+        128,
+        256
+      ],
+      "offset_bytes": 846776,
+      "length_bytes": 131072,
+      "dtype": "little_endian_float32"
+    },
+    "mlp_extractor.policy_net.0.bias": {
+      "shape": [
+        128
+      ],
+      "offset_bytes": 977848,
+      "length_bytes": 512,
+      "dtype": "little_endian_float32"
+    },
+    "mlp_extractor.policy_net.2.weight": {
+      "shape": [
+        128,
+        128
+      ],
+      "offset_bytes": 978360,
+      "length_bytes": 65536,
+      "dtype": "little_endian_float32"
+    },
+    "mlp_extractor.policy_net.2.bias": {
+      "shape": [
+        128
+      ],
+      "offset_bytes": 1043896,
+      "length_bytes": 512,
+      "dtype": "little_endian_float32"
+    },
+    "mlp_extractor.value_net.0.weight": {
+      "shape": [
+        128,
+        256
+      ],
+      "offset_bytes": 1044408,
+      "length_bytes": 131072,
+      "dtype": "little_endian_float32"
+    },
+    "mlp_extractor.value_net.0.bias": {
+      "shape": [
+        128
+      ],
+      "offset_bytes": 1175480,
+      "length_bytes": 512,
+      "dtype": "little_endian_float32"
+    },
+    "mlp_extractor.value_net.2.weight": {
+      "shape": [
+        128,
+        128
+      ],
+      "offset_bytes": 1175992,
+      "length_bytes": 65536,
+      "dtype": "little_endian_float32"
+    },
+    "mlp_extractor.value_net.2.bias": {
+      "shape": [
+        128
+      ],
+      "offset_bytes": 1241528,
+      "length_bytes": 512,
+      "dtype": "little_endian_float32"
+    },
+    "action_net.weight": {
+      "shape": [
+        14,
+        128
+      ],
+      "offset_bytes": 1242040,
+      "length_bytes": 7168,
+      "dtype": "little_endian_float32"
+    },
+    "action_net.bias": {
+      "shape": [
+        14
+      ],
+      "offset_bytes": 1249208,
+      "length_bytes": 56,
+      "dtype": "little_endian_float32"
+    },
+    "value_net.weight": {
+      "shape": [
+        1,
+        128
+      ],
+      "offset_bytes": 1249264,
+      "length_bytes": 512,
+      "dtype": "little_endian_float32"
+    },
+    "value_net.bias": {
+      "shape": [
+        1
+      ],
+      "offset_bytes": 1249776,
+      "length_bytes": 4,
+      "dtype": "little_endian_float32"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "package_name": "cup_wm_v11_depth_localizer_cpu_reference",
+  "package_version": "2026.11.02",
+  "source_checkpoint": "/home/aup/Real_Sim_Real/WM_model/cup/v9/model_architecture_training_v9_verified/runs/wm_fullrange_verified19_20261029/neural20_candidate_20261030/candidate_wm_referencehead20_trained.pt",
+  "source_checkpoint_sha256": "32af673ca32916edd18335d8769cdcc04c9fef5031f79dc63d2a10890723bc2c",
+  "source_checkpoint_epoch": 548,
+  "training_epochs_completed": 310,
+  "training_performed_during_export": false,
+  "parameter_count": 221529,
+  "weight_bytes": 886116,
+  "precision": "float32 little-endian",
+  "runtime_dependencies": [
+    "Python standard library"
+  ],
+  "primary_entrypoint": "edge_runtime.py",
+  "output_units": "radians",
+  "hardware_commands_enabled": false,
+  "accelerator_bitstream_included": false,
+  "pynq_z2_hardware_validation": false,
+  "strict_task_count": 6,
+  "known_route_count": 6,
+  "user_accepted_exception_task_ids": [],
+  "model_acceptance_verified": true,
+  "warning": "Simulation-only acceptance. Calibrate deployed depth cloud and servo feedback mapping on target hardware before enabling bus output.",
+  "camera_depth_localizer": "direct metric depth workpoint-site classifier; see depth_workpoint_localizer_report_v11.json",
+  "servo_feedback_correction": {
+    "enabled": true,
+    "max_correction_rad": 0.02,
+    "gain": 0.25,
+    "feedback_each_waypoint": true,
+    "unit_self_check_passed": true,
+    "closed_loop_simulation_verified": false
+  },
+  "return_to_initial_posture": true,
+  "output_mapping": "simulation joint radians; hardware-side servo_mapping converts to physical encoder positions",
+  "model_acceptance_scope": "Six-route simulation acceptance is baseline WM trajectory evidence; the optional feedback trim is not included in that E2E replay.",
+  "feedback_closed_loop_simulation_verified": false
+}

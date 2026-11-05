@@ -1,0 +1,90 @@
+{
+  "CAMERA_DOMAIN_ACCEPTANCE.json": {
+    "sha256": "1d29a27541acacdf6e498b79e24fe1b02f944f626138101b36f1e338b5ff9eaf",
+    "bytes": 9122
+  },
+  "README.md": {
+    "sha256": "411dfa8792a7992db5bc4b6c66d6271b9eb2c7e8089680a17b20c4bcd25fdcb0",
+    "bytes": 2583
+  },
+  "controller_config.json": {
+    "sha256": "fe12fd09303cef82ebeab66c8e21444c484a55e2e67f36249a07a76ed03e1b14",
+    "bytes": 4253
+  },
+  "example_observation.json": {
+    "sha256": "9f90f6ab49e8bb556f4d26f1abc0c91213016adae626024230222df339f0087b",
+    "bytes": 8749
+  },
+  "export_verification.json": {
+    "sha256": "0ab4554f204a43ddce4461e867999b9be5b39f29d42648f0b3ec11619665d1b1",
+    "bytes": 362
+  },
+  "full_model_manifest.json": {
+    "sha256": "8067aa62445895f999535424305be965516a57ab7c710676be55acc3b3d5eb13",
+    "bytes": 9068
+  },
+  "hardware_kernel_spec.json": {
+    "sha256": "f9cd3c1fed4ecc60f590223e1beead64dfd0bc933012043440830a42f89ebe03",
+    "bytes": 3699
+  },
+  "model_manifest.json": {
+    "sha256": "96c6abedc27c7e3fa91370a7268e94640cb2be197e140b71bfeddc11ef0139aa",
+    "bytes": 5064
+  },
+  "ppo_model.zip": {
+    "sha256": "23a54b15d7e647696fd51890574fb4f60ebda83cba10611af1cec810f9bb57e7",
+    "bytes": 3893220
+  },
+  "run.py": {
+    "sha256": "5d98e3c714397f7e6ef77f398115b99aff46c5c71c8b8361574e42d6d26db4a9",
+    "bytes": 6188
+  },
+  "runtime_consistency_verification.json": {
+    "sha256": "ee5fce4d49f4fb382f1c8baab248c9ce010a60ee876aa9704d8cf72a4f067056",
+    "bytes": 1518
+  },
+  "sequence.py": {
+    "sha256": "7e7e6920eafcd2e4c12696338ec71fe00a39f4725ee11f4cd86edd172a763b16",
+    "bytes": 5606
+  },
+  "servo_config.json": {
+    "sha256": "b3e5b1745d6b45a66e05c8d885df20abfad2c74af0faf8915b995d55552e7df0",
+    "bytes": 4955
+  },
+  "teacher_key_geometry_v11.json": {
+    "sha256": "2cd87bf8e54f0fb16e7ebd4068bc1d449066e6624eaa86ad2f5ca84d4664f237",
+    "bytes": 3179
+  },
+  "teacher_keyframes_v11.json": {
+    "sha256": "b6d00044a858e315ba0613a1a98561a6eeb52f72fe46a6650a2d661efb4c0e9e",
+    "bytes": 4010
+  },
+  "teacher_source_manifest_v11.json": {
+    "sha256": "d865028d4e10ff54f5b4959c70573de18fb88315f15c0fe53ee2e672fcebf542",
+    "bytes": 958
+  },
+  "training_eval_play.json": {
+    "sha256": "325bee1f3762a5bccf574a5bc2aceea3244a0d5428d7abc8c899bff0b8ced7d9",
+    "bytes": 30579
+  },
+  "training_eval_play_deployment.json": {
+    "sha256": "9e4848485cb4480ce1e07f55750a6460392cca733c31d667efafb09b3c837b5c",
+    "bytes": 107048
+  },
+  "training_eval_prepare.json": {
+    "sha256": "443ad4157bfe1f4bf7c6d6edc56d3aae7dcc5be7394d80f3ec981af3e5ffd9ad",
+    "bytes": 17072
+  },
+  "training_metadata.json": {
+    "sha256": "68f6ba1c50fe7fb078d1097b422dc7ca5b9f328aadba896af28dd68e44fc4216",
+    "bytes": 9503
+  },
+  "weights_fp32.bin": {
+    "sha256": "6473c2adbd2867489dfe55ca2cc2f76c6cbdbc116a760a57f8ee15dd1900f368",
+    "bytes": 628216
+  },
+  "weights_full_fp32.bin": {
+    "sha256": "14bf7d6e5f8d48f06f66706a9d3b28addcb79f4aa95e748f64b2a7354f561956",
+    "bytes": 1249780
+  }
+}

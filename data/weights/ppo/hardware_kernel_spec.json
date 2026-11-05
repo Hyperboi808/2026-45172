@@ -1,0 +1,184 @@
+{
+  "format": "pynq_z2_policy_acceleration_contract_v1",
+  "target_board": "PYNQ-Z2 / XC7Z020",
+  "active_backend": "portable Python stdlib actor; CPU only",
+  "pl_acceleration_enabled": false,
+  "bitstream_generated": false,
+  "hwh_generated": false,
+  "compute_graph": [
+    {
+      "op": "linear_relu",
+      "name": "feedback_fc0",
+      "input": [
+        76
+      ],
+      "output": [
+        128
+      ]
+    },
+    {
+      "op": "linear_relu",
+      "name": "feedback_fc1",
+      "input": [
+        128
+      ],
+      "output": [
+        128
+      ]
+    },
+    {
+      "op": "pointwise_mlp",
+      "name": "robot_cloud_shared",
+      "input": [
+        256,
+        3
+      ],
+      "layers": [
+        [
+          3,
+          32,
+          "relu"
+        ],
+        [
+          32,
+          32,
+          "relu"
+        ]
+      ],
+      "pool": [
+        "confidence_weighted_mean",
+        "confidence_weighted_max"
+      ],
+      "output": [
+        64
+      ]
+    },
+    {
+      "op": "pointwise_mlp",
+      "name": "target_cloud_shared",
+      "input": [
+        32,
+        3
+      ],
+      "layers": [
+        [
+          3,
+          32,
+          "relu"
+        ],
+        [
+          32,
+          16,
+          "relu"
+        ]
+      ],
+      "pool": [
+        "confidence_weighted_mean",
+        "confidence_weighted_max"
+      ],
+      "output": [
+        32
+      ]
+    },
+    {
+      "op": "linear_relu",
+      "name": "goal_fc",
+      "input": [
+        56
+      ],
+      "output": [
+        64
+      ]
+    },
+    {
+      "op": "concat",
+      "name": "feature_concat",
+      "input_dims": [
+        128,
+        64,
+        32,
+        64
+      ],
+      "output": [
+        288
+      ]
+    },
+    {
+      "op": "linear_relu",
+      "name": "fusion_fc",
+      "input": [
+        288
+      ],
+      "output": [
+        256
+      ]
+    },
+    {
+      "op": "linear_tanh",
+      "name": "policy_fc0",
+      "input": [
+        256
+      ],
+      "output": [
+        128
+      ]
+    },
+    {
+      "op": "linear_tanh",
+      "name": "policy_fc1",
+      "input": [
+        128
+      ],
+      "output": [
+        128
+      ]
+    },
+    {
+      "op": "linear_clip",
+      "name": "action_fc",
+      "input": [
+        128
+      ],
+      "output": [
+        14
+      ],
+      "clip": [
+        -1,
+        1
+      ]
+    }
+  ],
+  "input_tensors": {
+    "proprio": [
+      76
+    ],
+    "pointcloud": [
+      256,
+      4
+    ],
+    "goal": [
+      56
+    ],
+    "goal_cloud": [
+      32,
+      4
+    ]
+  },
+  "phase_preprocessing": "sequence.py computes feedback-driven prepare/press/release/home; actor receives current/next key and phase; bounded press correction uses approved teacher poses",
+  "output": {
+    "policy_action": [
+      14
+    ],
+    "policy_unit": "normalized target actions",
+    "servo_postprocessor": "Persistent alpha-0.1 filter, calibrated limiter, servo13 fixed 3.14 rad, servo12 max500 steps/s, bounded positive press correction; no bus transport"
+  },
+  "suggested_pl_interface": {
+    "control": "AXI4-Lite start/done/status",
+    "bulk_data": "AXI DMA over AXI HP or AXI stream with PS-side packing",
+    "kernel_top": "piano_actor_accel",
+    "recommended_partition": "leave camera capture/depth and servo UART resident; load this actor kernel only when selected",
+    "notes": "No pin constraints, HLS source, bitstream, or overlay is included yet."
+  },
+  "deployment_constraint": "Keep sensor preprocessing, sequence timing, phase encoding, confidence handling, radian mapping and safety limiter on PS. PL actor can be integrated later after fixed-point parity and timing/resource validation.",
+  "model_name": "piano_ppo_camera_domain_fivekey_v11"
+}

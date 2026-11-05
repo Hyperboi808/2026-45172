@@ -1,0 +1,233 @@
+{
+  "source_directory": "D:\\Desktop\\轨迹",
+  "keyboard_offset_mm": {
+    "x": 99,
+    "y": 125,
+    "z": -40
+  },
+  "excluded_servo_ids": [
+    13
+  ],
+  "fixed_servo_13_deg": 179.9087476710785,
+  "fixed_servo_13_rad": 3.14,
+  "unresolved_angles": [],
+  "inferred_angles": [
+    {
+      "group": 2,
+      "servo_id": 6,
+      "degrees": 9.9,
+      "method": "slider center calibrated by readable values in same image"
+    },
+    {
+      "group": 2,
+      "servo_id": 12,
+      "degrees": -5.0,
+      "method": "slider center calibrated by readable values in same image"
+    },
+    {
+      "group": 3,
+      "servo_id": 12,
+      "degrees": -3.6,
+      "method": "slider center calibrated by readable values in same image"
+    },
+    {
+      "group": 4,
+      "servo_id": 12,
+      "degrees": 3.6,
+      "method": "slider center calibrated by readable values in same image"
+    }
+  ],
+  "source_mode": "numeric labels where readable; cropped values inferred from calibrated slider scale by user authorization",
+  "pose_pairs": {
+    "1": {
+      "prepare_deg": [
+        0,
+        57.3,
+        0,
+        57.3,
+        0,
+        0.1,
+        0,
+        0.1,
+        91.7,
+        19.1,
+        7.6,
+        -15.2,
+        179.9087476710785,
+        114.6
+      ],
+      "play_deg": [
+        0,
+        57.3,
+        0,
+        57.3,
+        0,
+        6.1,
+        0,
+        0.1,
+        91.7,
+        19.1,
+        7.6,
+        -4.0,
+        179.9087476710785,
+        114.6
+      ],
+      "source_images": [
+        "第一个键预备.png",
+        "第一个键弹.png"
+      ]
+    },
+    "2": {
+      "prepare_deg": [
+        0,
+        57.3,
+        0,
+        57.3,
+        0,
+        0.1,
+        0,
+        0.1,
+        91.7,
+        19.3,
+        0.4,
+        -19.2,
+        179.9087476710785,
+        114.6
+      ],
+      "play_deg": [
+        0,
+        57.3,
+        0,
+        57.3,
+        0,
+        9.9,
+        0,
+        0.1,
+        91.7,
+        19.3,
+        0.4,
+        -5.0,
+        179.9087476710785,
+        114.6
+      ],
+      "source_images": [
+        "2预备.png",
+        "2弹.png"
+      ]
+    },
+    "3": {
+      "prepare_deg": [
+        0,
+        49.1,
+        0,
+        49.5,
+        0,
+        5.1,
+        0,
+        0.1,
+        73.5,
+        16.7,
+        15,
+        -27,
+        179.9087476710785,
+        114.6
+      ],
+      "play_deg": [
+        0,
+        49.1,
+        0,
+        49.5,
+        0,
+        5.1,
+        0,
+        0.1,
+        73.5,
+        16.7,
+        15,
+        -3.6,
+        179.9087476710785,
+        114.6
+      ],
+      "source_images": [
+        "3预备.png",
+        "3弹.png"
+      ]
+    },
+    "4": {
+      "prepare_deg": [
+        0,
+        49.1,
+        0,
+        49.5,
+        0,
+        48.7,
+        0,
+        0.1,
+        73.5,
+        16.7,
+        -1.4,
+        -8.8,
+        179.9087476710785,
+        114.6
+      ],
+      "play_deg": [
+        0,
+        49.1,
+        0,
+        49.5,
+        0,
+        48.7,
+        0,
+        0.1,
+        73.5,
+        16.7,
+        -1.4,
+        3.6,
+        179.9087476710785,
+        114.6
+      ],
+      "source_images": [
+        "4预备.png",
+        "4弹.png"
+      ]
+    },
+    "5": {
+      "prepare_deg": [
+        0,
+        45.7,
+        0,
+        45.1,
+        0.1,
+        48.7,
+        0,
+        0.1,
+        73.5,
+        16.1,
+        16.8,
+        -19.8,
+        179.9087476710785,
+        114.6
+      ],
+      "play_deg": [
+        0,
+        45.7,
+        0,
+        45.1,
+        0.1,
+        48.7,
+        0,
+        0.1,
+        73.5,
+        16.1,
+        16.8,
+        9.6,
+        179.9087476710785,
+        114.6
+      ],
+      "source_images": [
+        "5预备.png",
+        "5弹.png"
+      ]
+    }
+  }
+}

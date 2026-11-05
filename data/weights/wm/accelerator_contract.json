@@ -1,0 +1,32 @@
+{
+  "status": "interface_prepared_cpu_only_no_acceleration",
+  "overlay_or_bitstream_included": false,
+  "axi_driver_included": false,
+  "current_runtime_hot_path": [
+    "stereo pose input validation",
+    "20-route SE3 uncertainty-aware matching",
+    "reference table indexing",
+    "step-to-radian conversion"
+  ],
+  "current_model_action_head": "reference_targets table lookup; point/observation encoders and learned dynamics/reward heads are retained in model_weights.bin but are not on the validated frozen-trajectory action path",
+  "recommended_partition": {
+    "PS": [
+      "camera/depth acquisition",
+      "route confidence gate",
+      "reference table in DDR",
+      "phase scheduling",
+      "radian/servo calibration"
+    ],
+    "PL_future_optional": [
+      "fixed-shape dense layers only if a future learned continuous actor uses them"
+    ],
+    "do_not_reserve_bram_for_full_reference_table": true
+  },
+  "reason": "Current action path is dominated by a small route match and table lookup. Adding PL now would add transfer/driver complexity without a measured bottleneck.",
+  "future_backend_contract": {
+    "input": "route_index:uint8, phase:uint8, clock:uint8",
+    "output": "14 float32 normalized absolute targets",
+    "axi_control": "start/done/error plus input/output buffer addresses",
+    "implementation_status": "specification_only_not_implemented"
+  }
+}

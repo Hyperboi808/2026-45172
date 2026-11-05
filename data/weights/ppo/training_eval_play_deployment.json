@@ -1,0 +1,6158 @@
+[
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.3_h0.2_a15",
+    "sequence": [
+      72,
+      71,
+      65,
+      62,
+      69
+    ],
+    "strategy_order": [
+      3,
+      5,
+      2,
+      4,
+      1
+    ],
+    "transitions": [
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 14.099999999993816,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6354237721347448
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5540532666006099
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6483183100628989
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5619828963704983
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6066491068321794
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611200,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.0595018201556293,
+    "validation_index": 0
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.3_h0.2_a15",
+    "sequence": [
+      65,
+      71,
+      69,
+      72,
+      62
+    ],
+    "strategy_order": [
+      2,
+      5,
+      1,
+      3,
+      4
+    ],
+    "transitions": [
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.509999999997522,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6779108101657471
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5586438941686516
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6057960189383941
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7241150708409289
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5568790019032105
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611201,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.07880511515085675,
+    "validation_index": 1
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.3_h0.2_a15",
+    "sequence": [
+      62,
+      65,
+      69,
+      72,
+      71
+    ],
+    "strategy_order": [
+      4,
+      2,
+      1,
+      3,
+      5
+    ],
+    "transitions": [
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.529999999997475,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.55995626729749
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7031551864057718
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5592137226397133
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6900506199909316
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6093123758565273
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611202,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.05712843063842581,
+    "validation_index": 2
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.3_h0.2_a45",
+    "sequence": [
+      65,
+      69,
+      71,
+      62,
+      72
+    ],
+    "strategy_order": [
+      2,
+      1,
+      5,
+      4,
+      3
+    ],
+    "transitions": [
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.829999999999107,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6200219514478049
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7094714259979823
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5540793987620017
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.558782796363575
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7029052351190035
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611203,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.07748672213686697,
+    "validation_index": 3
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.3_h0.2_a45",
+    "sequence": [
+      65,
+      71,
+      62,
+      69,
+      72
+    ],
+    "strategy_order": [
+      2,
+      5,
+      4,
+      1,
+      3
+    ],
+    "transitions": [
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.079999999998524,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6280113932403832
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6053468477695787
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.596595000035207
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5713709916653774
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7201741404462113
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611204,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.04633200012843719,
+    "validation_index": 4
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.3_h0.2_a45",
+    "sequence": [
+      69,
+      72,
+      62,
+      65,
+      71
+    ],
+    "strategy_order": [
+      1,
+      3,
+      4,
+      2,
+      5
+    ],
+    "transitions": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.419999999997732,
+    "note_results": [
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6722854032570306
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6278940836949413
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5771153190211126
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6438765154601137
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6044606802368255
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611205,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.08936611466869049,
+    "validation_index": 5
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.3_h0.2_a75",
+    "sequence": [
+      69,
+      72,
+      62,
+      65,
+      71
+    ],
+    "strategy_order": [
+      1,
+      3,
+      4,
+      2,
+      5
+    ],
+    "transitions": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.359999999997871,
+    "note_results": [
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6048888829313798
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.670340540153978
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5560201893759337
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.5751221286605795
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5537325220653595
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611206,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.03933804430369587,
+    "validation_index": 6
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.3_h0.2_a75",
+    "sequence": [
+      65,
+      71,
+      62,
+      72,
+      69
+    ],
+    "strategy_order": [
+      2,
+      5,
+      4,
+      3,
+      1
+    ],
+    "transitions": [
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.809999999999153,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6490295283507701
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6132505727622094
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5680078660714056
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6664080869530812
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6110866813012725
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611207,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.038026933528887176,
+    "validation_index": 7
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.3_h0.2_a75",
+    "sequence": [
+      72,
+      65,
+      71,
+      69,
+      62
+    ],
+    "strategy_order": [
+      3,
+      2,
+      5,
+      1,
+      4
+    ],
+    "transitions": [
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.11999999999843,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5614714127351537
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.5819522438009913
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5702730210989202
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7028990233490653
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5772980184811581
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611208,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.048675758972650834,
+    "validation_index": 8
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.2_a15",
+    "sequence": [
+      71,
+      65,
+      72,
+      62,
+      69
+    ],
+    "strategy_order": [
+      5,
+      2,
+      3,
+      4,
+      1
+    ],
+    "transitions": [
+      [
+        5,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.349999999997895,
+    "note_results": [
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6006385462465286
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6267629711062022
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6532637599481073
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5524574846986562
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6200664345883012
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611209,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.0661343653645507,
+    "validation_index": 9
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.2_a15",
+    "sequence": [
+      69,
+      72,
+      62,
+      71,
+      65
+    ],
+    "strategy_order": [
+      1,
+      3,
+      4,
+      5,
+      2
+    ],
+    "transitions": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.8199999999968,
+    "note_results": [
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.624436354370234
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7216291815615782
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5878680888250845
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5902339695862856
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.5875801654700391
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611210,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.07371754036746712,
+    "validation_index": 10
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.2_a15",
+    "sequence": [
+      71,
+      69,
+      62,
+      72,
+      65
+    ],
+    "strategy_order": [
+      5,
+      1,
+      4,
+      3,
+      2
+    ],
+    "transitions": [
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.209999999998221,
+    "note_results": [
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5616862334210854
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7389067728224473
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5582376409454533
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5704274173713826
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.59773198093998
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611211,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.06026646264981928,
+    "validation_index": 11
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.2_a45",
+    "sequence": [
+      71,
+      62,
+      69,
+      72,
+      65
+    ],
+    "strategy_order": [
+      5,
+      4,
+      1,
+      3,
+      2
+    ],
+    "transitions": [
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.90999999999892,
+    "note_results": [
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5797570738495262
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5801087469952317
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6274230200427128
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7118012148181809
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6585319178115038
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611212,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.09282224241072691,
+    "validation_index": 12
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.2_a45",
+    "sequence": [
+      65,
+      69,
+      71,
+      62,
+      72
+    ],
+    "strategy_order": [
+      2,
+      1,
+      5,
+      4,
+      3
+    ],
+    "transitions": [
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.839999999999083,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6234371722950918
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7412580051489582
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5738168930743718
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5633372715722428
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7647558942858698
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611213,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.04676271377810259,
+    "validation_index": 13
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.2_a45",
+    "sequence": [
+      71,
+      65,
+      69,
+      72,
+      62
+    ],
+    "strategy_order": [
+      5,
+      2,
+      1,
+      3,
+      4
+    ],
+    "transitions": [
+      [
+        5,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.329999999997941,
+    "note_results": [
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5708454884648598
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6346973636228023
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6902946988040596
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7135525998918294
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5536917648652986
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611214,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.08907129950015213,
+    "validation_index": 14
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.2_a75",
+    "sequence": [
+      62,
+      72,
+      71,
+      69,
+      65
+    ],
+    "strategy_order": [
+      4,
+      3,
+      5,
+      1,
+      2
+    ],
+    "transitions": [
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.309999999997988,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5873518233595082
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6916544253346334
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5703922457113801
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6635642104145908
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7141190928677763
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611215,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.05694316736260141,
+    "validation_index": 15
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.2_a75",
+    "sequence": [
+      65,
+      71,
+      72,
+      62,
+      69
+    ],
+    "strategy_order": [
+      2,
+      5,
+      3,
+      4,
+      1
+    ],
+    "transitions": [
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.339999999997918,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6736052656542815
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5869576558914414
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6311405970228176
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5761434863100947
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.568541804128008
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611216,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.044900951353021974,
+    "validation_index": 16
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.2_a75",
+    "sequence": [
+      62,
+      72,
+      71,
+      65,
+      69
+    ],
+    "strategy_order": [
+      4,
+      3,
+      5,
+      2,
+      1
+    ],
+    "transitions": [
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.339999999997918,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5637365058872753
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7108576113317837
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5797460064286013
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.5504598035990778
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5870506080037267
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611217,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.06555068737520177,
+    "validation_index": 17
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.325_a15",
+    "sequence": [
+      69,
+      62,
+      71,
+      72,
+      65
+    ],
+    "strategy_order": [
+      1,
+      4,
+      5,
+      3,
+      2
+    ],
+    "transitions": [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.009999999998687,
+    "note_results": [
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6835022672428284
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5628584047339613
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5510581767945658
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6802472317460416
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.5772987034580234
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611218,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.07134666366988285,
+    "validation_index": 18
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.325_a15",
+    "sequence": [
+      72,
+      69,
+      65,
+      62,
+      71
+    ],
+    "strategy_order": [
+      3,
+      1,
+      2,
+      4,
+      5
+    ],
+    "transitions": [
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.509999999999852,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.8470020273767553
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7460608446905396
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6096252080410846
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5517757172975882
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6154537297621337
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611219,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.06448122509371873,
+    "validation_index": 19
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.325_a15",
+    "sequence": [
+      71,
+      65,
+      72,
+      69,
+      62
+    ],
+    "strategy_order": [
+      5,
+      2,
+      3,
+      1,
+      4
+    ],
+    "transitions": [
+      [
+        5,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.109999999998454,
+    "note_results": [
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5597452381616238
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6976707376064811
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5744992789491001
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6173468602576758
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.565536024974003
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611220,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.025874970004099204,
+    "validation_index": 20
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.325_a45",
+    "sequence": [
+      62,
+      72,
+      65,
+      71,
+      69
+    ],
+    "strategy_order": [
+      4,
+      3,
+      2,
+      5,
+      1
+    ],
+    "transitions": [
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.449999999997662,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5854490063895884
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5946927698885824
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6689917378825807
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5722291227611789
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6035186560130855
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611221,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.07292988740071074,
+    "validation_index": 21
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.325_a45",
+    "sequence": [
+      71,
+      72,
+      69,
+      65,
+      62
+    ],
+    "strategy_order": [
+      5,
+      3,
+      1,
+      2,
+      4
+    ],
+    "transitions": [
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.829999999999107,
+    "note_results": [
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5687791252157769
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.573739732294855
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6641866428484169
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6501495482436044
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5757963437143594
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611222,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.06252057179832833,
+    "validation_index": 22
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.325_a45",
+    "sequence": [
+      72,
+      71,
+      65,
+      62,
+      69
+    ],
+    "strategy_order": [
+      3,
+      5,
+      2,
+      4,
+      1
+    ],
+    "transitions": [
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 14.109999999993793,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6100326103715189
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5536018963424195
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6120136425310015
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5588564453472821
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5801843200188872
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611223,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.04465324154332432,
+    "validation_index": 23
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.325_a75",
+    "sequence": [
+      72,
+      69,
+      65,
+      62,
+      71
+    ],
+    "strategy_order": [
+      3,
+      1,
+      2,
+      4,
+      5
+    ],
+    "transitions": [
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.519999999999829,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5884481639276848
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7414270659351767
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6014683276707156
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5846641237775054
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6152275758299639
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611224,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.03970859643214987,
+    "validation_index": 24
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.325_a75",
+    "sequence": [
+      62,
+      72,
+      71,
+      69,
+      65
+    ],
+    "strategy_order": [
+      4,
+      3,
+      5,
+      1,
+      2
+    ],
+    "transitions": [
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.289999999998034,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5551840727793766
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7114794659613277
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5582809682787706
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.64366716549715
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6877955130056311
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611225,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.08545518511677605,
+    "validation_index": 25
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.325_a75",
+    "sequence": [
+      71,
+      72,
+      62,
+      69,
+      65
+    ],
+    "strategy_order": [
+      5,
+      3,
+      4,
+      1,
+      2
+    ],
+    "transitions": [
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.929999999998874,
+    "note_results": [
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5715970877777246
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6092190981768394
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5533853589787641
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6247627145323672
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.5621003664453853
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611226,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.0633210810891002,
+    "validation_index": 26
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.2_a15",
+    "sequence": [
+      72,
+      62,
+      71,
+      65,
+      69
+    ],
+    "strategy_order": [
+      3,
+      4,
+      5,
+      2,
+      1
+    ],
+    "transitions": [
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.75999999999694,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.668462784516257
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5906082630669157
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5535433227934634
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6037717018783749
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6701280331531206
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611227,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.05132338651159314,
+    "validation_index": 27
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.2_a15",
+    "sequence": [
+      62,
+      72,
+      65,
+      69,
+      71
+    ],
+    "strategy_order": [
+      4,
+      3,
+      2,
+      1,
+      5
+    ],
+    "transitions": [
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.169999999998314,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5858824560125966
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6065845033139533
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6709657842823007
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6263201663957143
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6193772211749917
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611228,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.07409970617451918,
+    "validation_index": 28
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.2_a15",
+    "sequence": [
+      69,
+      62,
+      65,
+      72,
+      71
+    ],
+    "strategy_order": [
+      1,
+      4,
+      2,
+      3,
+      5
+    ],
+    "transitions": [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.419999999997732,
+    "note_results": [
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6373521363256692
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5757113039203253
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6483358016426857
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5770010315418264
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6205123870232975
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611229,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.08714244095973063,
+    "validation_index": 29
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.2_a45",
+    "sequence": [
+      72,
+      65,
+      69,
+      71,
+      62
+    ],
+    "strategy_order": [
+      3,
+      2,
+      1,
+      5,
+      4
+    ],
+    "transitions": [
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.529999999999806,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6776295721565228
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6552624430102233
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6910797368716155
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5528177370750061
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5612013126477636
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611230,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.06285405306858297,
+    "validation_index": 30
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.2_a45",
+    "sequence": [
+      65,
+      71,
+      62,
+      69,
+      72
+    ],
+    "strategy_order": [
+      2,
+      5,
+      4,
+      1,
+      3
+    ],
+    "transitions": [
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.099999999998477,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7251890340608593
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6296144670258108
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5686288340646916
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7188152271439198
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.55961350989048
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611231,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.027062285538409364,
+    "validation_index": 31
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.2_a45",
+    "sequence": [
+      69,
+      65,
+      72,
+      71,
+      62
+    ],
+    "strategy_order": [
+      1,
+      2,
+      3,
+      5,
+      4
+    ],
+    "transitions": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.829999999999107,
+    "note_results": [
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.714399824265915
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7469229618462788
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6044345860924994
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.576278393811693
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5646897463965217
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611232,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.06666666117817616,
+    "validation_index": 32
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.2_a75",
+    "sequence": [
+      62,
+      65,
+      71,
+      72,
+      69
+    ],
+    "strategy_order": [
+      4,
+      2,
+      5,
+      3,
+      1
+    ],
+    "transitions": [
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.379999999997825,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5608386423330758
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6373762032976689
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.586268382530882
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5889746190189695
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.620421472987237
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611233,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.08996636637131679,
+    "validation_index": 33
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.2_a75",
+    "sequence": [
+      62,
+      69,
+      72,
+      71,
+      65
+    ],
+    "strategy_order": [
+      4,
+      1,
+      3,
+      5,
+      2
+    ],
+    "transitions": [
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 13.789999999994539,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.6028180006006518
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5533493925951738
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5689028743025512
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5788707106698486
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6108795634394816
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611234,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.04772039524570224,
+    "validation_index": 34
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.2_a75",
+    "sequence": [
+      71,
+      72,
+      69,
+      65,
+      62
+    ],
+    "strategy_order": [
+      5,
+      3,
+      1,
+      2,
+      4
+    ],
+    "transitions": [
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.90999999999892,
+    "note_results": [
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6176613853035697
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6745953839221411
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7454097315653279
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.649038924782201
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5719569437308357
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611235,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.06153968338680721,
+    "validation_index": 35
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.325_a15",
+    "sequence": [
+      72,
+      69,
+      62,
+      71,
+      65
+    ],
+    "strategy_order": [
+      3,
+      1,
+      4,
+      5,
+      2
+    ],
+    "transitions": [
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.259999999998104,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6054000279261414
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6856326035637762
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5799715376448649
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5921386021597389
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7461649289420754
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611236,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.03990812265665144,
+    "validation_index": 36
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.325_a15",
+    "sequence": [
+      62,
+      71,
+      69,
+      65,
+      72
+    ],
+    "strategy_order": [
+      4,
+      5,
+      1,
+      2,
+      3
+    ],
+    "transitions": [
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 15.099999999991486,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5530971095013328
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5828474711802842
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5924763417132477
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7111615426989845
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5751779672316247
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611237,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.07987119134176753,
+    "validation_index": 37
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.325_a15",
+    "sequence": [
+      65,
+      72,
+      71,
+      62,
+      69
+    ],
+    "strategy_order": [
+      2,
+      3,
+      5,
+      4,
+      1
+    ],
+    "transitions": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.99999999999871,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7051064726233699
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7477583932141513
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5921087697309739
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5750486908329259
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.595152618365034
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611238,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.0863218460519637,
+    "validation_index": 38
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.325_a45",
+    "sequence": [
+      72,
+      65,
+      71,
+      69,
+      62
+    ],
+    "strategy_order": [
+      3,
+      2,
+      5,
+      1,
+      4
+    ],
+    "transitions": [
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.099999999998477,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5582029732558776
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6595404542543876
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5759546064944491
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5784562637972523
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5634621365285322
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611239,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.06602267742082225,
+    "validation_index": 39
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.325_a45",
+    "sequence": [
+      69,
+      72,
+      71,
+      62,
+      65
+    ],
+    "strategy_order": [
+      1,
+      3,
+      5,
+      4,
+      2
+    ],
+    "transitions": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.039999999998617,
+    "note_results": [
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6444564456052481
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5632266253992876
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5740538396493335
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5552805509343611
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6439772171379158
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611240,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.08238870412023894,
+    "validation_index": 40
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.325_a45",
+    "sequence": [
+      71,
+      62,
+      69,
+      65,
+      72
+    ],
+    "strategy_order": [
+      5,
+      4,
+      1,
+      2,
+      3
+    ],
+    "transitions": [
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.689999999999433,
+    "note_results": [
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5799619621907882
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5967777651848766
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.675617499017787
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6095353754170003
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5663454775010376
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611241,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.0617569108802533,
+    "validation_index": 41
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.325_a75",
+    "sequence": [
+      69,
+      72,
+      65,
+      71,
+      62
+    ],
+    "strategy_order": [
+      1,
+      3,
+      2,
+      5,
+      4
+    ],
+    "transitions": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.90999999999892,
+    "note_results": [
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6168121538079626
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5669946671723097
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.8979599442539566
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5702685030156598
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5639821641793706
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611242,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.06437961693493334,
+    "validation_index": 42
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.325_a75",
+    "sequence": [
+      71,
+      65,
+      72,
+      69,
+      62
+    ],
+    "strategy_order": [
+      5,
+      2,
+      3,
+      1,
+      4
+    ],
+    "transitions": [
+      [
+        5,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.129999999998407,
+    "note_results": [
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5517085305098535
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7259720174371633
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5677118761205484
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6210374514065709
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5518701272979075
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611243,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.045316359384077076,
+    "validation_index": 43
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.325_a75",
+    "sequence": [
+      71,
+      62,
+      72,
+      65,
+      69
+    ],
+    "strategy_order": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "transitions": [
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.66999999999948,
+    "note_results": [
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6106665854485851
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5747143391115481
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 1.0565096270504193
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6545315621799133
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7436400896274304
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611244,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.07421497543666879,
+    "validation_index": 44
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.45_a15",
+    "sequence": [
+      71,
+      62,
+      65,
+      69,
+      72
+    ],
+    "strategy_order": [
+      5,
+      4,
+      2,
+      1,
+      3
+    ],
+    "transitions": [
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.859999999999037,
+    "note_results": [
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.580617774176284
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5546503296188929
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7588211842577455
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7382003591606975
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5849939339496402
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611245,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.09383833581705962,
+    "validation_index": 45
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.45_a15",
+    "sequence": [
+      65,
+      62,
+      72,
+      71,
+      69
+    ],
+    "strategy_order": [
+      2,
+      4,
+      3,
+      5,
+      1
+    ],
+    "transitions": [
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.339999999997918,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7087548299064301
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5560709747900022
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6860018946713476
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.617089892563681
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6502249287925189
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611246,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.08932848725393405,
+    "validation_index": 46
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.45_a15",
+    "sequence": [
+      65,
+      62,
+      72,
+      71,
+      69
+    ],
+    "strategy_order": [
+      2,
+      4,
+      3,
+      5,
+      1
+    ],
+    "transitions": [
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.279999999998058,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.5647355936876981
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5730365935246485
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6130564482764337
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5981544396748129
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7358397624442221
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611247,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.030277379287268195,
+    "validation_index": 47
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.45_a45",
+    "sequence": [
+      62,
+      71,
+      69,
+      72,
+      65
+    ],
+    "strategy_order": [
+      4,
+      5,
+      1,
+      3,
+      2
+    ],
+    "transitions": [
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 15.439999999990693,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5586660730083602
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5789809873795022
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6649710414369503
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7515267291082947
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.5638590443666962
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611248,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.10215363424795967,
+    "validation_index": 48
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.45_a45",
+    "sequence": [
+      69,
+      65,
+      72,
+      71,
+      62
+    ],
+    "strategy_order": [
+      1,
+      2,
+      3,
+      5,
+      4
+    ],
+    "transitions": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.87999999999899,
+    "note_results": [
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6165446229489482
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7053245668991
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6357751050827557
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5796971335943051
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5776863836439355
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611249,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.05147347989546332,
+    "validation_index": 49
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.45_a45",
+    "sequence": [
+      65,
+      62,
+      72,
+      71,
+      69
+    ],
+    "strategy_order": [
+      2,
+      4,
+      3,
+      5,
+      1
+    ],
+    "transitions": [
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.349999999997895,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6899392706180257
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5781703051395287
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6952934554370251
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6070173988240349
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7230328605664755
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611250,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.12739776354927218,
+    "validation_index": 50
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.45_a75",
+    "sequence": [
+      65,
+      62,
+      72,
+      69,
+      71
+    ],
+    "strategy_order": [
+      2,
+      4,
+      3,
+      1,
+      5
+    ],
+    "transitions": [
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.11999999999843,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6249687685567563
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5720341447053383
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7249325851430928
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6636734736846531
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6188975993722815
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611251,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.08108593111920305,
+    "validation_index": 51
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.45_a75",
+    "sequence": [
+      71,
+      72,
+      65,
+      62,
+      69
+    ],
+    "strategy_order": [
+      5,
+      3,
+      2,
+      4,
+      1
+    ],
+    "transitions": [
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.209999999998221,
+    "note_results": [
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6252802876167881
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6446571715598477
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.5532215904673087
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5655237633346698
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7153322723977368
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611252,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.018590876780009428,
+    "validation_index": 52
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.45_a75",
+    "sequence": [
+      72,
+      69,
+      65,
+      71,
+      62
+    ],
+    "strategy_order": [
+      3,
+      1,
+      2,
+      5,
+      4
+    ],
+    "transitions": [
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.440000000000015,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6693519532880193
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5844366496288761
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6796571864088192
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6037936834083747
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5696911599520568
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611253,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.019255135043310084,
+    "validation_index": 53
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.2_a15",
+    "sequence": [
+      69,
+      65,
+      72,
+      71,
+      62
+    ],
+    "strategy_order": [
+      1,
+      2,
+      3,
+      5,
+      4
+    ],
+    "transitions": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.84999999999906,
+    "note_results": [
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6633940302288548
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7472525295285479
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6316632321206157
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6034757953564962
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5652047260914901
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611254,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.043493156831747835,
+    "validation_index": 54
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.2_a15",
+    "sequence": [
+      71,
+      69,
+      62,
+      65,
+      72
+    ],
+    "strategy_order": [
+      5,
+      1,
+      4,
+      2,
+      3
+    ],
+    "transitions": [
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.349999999997895,
+    "note_results": [
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5925357405241164
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5743697511330634
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5900493507358973
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6412635364560147
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7063293888046835
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611255,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.0910491211189916,
+    "validation_index": 55
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.2_a15",
+    "sequence": [
+      72,
+      65,
+      69,
+      71,
+      62
+    ],
+    "strategy_order": [
+      3,
+      2,
+      1,
+      5,
+      4
+    ],
+    "transitions": [
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.519999999999829,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 1.0416861191530116
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6797477768117665
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6693759056614166
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6029010061686054
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.582795609643496
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611256,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.06416708276085055,
+    "validation_index": 56
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.2_a45",
+    "sequence": [
+      65,
+      72,
+      71,
+      62,
+      69
+    ],
+    "strategy_order": [
+      2,
+      3,
+      5,
+      4,
+      1
+    ],
+    "transitions": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.039999999998617,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.5566769242174622
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7259382531846983
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6230132397368519
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5752735265181805
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6191817575551422
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611257,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.06920631279858161,
+    "validation_index": 57
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.2_a45",
+    "sequence": [
+      72,
+      62,
+      71,
+      65,
+      69
+    ],
+    "strategy_order": [
+      3,
+      4,
+      5,
+      2,
+      1
+    ],
+    "transitions": [
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.439999999997685,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6412065281171868
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5849828924445272
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5536159317834842
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.5848404404096798
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.658364771175092
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611258,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.06636219682864603,
+    "validation_index": 58
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.2_a45",
+    "sequence": [
+      69,
+      71,
+      62,
+      65,
+      72
+    ],
+    "strategy_order": [
+      1,
+      5,
+      4,
+      2,
+      3
+    ],
+    "transitions": [
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.099999999998477,
+    "note_results": [
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6233847776010379
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6289513468731339
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5643685388135888
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6186235218173859
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5955797549737722
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611259,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.05315877810968647,
+    "validation_index": 59
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.2_a75",
+    "sequence": [
+      71,
+      65,
+      69,
+      72,
+      62
+    ],
+    "strategy_order": [
+      5,
+      2,
+      1,
+      3,
+      4
+    ],
+    "transitions": [
+      [
+        5,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.329999999997941,
+    "note_results": [
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5791954329994532
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6570567314568645
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6502376952826754
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5584932300878143
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5502768441383095
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611260,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.07392580537630927,
+    "validation_index": 60
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.2_a75",
+    "sequence": [
+      65,
+      62,
+      69,
+      71,
+      72
+    ],
+    "strategy_order": [
+      2,
+      4,
+      1,
+      5,
+      3
+    ],
+    "transitions": [
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.309999999997988,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6973278511030372
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5586721946314489
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7046589674095539
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5959665189024688
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6223200400111369
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611261,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.0686798144580711,
+    "validation_index": 61
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.2_a75",
+    "sequence": [
+      62,
+      72,
+      69,
+      65,
+      71
+    ],
+    "strategy_order": [
+      4,
+      3,
+      1,
+      2,
+      5
+    ],
+    "transitions": [
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.079999999998524,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5579441544152338
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6194048577585047
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5638476190489169
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6375193712188696
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5918962067631846
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611262,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.09445937763380483,
+    "validation_index": 62
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.325_a15",
+    "sequence": [
+      62,
+      71,
+      65,
+      72,
+      69
+    ],
+    "strategy_order": [
+      4,
+      5,
+      2,
+      3,
+      1
+    ],
+    "transitions": [
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 14.08999999999384,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5888661614934544
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5507729408526958
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7191570617978308
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6838393187116496
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5875548187498347
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611263,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.053379178268613645,
+    "validation_index": 63
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.325_a15",
+    "sequence": [
+      72,
+      71,
+      65,
+      62,
+      69
+    ],
+    "strategy_order": [
+      3,
+      5,
+      2,
+      4,
+      1
+    ],
+    "transitions": [
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 14.519999999992837,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5865248155407328
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5521796419448446
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.712950104769236
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5774856175458741
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6555284443323125
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611264,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.08253652725099897,
+    "validation_index": 64
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.325_a15",
+    "sequence": [
+      62,
+      72,
+      69,
+      71,
+      65
+    ],
+    "strategy_order": [
+      4,
+      3,
+      1,
+      5,
+      2
+    ],
+    "transitions": [
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 14.369999999993187,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5831196301097139
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6744815086498245
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5922020105081088
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5701033258470068
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.5704688464932023
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611265,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.03469049300343718,
+    "validation_index": 65
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.325_a45",
+    "sequence": [
+      65,
+      72,
+      71,
+      69,
+      62
+    ],
+    "strategy_order": [
+      2,
+      3,
+      5,
+      1,
+      4
+    ],
+    "transitions": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.329999999997941,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7398971567382976
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7396523304492459
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5595816483764514
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6184801504912949
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5691555915978495
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611266,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.047408396821183994,
+    "validation_index": 66
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.325_a45",
+    "sequence": [
+      72,
+      69,
+      62,
+      71,
+      65
+    ],
+    "strategy_order": [
+      3,
+      1,
+      4,
+      5,
+      2
+    ],
+    "transitions": [
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 13.139999999996054,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7735573876862777
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7272439872101086
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5590908238148762
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5789472751556849
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6373986786853352
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611267,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.07764197992507267,
+    "validation_index": 67
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.325_a45",
+    "sequence": [
+      65,
+      72,
+      69,
+      71,
+      62
+    ],
+    "strategy_order": [
+      2,
+      3,
+      1,
+      5,
+      4
+    ],
+    "transitions": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.87999999999899,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6807029242316794
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6498095357103516
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7350298606105984
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6048376591669977
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5615665080605058
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611268,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.06519009374558297,
+    "validation_index": 68
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.325_a75",
+    "sequence": [
+      65,
+      71,
+      72,
+      62,
+      69
+    ],
+    "strategy_order": [
+      2,
+      5,
+      3,
+      4,
+      1
+    ],
+    "transitions": [
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.339999999997918,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7041968192383988
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5878354834435441
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6721017248679297
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5531149825534039
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.599174704540858
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611269,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.07204908037323768,
+    "validation_index": 69
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.325_a75",
+    "sequence": [
+      72,
+      71,
+      62,
+      65,
+      69
+    ],
+    "strategy_order": [
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "transitions": [
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.63999999999955,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7838740852258906
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5717370830320145
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5949168262228942
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.5601973512550878
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6611933498578656
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611270,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.049663684003726345,
+    "validation_index": 70
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.325_a75",
+    "sequence": [
+      65,
+      72,
+      62,
+      69,
+      71
+    ],
+    "strategy_order": [
+      2,
+      3,
+      4,
+      1,
+      5
+    ],
+    "transitions": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.559999999997405,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6904848384605415
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5550941063583819
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5570328550912671
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5669420850083394
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5932822441128568
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611271,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.06011436608693017,
+    "validation_index": 71
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.45_a15",
+    "sequence": [
+      65,
+      72,
+      62,
+      69,
+      71
+    ],
+    "strategy_order": [
+      2,
+      3,
+      4,
+      1,
+      5
+    ],
+    "transitions": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.339999999997918,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6892788923137094
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6300688884661295
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5889731747791264
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5894139041139235
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6240691727735892
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611272,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.08653879088403793,
+    "validation_index": 72
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.45_a15",
+    "sequence": [
+      62,
+      71,
+      72,
+      65,
+      69
+    ],
+    "strategy_order": [
+      4,
+      5,
+      3,
+      2,
+      1
+    ],
+    "transitions": [
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.959999999998804,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5704963457646397
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6048820920163301
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.8322231415312906
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6644558944220182
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5769389304844396
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611273,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.04073208047633175,
+    "validation_index": 73
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.45_a15",
+    "sequence": [
+      65,
+      72,
+      71,
+      62,
+      69
+    ],
+    "strategy_order": [
+      2,
+      3,
+      5,
+      4,
+      1
+    ],
+    "transitions": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.039999999998617,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7451710517937102
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6204277861458991
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6146479190900328
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5749574685732123
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5911788642586268
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611274,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.11762554661333464,
+    "validation_index": 74
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.45_a45",
+    "sequence": [
+      72,
+      69,
+      65,
+      62,
+      71
+    ],
+    "strategy_order": [
+      3,
+      1,
+      2,
+      4,
+      5
+    ],
+    "transitions": [
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.519999999999829,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5962682209392467
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7651221347988177
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6266807877077406
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5848015447029155
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6141481963201149
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611275,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.09545571323142242,
+    "validation_index": 75
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.45_a45",
+    "sequence": [
+      62,
+      69,
+      71,
+      72,
+      65
+    ],
+    "strategy_order": [
+      4,
+      1,
+      5,
+      3,
+      2
+    ],
+    "transitions": [
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.429999999997708,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5628392481002968
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7331355113978116
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6089967091884513
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6313895768133697
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.699179799896688
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611276,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.04565561303859579,
+    "validation_index": 76
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.45_a45",
+    "sequence": [
+      72,
+      65,
+      69,
+      62,
+      71
+    ],
+    "strategy_order": [
+      3,
+      2,
+      1,
+      4,
+      5
+    ],
+    "transitions": [
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.599999999999643,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6707582328351235
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6366739192291222
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6541362935525136
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.563844698434443
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6161682831223672
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611277,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.05490897588028791,
+    "validation_index": 77
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.45_a75",
+    "sequence": [
+      72,
+      71,
+      69,
+      62,
+      65
+    ],
+    "strategy_order": [
+      3,
+      5,
+      1,
+      4,
+      2
+    ],
+    "transitions": [
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.219999999998198,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6506538347387189
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5554885345660967
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5539116723749918
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5717344831583137
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.5779915475204299
+      }
+    ],
+    "episode_success": true,
+    "error_level": "zero",
+    "seed": 202611278,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.06660350402430165,
+    "validation_index": 78
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.45_a75",
+    "sequence": [
+      62,
+      65,
+      69,
+      71,
+      72
+    ],
+    "strategy_order": [
+      4,
+      2,
+      1,
+      5,
+      3
+    ],
+    "transitions": [
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.399999999997778,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5863195487192975
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7334584499043305
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5786667999216221
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6071732225757233
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5759312093941075
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_mean",
+    "seed": 202611279,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.05728213896069964,
+    "validation_index": 79
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.45_a75",
+    "sequence": [
+      65,
+      71,
+      62,
+      69,
+      72
+    ],
+    "strategy_order": [
+      2,
+      5,
+      4,
+      1,
+      3
+    ],
+    "transitions": [
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.05999999999857,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6887127447662782
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6076407925437537
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5904073871261777
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6716521785445287
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7424892718223813
+      }
+    ],
+    "episode_success": true,
+    "error_level": "pose_p95",
+    "seed": 202611280,
+    "max_servo12_speed_steps_s": 500.0000000000044,
+    "max_keyboard_penetration_mm": 0.06468257776972904,
+    "validation_index": 80
+  }
+]

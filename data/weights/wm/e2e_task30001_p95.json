@@ -1,0 +1,127 @@
+{
+  "task_index": 30001,
+  "condition": "p95",
+  "preflight": "passed",
+  "failure": null,
+  "trajectory_generated": true,
+  "trajectory_complete": true,
+  "accepted": true,
+  "route_task_id": 1,
+  "route_match_error_m": 0.06694559778504411,
+  "route_match_cost": 1.7046595348261546,
+  "route_match_margin": 55.01489183303403,
+  "waypoints": 97,
+  "executed_waypoints": 97,
+  "phase_reports": [
+    {
+      "phase": 0,
+      "waypoints": 16,
+      "passed": true,
+      "metrics": {
+        "grasp_position_error_mm": 0.7307328385661932,
+        "orientation_ok": true
+      }
+    },
+    {
+      "phase": 1,
+      "waypoints": 3,
+      "passed": true,
+      "metrics": {
+        "hand_contacts": 5
+      }
+    },
+    {
+      "phase": 2,
+      "waypoints": 5,
+      "passed": true,
+      "metrics": {
+        "max_lift_mm": 42.46306028791772
+      }
+    },
+    {
+      "phase": 3,
+      "waypoints": 11,
+      "passed": true,
+      "metrics": {
+        "arm_arrival_error_rad": 0.0004356354121987094,
+        "hand_contacts": 5
+      }
+    },
+    {
+      "phase": 4,
+      "waypoints": 8,
+      "passed": true,
+      "metrics": {
+        "arm_arrival_error_rad": 0.000512954701327395,
+        "hand_contacts": 5
+      }
+    },
+    {
+      "phase": 5,
+      "waypoints": 18,
+      "passed": true,
+      "metrics": {
+        "settling_distance_mm": 9.819839031430476,
+        "height_mm": 41.08016790093303,
+        "standing": true,
+        "tilt_deg": 0.36714069125733734,
+        "hand_contacts": 0,
+        "check_after_release_clearance_prefix_ticks": 8
+      }
+    },
+    {
+      "phase": 6,
+      "waypoints": 44,
+      "passed": true,
+      "metrics": {
+        "home_error_rad": 0.00022278611173431884,
+        "placement_mm": 9.800357570533135,
+        "standing": true
+      }
+    }
+  ],
+  "strict_checks": {
+    "trajectory_complete": true,
+    "grasp_and_lift_20mm": true,
+    "placement_within_15mm": true,
+    "final_height_within_6mm": true,
+    "cup_supported_upright": true,
+    "all_stages_passed": true,
+    "home_within_0_046rad": true,
+    "hand_floor_within_2mm": true,
+    "hand_self_within_2mm": true,
+    "released": true
+  },
+  "source_xyz_m": [
+    0.1473998193815258,
+    -0.10741719486663326,
+    0.034555197886363416
+  ],
+  "target_xyz_m": [
+    -0.12107432254695374,
+    -0.1637598044597814,
+    -0.012814316767215337
+  ],
+  "simulated_final_cup_xyz_m": [
+    -0.09663881418621226,
+    -0.1780665883784444,
+    0.04104818830519771
+  ],
+  "placement_error_mm": 9.800357570533135,
+  "max_lift_mm": 42.46306028791772,
+  "final_height_mm": 41.048188305197705,
+  "home_error_rad": 0.00022278611173431884,
+  "tilt_deg": 0.2938488539321394,
+  "max_hand_floor_penetration_mm": 0.0,
+  "max_hand_self_penetration_mm": 0.0,
+  "elapsed_execution_sim_s": 48.5,
+  "elapsed_wall_s": 40.16886615753174,
+  "policy_calls_during_execution": 0,
+  "camera_frames_during_execution": 0,
+  "hardware_commands_sent": false,
+  "plan_file": "/home/aup/Real_Sim_Real/WM_model/cup/v8/model_architecture_training_v8_verified/runs/wm_fullrange_verified19_20261029/neural20_candidate_20261030/eval_robust_route_20261030/p95/plan_30001.json",
+  "checkpoint_sha256": "32af673ca32916edd18335d8769cdcc04c9fef5031f79dc63d2a10890723bc2c",
+  "user_accepted_exception": false,
+  "automatic_strict_acceptance": true,
+  "acceptance_status": "strict_pass"
+}

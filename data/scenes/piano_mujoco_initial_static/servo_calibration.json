@@ -1,0 +1,182 @@
+{
+  "servo_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "servos": [
+    {
+      "id": 1,
+      "alias": "ID01_little_spre",
+      "actuator": "ID01_little_spread",
+      "initial": 462,
+      "minimum": 412,
+      "maximum": 512,
+      "q_initial": 0,
+      "q_min": -0.2,
+      "q_max": 0.2
+    },
+    {
+      "id": 2,
+      "alias": "ID02_little_curl",
+      "actuator": "ID02_little_curl",
+      "initial": 229,
+      "minimum": 229,
+      "maximum": 980,
+      "q_initial": 0,
+      "q_min": 0,
+      "q_max": 1
+    },
+    {
+      "id": 3,
+      "alias": "ID03_ring_spre",
+      "actuator": "ID03_ring_spread",
+      "initial": 523,
+      "minimum": 473,
+      "maximum": 573,
+      "q_initial": 0,
+      "q_min": -0.2,
+      "q_max": 0.2
+    },
+    {
+      "id": 4,
+      "alias": "ID04_ring_curl",
+      "actuator": "ID04_ring_curl",
+      "initial": 80,
+      "minimum": 80,
+      "maximum": 980,
+      "q_initial": 0,
+      "q_min": 0,
+      "q_max": 1
+    },
+    {
+      "id": 5,
+      "alias": "ID05_middle_s",
+      "actuator": "ID05_middle_spread",
+      "initial": 448,
+      "minimum": 398,
+      "maximum": 498,
+      "q_initial": 0,
+      "q_min": -0.2,
+      "q_max": 0.2
+    },
+    {
+      "id": 6,
+      "alias": "ID06_middle_c",
+      "actuator": "ID06_middle_curl",
+      "initial": 40,
+      "minimum": 40,
+      "maximum": 980,
+      "q_initial": 0,
+      "q_min": 0,
+      "q_max": 1
+    },
+    {
+      "id": 7,
+      "alias": "ID07_index_spr",
+      "actuator": "ID07_index_spread",
+      "initial": 841,
+      "minimum": 791,
+      "maximum": 891,
+      "q_initial": 0,
+      "q_min": -0.2,
+      "q_max": 0.2
+    },
+    {
+      "id": 8,
+      "alias": "ID08_index_cur",
+      "actuator": "ID08_index_curl",
+      "initial": 171,
+      "minimum": 171,
+      "maximum": 980,
+      "q_initial": 0,
+      "q_min": 0,
+      "q_max": 1
+    },
+    {
+      "id": 9,
+      "alias": "ID09_thumb_sp",
+      "actuator": "ID09_thumb_spread",
+      "initial": 20,
+      "minimum": 20,
+      "maximum": 331,
+      "q_initial": 0,
+      "q_min": 0,
+      "q_max": 1.6
+    },
+    {
+      "id": 10,
+      "alias": "ID10_thumb_cu",
+      "actuator": "ID10_thumb_curl",
+      "initial": 517,
+      "minimum": 517,
+      "maximum": 990,
+      "q_initial": 0,
+      "q_min": 0,
+      "q_max": 1
+    },
+    {
+      "id": 11,
+      "alias": "shoulder_pan",
+      "actuator": "shoulder_pan",
+      "initial": 1968,
+      "minimum": 0,
+      "maximum": 4095,
+      "steps_per_radian": 652,
+      "q_initial": 0,
+      "q_min": -1.91986,
+      "q_max": 1.91986
+    },
+    {
+      "id": 12,
+      "alias": "shoulder_lift",
+      "actuator": "shoulder_lift",
+      "initial": 1192,
+      "minimum": 0,
+      "maximum": 4095,
+      "steps_per_radian": 652,
+      "q_initial": -3.17,
+      "q_min": -3.17,
+      "q_max": 0.5,
+      "max_speed_steps_s": 500
+    },
+    {
+      "id": 13,
+      "alias": "wrist_roll",
+      "actuator": "wrist_roll",
+      "initial": 2,
+      "minimum": 0,
+      "maximum": 4095,
+      "steps_per_radian": 652,
+      "q_initial": 3.14,
+      "q_min": -3.141592653589793,
+      "q_max": 3.141592653589793,
+      "wrap": 4096,
+      "angle_branch": "around_initial"
+    },
+    {
+      "id": 14,
+      "alias": "nano_mount_pi",
+      "actuator": "nano_mount_pitch",
+      "initial": 2647,
+      "minimum": 0,
+      "maximum": 4095,
+      "steps_per_radian": 652,
+      "q_initial": 0.802,
+      "q_min": -0.7853981634,
+      "q_max": 2,
+      "max_speed_steps_s": 500
+    }
+  ]
+}

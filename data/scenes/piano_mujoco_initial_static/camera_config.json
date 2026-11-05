@@ -1,0 +1,1245 @@
+{
+  "baseline_m": 0.024882763,
+  "raw_eye_size": [
+    640,
+    480
+  ],
+  "capture_size": [
+    1280,
+    480
+  ],
+  "fps": 30,
+  "depth_size": [
+    320,
+    240
+  ],
+  "raw_left_K": [
+    [
+      699.593705,
+      0,
+      282.761012
+    ],
+    [
+      0,
+      713.466462,
+      221.621771
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "raw_right_K": [
+    [
+      700.621079,
+      0,
+      285.154678
+    ],
+    [
+      0,
+      714.907878,
+      205.161683
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "K": [
+    [
+      305.652909,
+      0,
+      77.53896
+    ],
+    [
+      0,
+      305.652909,
+      106.627851
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "near_m": 0.08,
+  "far_m": 2,
+  "point_count": 256,
+  "stereo_disparities": 64,
+  "base_marker_size_m": 0.09,
+  "initial_position": [
+    0.25,
+    0.43301,
+    0.45
+  ],
+  "look_at": [
+    0.01274,
+    -0.0,
+    0.14296
+  ],
+  "selected_view": "d50_h45_yawp060",
+  "camera_to_base_convention": "T_base_camera maps camera optical coordinates to robot base; robot baseframe in MuJoCo.",
+  "T_base_camera_rig": [
+    [
+      -0.876979925,
+      0.480527015,
+      -4e-09,
+      0.25
+    ],
+    [
+      -0.253753817,
+      -0.463110278,
+      0.849198369,
+      0.43301
+    ],
+    [
+      0.408062755,
+      0.744729923,
+      0.528073981,
+      0.45
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "camera_presets": {
+    "d70_h20_yawp060": {
+      "rig_center_base_m": [
+        0.35,
+        0.60622,
+        0.2
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.7,
+      "height_m": 0.2,
+      "azimuth_from_front_deg": 60,
+      "pitch_up_deg": -4.7,
+      "T_base_camera_rig": [
+        [
+          -0.873866656,
+          0.486165691,
+          -1e-09,
+          0.35
+        ],
+        [
+          -0.039842154,
+          -0.071614947,
+          0.996636297,
+          0.60622
+        ],
+        [
+          0.484530372,
+          0.870927222,
+          0.081951797,
+          0.2
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.7692,
+      "static_keyboard_key_visibility_fraction": 1.0
+    },
+    "d50_h45_yawp060": {
+      "rig_center_base_m": [
+        0.25,
+        0.43301,
+        0.45
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.5,
+      "height_m": 0.45,
+      "azimuth_from_front_deg": 60,
+      "pitch_up_deg": -31.88,
+      "T_base_camera_rig": [
+        [
+          -0.876979916,
+          0.480527013,
+          -4e-09,
+          0.25
+        ],
+        [
+          -0.253753816,
+          -0.463110271,
+          0.849198365,
+          0.43301
+        ],
+        [
+          0.408062753,
+          0.744729919,
+          0.528073983,
+          0.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.7692,
+      "static_keyboard_key_visibility_fraction": 1.0
+    },
+    "d70_h32_yawp060": {
+      "rig_center_base_m": [
+        0.35,
+        0.60622,
+        0.325
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.7,
+      "height_m": 0.325,
+      "azimuth_from_front_deg": 60,
+      "pitch_up_deg": -14.7,
+      "T_base_camera_rig": [
+        [
+          -0.873866644,
+          0.486165676,
+          -6e-09,
+          0.35
+        ],
+        [
+          -0.12339942,
+          -0.22180634,
+          0.96725101,
+          0.60622
+        ],
+        [
+          0.470244243,
+          0.845248406,
+          0.253821739,
+          0.325
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.75,
+      "static_keyboard_key_visibility_fraction": 1.0
+    },
+    "d70_h45_yawp060": {
+      "rig_center_base_m": [
+        0.35,
+        0.60622,
+        0.45
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.7,
+      "height_m": 0.45,
+      "azimuth_from_front_deg": 60,
+      "pitch_up_deg": -23.87,
+      "T_base_camera_rig": [
+        [
+          -0.873866649,
+          0.486165682,
+          -7e-09,
+          0.35
+        ],
+        [
+          -0.19676667,
+          -0.353681531,
+          0.914435479,
+          0.60622
+        ],
+        [
+          0.444567147,
+          0.799094673,
+          0.404731704,
+          0.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.75,
+      "static_keyboard_key_visibility_fraction": 1.0
+    },
+    "d30_h45_yawp060": {
+      "rig_center_base_m": [
+        0.15,
+        0.25981,
+        0.45
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.3,
+      "height_m": 0.45,
+      "azimuth_from_front_deg": 60,
+      "pitch_up_deg": -46.26,
+      "T_base_camera_rig": [
+        [
+          -0.884185576,
+          0.467135793,
+          -1.1e-08,
+          0.15
+        ],
+        [
+          -0.337490388,
+          -0.638795248,
+          0.691404984,
+          0.25981
+        ],
+        [
+          0.322980011,
+          0.611330324,
+          0.722467401,
+          0.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.7308,
+      "static_keyboard_key_visibility_fraction": 0.6
+    },
+    "d30_h45_yawp075": {
+      "rig_center_base_m": [
+        0.07765,
+        0.28978,
+        0.45
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.3,
+      "height_m": 0.45,
+      "azimuth_from_front_deg": 75,
+      "pitch_up_deg": -45.96,
+      "T_base_camera_rig": [
+        [
+          -0.975819027,
+          0.218580076,
+          -1e-09,
+          0.07765
+        ],
+        [
+          -0.157117341,
+          -0.701427564,
+          0.695207547,
+          0.28978
+        ],
+        [
+          0.151958517,
+          0.678396744,
+          0.718809063,
+          0.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.7308,
+      "static_keyboard_key_visibility_fraction": 0.08
+    },
+    "d50_h32_yawp060": {
+      "rig_center_base_m": [
+        0.25,
+        0.43301,
+        0.325
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.5,
+      "height_m": 0.325,
+      "azimuth_from_front_deg": 60,
+      "pitch_up_deg": -20.24,
+      "T_base_camera_rig": [
+        [
+          -0.876979915,
+          0.480527015,
+          -6e-09,
+          0.25
+        ],
+        [
+          -0.16622745,
+          -0.303371348,
+          0.93826129,
+          0.43301
+        ],
+        [
+          0.450859897,
+          0.822836315,
+          0.345927371,
+          0.325
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.6923,
+      "static_keyboard_key_visibility_fraction": 1.0
+    },
+    "d50_h32_yawp075": {
+      "rig_center_base_m": [
+        0.12941,
+        0.48296,
+        0.325
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.5,
+      "height_m": 0.325,
+      "azimuth_from_front_deg": 75,
+      "pitch_up_deg": -20.12,
+      "T_base_camera_rig": [
+        [
+          -0.972038231,
+          0.234822534,
+          5e-09,
+          0.12941
+        ],
+        [
+          -0.080784713,
+          -0.334405013,
+          0.938960638,
+          0.48296
+        ],
+        [
+          0.220489121,
+          0.912705663,
+          0.344024566,
+          0.325
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.6923,
+      "static_keyboard_key_visibility_fraction": 0.6
+    },
+    "d50_h45_yawp075": {
+      "rig_center_base_m": [
+        0.12941,
+        0.48296,
+        0.45
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.5,
+      "height_m": 0.45,
+      "azimuth_from_front_deg": 75,
+      "pitch_up_deg": -31.71,
+      "T_base_camera_rig": [
+        [
+          -0.972038249,
+          0.234822541,
+          7e-09,
+          0.12941
+        ],
+        [
+          -0.123444091,
+          -0.51099176,
+          0.850675593,
+          0.48296
+        ],
+        [
+          0.199757808,
+          0.82688922,
+          0.525691004,
+          0.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.6731,
+      "static_keyboard_key_visibility_fraction": 0.76
+    },
+    "d50_h20_yawp075": {
+      "rig_center_base_m": [
+        0.12941,
+        0.48296,
+        0.2
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.5,
+      "height_m": 0.2,
+      "azimuth_from_front_deg": 75,
+      "pitch_up_deg": -6.55,
+      "T_base_camera_rig": [
+        [
+          -0.972038254,
+          0.234822543,
+          -1.4e-08,
+          0.12941
+        ],
+        [
+          -0.026783706,
+          -0.110869987,
+          0.993473943,
+          0.48296
+        ],
+        [
+          0.233290077,
+          0.965694681,
+          0.11405929,
+          0.2
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.6538,
+      "static_keyboard_key_visibility_fraction": 0.48
+    },
+    "d50_h20_yawp060": {
+      "rig_center_base_m": [
+        0.25,
+        0.43301,
+        0.2
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.5,
+      "height_m": 0.2,
+      "azimuth_from_front_deg": 60,
+      "pitch_up_deg": -6.59,
+      "T_base_camera_rig": [
+        [
+          -0.876979927,
+          0.480527031,
+          -1e-09,
+          0.25
+        ],
+        [
+          -0.055148278,
+          -0.100647686,
+          0.993392532,
+          0.43301
+        ],
+        [
+          0.477351961,
+          0.8711853,
+          0.114766228,
+          0.2
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.6346,
+      "static_keyboard_key_visibility_fraction": 1.0
+    },
+    "d70_h20_yawp075": {
+      "rig_center_base_m": [
+        0.18117,
+        0.67615,
+        0.2
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.7,
+      "height_m": 0.2,
+      "azimuth_from_front_deg": 75,
+      "pitch_up_deg": -4.68,
+      "T_base_camera_rig": [
+        [
+          -0.970344872,
+          0.241724745,
+          -6e-09,
+          0.18117
+        ],
+        [
+          -0.019722444,
+          -0.079170909,
+          0.996665944,
+          0.67615
+        ],
+        [
+          0.240918819,
+          0.967109677,
+          0.081590476,
+          0.2
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.5962,
+      "static_keyboard_key_visibility_fraction": 1.0
+    },
+    "d30_h32_yawp075": {
+      "rig_center_base_m": [
+        0.07765,
+        0.28978,
+        0.325
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.3,
+      "height_m": 0.325,
+      "azimuth_from_front_deg": 75,
+      "pitch_up_deg": -31.51,
+      "T_base_camera_rig": [
+        [
+          -0.975819023,
+          0.218580088,
+          3e-09,
+          0.07765
+        ],
+        [
+          -0.114237462,
+          -0.509996557,
+          0.852556937,
+          0.28978
+        ],
+        [
+          0.186351971,
+          0.831941268,
+          0.52263436,
+          0.325
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.5962,
+      "static_keyboard_key_visibility_fraction": 0.0
+    },
+    "d70_h32_yawp075": {
+      "rig_center_base_m": [
+        0.18117,
+        0.67615,
+        0.325
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.7,
+      "height_m": 0.325,
+      "azimuth_from_front_deg": 75,
+      "pitch_up_deg": -14.64,
+      "T_base_camera_rig": [
+        [
+          -0.97034486,
+          0.241724752,
+          5e-09,
+          0.18117
+        ],
+        [
+          -0.061100101,
+          -0.245271423,
+          0.96752711,
+          0.67615
+        ],
+        [
+          0.233875252,
+          0.938834956,
+          0.252767269,
+          0.325
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.5769,
+      "static_keyboard_key_visibility_fraction": 1.0
+    },
+    "d70_h45_yawp075": {
+      "rig_center_base_m": [
+        0.18117,
+        0.67615,
+        0.45
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.7,
+      "height_m": 0.45,
+      "azimuth_from_front_deg": 75,
+      "pitch_up_deg": -23.78,
+      "T_base_camera_rig": [
+        [
+          -0.970344847,
+          0.24172475,
+          -1.1e-08,
+          0.18117
+        ],
+        [
+          -0.097470171,
+          -0.391270104,
+          0.915099588,
+          0.67615
+        ],
+        [
+          0.221202216,
+          0.887962181,
+          0.403227898,
+          0.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.5769,
+      "static_keyboard_key_visibility_fraction": 1.0
+    },
+    "d70_h32_yawp090": {
+      "rig_center_base_m": [
+        0.0,
+        0.7,
+        0.325
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.7,
+      "height_m": 0.325,
+      "azimuth_from_front_deg": 90,
+      "pitch_up_deg": -14.58,
+      "T_base_camera_rig": [
+        [
+          -0.99983453,
+          -0.018190746,
+          1.2e-08,
+          0.0
+        ],
+        [
+          0.004577718,
+          -0.251608602,
+          0.967818242,
+          0.7
+        ],
+        [
+          -0.017605333,
+          0.967658102,
+          0.251650247,
+          0.325
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.5577,
+      "static_keyboard_key_visibility_fraction": 0.0
+    },
+    "d70_h45_yawp090": {
+      "rig_center_base_m": [
+        0.0,
+        0.7,
+        0.45
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.7,
+      "height_m": 0.45,
+      "azimuth_from_front_deg": 90,
+      "pitch_up_deg": -23.68,
+      "T_base_camera_rig": [
+        [
+          -0.999834535,
+          -0.018190748,
+          1.1e-08,
+          0.0
+        ],
+        [
+          0.00730601,
+          -0.401566289,
+          0.915800818,
+          0.7
+        ],
+        [
+          -0.016659098,
+          0.915649285,
+          0.401632746,
+          0.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.5577,
+      "static_keyboard_key_visibility_fraction": 0.0
+    },
+    "d70_h20_yawp090": {
+      "rig_center_base_m": [
+        0.0,
+        0.7,
+        0.2
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.7,
+      "height_m": 0.2,
+      "azimuth_from_front_deg": 90,
+      "pitch_up_deg": -4.66,
+      "T_base_camera_rig": [
+        [
+          -0.999834532,
+          -0.018190751,
+          -7e-09,
+          0.0
+        ],
+        [
+          0.001477228,
+          -0.081194585,
+          0.996697173,
+          0.7
+        ],
+        [
+          -0.018130671,
+          0.996532254,
+          0.081208025,
+          0.2
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.5385,
+      "static_keyboard_key_visibility_fraction": 0.0
+    },
+    "d50_h20_yawp090": {
+      "rig_center_base_m": [
+        0.0,
+        0.5,
+        0.2
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.5,
+      "height_m": 0.2,
+      "azimuth_from_front_deg": 90,
+      "pitch_up_deg": -6.51,
+      "T_base_camera_rig": [
+        [
+          -0.999675759,
+          -0.025462955,
+          0.0,
+          0.0
+        ],
+        [
+          0.002885336,
+          -0.113278309,
+          0.993559103,
+          0.5
+        ],
+        [
+          -0.025298951,
+          0.993236958,
+          0.113315057,
+          0.2
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.5385,
+      "static_keyboard_key_visibility_fraction": 0.0
+    },
+    "d50_h32_yawp090": {
+      "rig_center_base_m": [
+        0.0,
+        0.5,
+        0.325
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.5,
+      "height_m": 0.325,
+      "azimuth_from_front_deg": 90,
+      "pitch_up_deg": -20.0,
+      "T_base_camera_rig": [
+        [
+          -0.999675773,
+          -0.025462951,
+          5e-09,
+          0.0
+        ],
+        [
+          0.008708774,
+          -0.341906391,
+          0.939693666,
+          0.5
+        ],
+        [
+          -0.023927372,
+          0.939388986,
+          0.342017278,
+          0.325
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.5385,
+      "static_keyboard_key_visibility_fraction": 0.0
+    },
+    "d50_h45_yawp090": {
+      "rig_center_base_m": [
+        0.0,
+        0.5,
+        0.45
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.5,
+      "height_m": 0.45,
+      "azimuth_from_front_deg": 90,
+      "pitch_up_deg": -31.55,
+      "T_base_camera_rig": [
+        [
+          -0.999675749,
+          -0.02546295,
+          3e-09,
+          0.0
+        ],
+        [
+          0.013321441,
+          -0.522999835,
+          0.852228658,
+          0.5
+        ],
+        [
+          -0.021700255,
+          0.851952337,
+          0.523169481,
+          0.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.5385,
+      "static_keyboard_key_visibility_fraction": 0.0
+    },
+    "d30_h32_yawp060": {
+      "rig_center_base_m": [
+        0.15,
+        0.25981,
+        0.325
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.3,
+      "height_m": 0.325,
+      "azimuth_from_front_deg": 60,
+      "pitch_up_deg": -31.78,
+      "T_base_camera_rig": [
+        [
+          -0.884185585,
+          0.467135798,
+          -7e-09,
+          0.15
+        ],
+        [
+          -0.246017105,
+          -0.465656396,
+          0.850082176,
+          0.25981
+        ],
+        [
+          0.397103813,
+          0.751630407,
+          0.526650068,
+          0.325
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.5192,
+      "static_keyboard_key_visibility_fraction": 0.36
+    },
+    "d30_h45_yawp090": {
+      "rig_center_base_m": [
+        0.0,
+        0.3,
+        0.45
+      ],
+      "look_at_base_m": [
+        0.01274,
+        -0.0,
+        0.14296
+      ],
+      "horizontal_standoff_m": 0.3,
+      "height_m": 0.45,
+      "azimuth_from_front_deg": 90,
+      "pitch_up_deg": -45.64,
+      "T_base_camera_rig": [
+        [
+          -0.999100149,
+          -0.042413611,
+          5e-09,
+          0.0
+        ],
+        [
+          0.030323388,
+          -0.714301318,
+          0.699181048,
+          0.3
+        ],
+        [
+          -0.029654789,
+          0.698551881,
+          0.714944659,
+          0.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_robot_body_visibility_fraction": 0.5192,
+      "static_keyboard_key_visibility_fraction": 0.0
+    }
+  },
+  "render_validation": {
+    "resolution_px": [
+      640,
+      480
+    ],
+    "renderer": "AMD Radeon Graphics (radeonsi, gfx1151)",
+    "robot_silhouette_inside_frame": true,
+    "bbox_by_preset_px": {
+      "front_center_low": [
+        77,
+        27,
+        211,
+        385
+      ],
+      "front_center_mid": [
+        77,
+        34,
+        210,
+        376
+      ],
+      "front_center_high": [
+        77,
+        44,
+        210,
+        367
+      ],
+      "front_left_25deg": [
+        79,
+        32,
+        207,
+        374
+      ],
+      "front_right_25deg": [
+        85,
+        34,
+        219,
+        380
+      ],
+      "front_left_50deg": [
+        93,
+        29,
+        211,
+        375
+      ],
+      "front_right_50deg": [
+        95,
+        32,
+        232,
+        383
+      ]
+    },
+    "note": "Rendered initial assembled_open pose; silhouette is uncropped. Self-occluded/internal surfaces still require other views."
+  },
+  "T_base_stereo_left": [
+    [
+      -0.876979925,
+      0.480527015,
+      -4e-09,
+      0.260910842
+    ],
+    [
+      -0.253753817,
+      -0.463110278,
+      0.849198369,
+      0.431921056
+    ],
+    [
+      0.408062755,
+      0.744729923,
+      0.528073981,
+      0.442282766
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "T_base_stereo_right": [
+    [
+      -0.876979925,
+      0.480527015,
+      -4e-09,
+      0.239089158
+    ],
+    [
+      -0.253753817,
+      -0.463110278,
+      0.849198369,
+      0.42560696
+    ],
+    [
+      0.408062755,
+      0.744729923,
+      0.528073981,
+      0.452436495
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "allowed_horizontal_standoff_m": [
+    0.3,
+    0.7
+  ],
+  "allowed_camera_height_m": [
+    0.2,
+    0.45
+  ],
+  "azimuth_sample_deg": [
+    0,
+    360,
+    15
+  ],
+  "front_axis_base": "+X",
+  "usable_profile_count": 23,
+  "task_full_keyboard_profiles": 9
+}

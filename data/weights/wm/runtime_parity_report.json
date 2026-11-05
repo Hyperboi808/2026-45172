@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "reference_runtime": "PyTorch CupWorldModel + StepCommandCodec using the exported latest checkpoint",
+  "edge_runtime": "Python standard-library reference table lookup + radian decoder",
+  "known_routes_compared": 20,
+  "waypoints_compared": 1694,
+  "maximum_absolute_radian_error": 0.0,
+  "strict_route_count": 19,
+  "user_accepted_exception_route_ids": [
+    11
+  ],
+  "training_performed": false,
+  "hardware_commands_sent": false
+}

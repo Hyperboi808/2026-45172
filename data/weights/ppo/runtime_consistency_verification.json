@@ -1,0 +1,82 @@
+{
+  "stdlib_actor_samples": 40,
+  "max_actor_action_error": 1.7881393432617188e-07,
+  "full_episode_command_steps": 1252,
+  "max_joint_command_error_rad": 0.0,
+  "max_servo_12_command_speed_steps_s": 500.0000000000044,
+  "servo_13_fixed_rad": 3.14,
+  "phase_state_machine_matches_training": true,
+  "state_json_roundtrip_checked": true,
+  "full_episode": {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.2_a75",
+    "sequence": [
+      62,
+      65,
+      71,
+      72,
+      69
+    ],
+    "strategy_order": [
+      4,
+      2,
+      5,
+      3,
+      1
+    ],
+    "transitions": [
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.519999999997498,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5699473739450596
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7083913562026158
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6197117454432062
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.635278391718226
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.712037672544136
+      }
+    ],
+    "episode_success": true
+  },
+  "hardware_commands_sent": false
+}

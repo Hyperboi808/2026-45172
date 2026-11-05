@@ -1,0 +1,135 @@
+{
+  "status": "six_retained_routes_baseline_passed; feedback_closed_loop_not_verified",
+  "task_count": 6,
+  "strict_passed": 6,
+  "route_ids": [
+    3,
+    4,
+    15,
+    19,
+    20,
+    23
+  ],
+  "source_report": "cup_v8_stdlib/acceptance_report.json; same WM reference table and trajectory semantics",
+  "hardware_commands_sent": false,
+  "results": [
+    {
+      "route_task_id": 3,
+      "trajectory_complete": true,
+      "placement_error_mm": 4.705180192426668,
+      "home_error_rad": 0.00022278611171433482,
+      "strict_checks": {
+        "trajectory_complete": true,
+        "grasp_and_lift_20mm": true,
+        "placement_within_15mm": true,
+        "final_height_within_6mm": true,
+        "cup_supported_upright": true,
+        "all_stages_passed": true,
+        "home_within_0_046rad": true,
+        "hand_floor_within_2mm": true,
+        "hand_self_within_2mm": true,
+        "released": true
+      },
+      "waypoints": 79
+    },
+    {
+      "route_task_id": 4,
+      "trajectory_complete": true,
+      "placement_error_mm": 8.250844289948164,
+      "home_error_rad": 0.00022278611165615914,
+      "strict_checks": {
+        "trajectory_complete": true,
+        "grasp_and_lift_20mm": true,
+        "placement_within_15mm": true,
+        "final_height_within_6mm": true,
+        "cup_supported_upright": true,
+        "all_stages_passed": true,
+        "home_within_0_046rad": true,
+        "hand_floor_within_2mm": true,
+        "hand_self_within_2mm": true,
+        "released": true
+      },
+      "waypoints": 79
+    },
+    {
+      "route_task_id": 15,
+      "trajectory_complete": true,
+      "placement_error_mm": 3.3114521317741406,
+      "home_error_rad": 0.00022278611233961243,
+      "strict_checks": {
+        "trajectory_complete": true,
+        "grasp_and_lift_20mm": true,
+        "placement_within_15mm": true,
+        "final_height_within_6mm": true,
+        "cup_supported_upright": true,
+        "all_stages_passed": true,
+        "home_within_0_046rad": true,
+        "hand_floor_within_2mm": true,
+        "hand_self_within_2mm": true,
+        "released": true
+      },
+      "waypoints": 74
+    },
+    {
+      "route_task_id": 19,
+      "trajectory_complete": true,
+      "placement_error_mm": 9.369968766796516,
+      "home_error_rad": 0.00022278611162684925,
+      "strict_checks": {
+        "trajectory_complete": true,
+        "grasp_and_lift_20mm": true,
+        "placement_within_15mm": true,
+        "final_height_within_6mm": true,
+        "cup_supported_upright": true,
+        "all_stages_passed": true,
+        "home_within_0_046rad": true,
+        "hand_floor_within_2mm": true,
+        "hand_self_within_2mm": true,
+        "released": true
+      },
+      "waypoints": 79
+    },
+    {
+      "route_task_id": 20,
+      "trajectory_complete": true,
+      "placement_error_mm": 6.871080012869406,
+      "home_error_rad": 0.00022278611163883966,
+      "strict_checks": {
+        "trajectory_complete": true,
+        "grasp_and_lift_20mm": true,
+        "placement_within_15mm": true,
+        "final_height_within_6mm": true,
+        "cup_supported_upright": true,
+        "all_stages_passed": true,
+        "home_within_0_046rad": true,
+        "hand_floor_within_2mm": true,
+        "hand_self_within_2mm": true,
+        "released": true
+      },
+      "waypoints": 79
+    },
+    {
+      "route_task_id": 23,
+      "trajectory_complete": true,
+      "placement_error_mm": 11.280404450675352,
+      "home_error_rad": 0.00022278611233961243,
+      "strict_checks": {
+        "trajectory_complete": true,
+        "grasp_and_lift_20mm": true,
+        "placement_within_15mm": true,
+        "final_height_within_6mm": true,
+        "cup_supported_upright": true,
+        "all_stages_passed": true,
+        "home_within_0_046rad": true,
+        "hand_floor_within_2mm": true,
+        "hand_self_within_2mm": true,
+        "released": true
+      },
+      "waypoints": 89
+    }
+  ],
+  "scope": "Six-route MuJoCo/home evidence is inherited from cup_v8_stdlib with the same frozen reference table and trajectory semantics; it did not apply the new optional servo feedback trim.",
+  "feedback_correction_included_in_route_simulation": false,
+  "feedback_correction_unit_self_check": "passed",
+  "feedback_closed_loop_verified": false
+}

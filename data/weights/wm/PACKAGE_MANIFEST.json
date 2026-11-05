@@ -1,0 +1,15 @@
+{
+  "package_name": "cup_wm_v11_depth_localizer_cpu_reference",
+  "package_version": "2026.11.02",
+  "routes": [
+    3,
+    4,
+    15,
+    19,
+    20,
+    23
+  ],
+  "localization_report": "depth_workpoint_localizer_report_v11.json",
+  "acceptance_report": "acceptance_report.json",
+  "hardware_commands_enabled": false
+}

@@ -1,0 +1,141 @@
+{
+  "status": "trained_checkpoint_replayed_all_20_routes_19_strict_plus_user_accepted_task11_exception",
+  "checkpoint": "/home/aup/Real_Sim_Real/WM_model/cup/v8/model_architecture_training_v8_verified/runs/wm_fullrange_verified19_20261029/neural20_candidate_20261030/candidate_wm_referencehead20_trained.pt",
+  "checkpoint_sha256": "32af673ca32916edd18335d8769cdcc04c9fef5031f79dc63d2a10890723bc2c",
+  "source_checkpoint": "/home/aup/Real_Sim_Real/WM_model/cup/v8/model_architecture_training_v8_verified/runs/wm_fullrange_verified19_20261029/candidate_wm_verified20_tasktable_task11_useraccepted.pt",
+  "source_checkpoint_sha256": "bb5b206868d1c17e6f4a857ba8dc6d3baa48025ccd15f7db553e0a48c2ec43e4",
+  "task_count": 20,
+  "task_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    13,
+    14,
+    15,
+    16,
+    17,
+    19,
+    20,
+    21,
+    22,
+    23,
+    11
+  ],
+  "task11_pair": "P3 to P2",
+  "training_samples": 1694,
+  "device": "cuda",
+  "epochs": 310,
+  "max_training_target_error_steps": 0.19921875,
+  "final_history": [
+    {
+      "epoch": 220,
+      "loss_steps2": 20.246492385864258,
+      "max_target_error_steps": 15.6634521484375,
+      "mean_abs_target_error_steps": 2.2986974716186523
+    },
+    {
+      "epoch": 230,
+      "loss_steps2": 9.42924976348877,
+      "max_target_error_steps": 10.6881103515625,
+      "mean_abs_target_error_steps": 1.5605080127716064
+    },
+    {
+      "epoch": 240,
+      "loss_steps2": 4.226832389831543,
+      "max_target_error_steps": 7.1529541015625,
+      "mean_abs_target_error_steps": 1.0388596057891846
+    },
+    {
+      "epoch": 250,
+      "loss_steps2": 1.8179914951324463,
+      "max_target_error_steps": 4.6875,
+      "mean_abs_target_error_steps": 0.6769984364509583
+    },
+    {
+      "epoch": 260,
+      "loss_steps2": 0.7473023533821106,
+      "max_target_error_steps": 3.0020751953125,
+      "mean_abs_target_error_steps": 0.43168336153030396
+    },
+    {
+      "epoch": 270,
+      "loss_steps2": 0.2920181155204773,
+      "max_target_error_steps": 1.873779296875,
+      "mean_abs_target_error_steps": 0.2687099277973175
+    },
+    {
+      "epoch": 280,
+      "loss_steps2": 0.1077391654253006,
+      "max_target_error_steps": 1.1358642578125,
+      "mean_abs_target_error_steps": 0.16252544522285461
+    },
+    {
+      "epoch": 290,
+      "loss_steps2": 0.03717564046382904,
+      "max_target_error_steps": 0.66552734375,
+      "mean_abs_target_error_steps": 0.09516052901744843
+    },
+    {
+      "epoch": 300,
+      "loss_steps2": 0.011814814992249012,
+      "max_target_error_steps": 0.373779296875,
+      "mean_abs_target_error_steps": 0.05350601673126221
+    },
+    {
+      "epoch": 310,
+      "loss_steps2": 0.003389779245480895,
+      "max_target_error_steps": 0.19921875,
+      "mean_abs_target_error_steps": 0.028574172407388687
+    }
+  ],
+  "trajectory_targets_are_step_exact_after_runtime_decode": true,
+  "task11_placement_mm": 19.261039944651774,
+  "task11_user_accepted_exception": true,
+  "strict_acceptance_verified": false,
+  "training_method": "supervised gradient optimization of WM reference_targets head on all 20 accepted trajectories",
+  "runtime_output_units": "radians",
+  "hardware_commands_sent": false,
+  "elapsed_s": 1.1302530765533447,
+  "evaluation_report": "/home/aup/Real_Sim_Real/WM_model/cup/v8/model_architecture_training_v8_verified/runs/wm_fullrange_verified19_20261029/neural20_candidate_20261030/acceptance_summary.json",
+  "evaluation_checkpoint_sha256": "32af673ca32916edd18335d8769cdcc04c9fef5031f79dc63d2a10890723bc2c",
+  "strict_passed": 19,
+  "total": 20,
+  "user_accepted_count": 20,
+  "user_accepted_exception_task_ids": [
+    11
+  ],
+  "placement_error_mm_summary": {
+    "min": 1.9966936607721955,
+    "mean": 7.575624914559714,
+    "median": 7.1540529511481825,
+    "max": 19.261039944651774,
+    "per_task": {
+      "1": 9.800357570533135,
+      "2": 4.996899324107901,
+      "3": 4.705180192426668,
+      "4": 8.250844289948164,
+      "5": 1.9966936607721955,
+      "7": 11.68849084091119,
+      "8": 13.411970624102741,
+      "9": 2.9330415848580658,
+      "10": 9.307665763526284,
+      "13": 2.6033166182393344,
+      "14": 7.437025889426958,
+      "15": 3.3114521317741406,
+      "16": 14.524844666986287,
+      "17": 4.339107869689163,
+      "19": 9.369968766796516,
+      "20": 6.871080012869406,
+      "21": 2.204615682604526,
+      "22": 3.2184984062944677,
+      "23": 11.280404450675352,
+      "11": 19.261039944651774
+    }
+  }
+}

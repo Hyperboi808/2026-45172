@@ -1,0 +1,249 @@
+{
+  "weights_file": "model_weights.bin",
+  "byte_order": "little-endian",
+  "alignment_bytes": 4,
+  "tensors": {
+    "reference_targets": {
+      "shape": [
+        20,
+        7,
+        60,
+        14
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 0,
+      "nbytes": 470400,
+      "parameters": 117600
+    },
+    "point_net.0.weight": {
+      "shape": [
+        32,
+        4
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 470400,
+      "nbytes": 512,
+      "parameters": 128
+    },
+    "point_net.0.bias": {
+      "shape": [
+        32
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 470912,
+      "nbytes": 128,
+      "parameters": 32
+    },
+    "point_net.2.weight": {
+      "shape": [
+        64,
+        32
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 471040,
+      "nbytes": 8192,
+      "parameters": 2048
+    },
+    "point_net.2.bias": {
+      "shape": [
+        64
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 479232,
+      "nbytes": 256,
+      "parameters": 64
+    },
+    "obs_net.0.weight": {
+      "shape": [
+        128,
+        255
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 479488,
+      "nbytes": 130560,
+      "parameters": 32640
+    },
+    "obs_net.0.bias": {
+      "shape": [
+        128
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 610048,
+      "nbytes": 512,
+      "parameters": 128
+    },
+    "obs_net.2.weight": {
+      "shape": [
+        96,
+        128
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 610560,
+      "nbytes": 49152,
+      "parameters": 12288
+    },
+    "obs_net.2.bias": {
+      "shape": [
+        96
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 659712,
+      "nbytes": 384,
+      "parameters": 96
+    },
+    "actor.0.weight": {
+      "shape": [
+        128,
+        96
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 660096,
+      "nbytes": 49152,
+      "parameters": 12288
+    },
+    "actor.0.bias": {
+      "shape": [
+        128
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 709248,
+      "nbytes": 512,
+      "parameters": 128
+    },
+    "actor.2.weight": {
+      "shape": [
+        56,
+        128
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 709760,
+      "nbytes": 28672,
+      "parameters": 7168
+    },
+    "actor.2.bias": {
+      "shape": [
+        56
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 738432,
+      "nbytes": 224,
+      "parameters": 56
+    },
+    "dynamics.0.weight": {
+      "shape": [
+        128,
+        110
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 738656,
+      "nbytes": 56320,
+      "parameters": 14080
+    },
+    "dynamics.0.bias": {
+      "shape": [
+        128
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 794976,
+      "nbytes": 512,
+      "parameters": 128
+    },
+    "dynamics.2.weight": {
+      "shape": [
+        96,
+        128
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 795488,
+      "nbytes": 49152,
+      "parameters": 12288
+    },
+    "dynamics.2.bias": {
+      "shape": [
+        96
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 844640,
+      "nbytes": 384,
+      "parameters": 96
+    },
+    "feedback_decoder.weight": {
+      "shape": [
+        28,
+        96
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 845024,
+      "nbytes": 10752,
+      "parameters": 2688
+    },
+    "feedback_decoder.bias": {
+      "shape": [
+        28
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 855776,
+      "nbytes": 112,
+      "parameters": 28
+    },
+    "cloud_decoder.weight": {
+      "shape": [
+        4,
+        96
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 855888,
+      "nbytes": 1536,
+      "parameters": 384
+    },
+    "cloud_decoder.bias": {
+      "shape": [
+        4
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 857424,
+      "nbytes": 16,
+      "parameters": 4
+    },
+    "reward_decoder.0.weight": {
+      "shape": [
+        64,
+        110
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 857440,
+      "nbytes": 28160,
+      "parameters": 7040
+    },
+    "reward_decoder.0.bias": {
+      "shape": [
+        64
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 885600,
+      "nbytes": 256,
+      "parameters": 64
+    },
+    "reward_decoder.2.weight": {
+      "shape": [
+        1,
+        64
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 885856,
+      "nbytes": 256,
+      "parameters": 64
+    },
+    "reward_decoder.2.bias": {
+      "shape": [
+        1
+      ],
+      "dtype": "float32_le",
+      "offset_bytes": 886112,
+      "nbytes": 4,
+      "parameters": 1
+    }
+  },
+  "total_parameters": 221529,
+  "weights_file_sha256": "bf28f881582877141ceafe88cc2e4cd5e5936b5c8f2178ecee932696b8b8e906"
+}

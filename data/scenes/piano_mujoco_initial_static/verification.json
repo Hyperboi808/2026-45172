@@ -1,0 +1,90 @@
+{
+  "mujoco_version": "3.3.7",
+  "original_scene_unchanged": true,
+  "original_scene_sha256": "8e8551c02cc2f1b34b7ca777d4f8bef7b2843dfd7621d6797ffe7e3fa7fb7e5e",
+  "original_copy_byte_identical": true,
+  "all_referenced_assets_included": true,
+  "resource_count": 84,
+  "asset_bytes": 34647872,
+  "scene_checks": [
+    {
+      "scene": "scene.xml",
+      "checks": {
+        "full_qpos_equal": true,
+        "full_qvel_equal": true,
+        "full_ctrl_equal": true,
+        "max_robot_body_position_difference_m": 0.0,
+        "keyboard_keys_initially_unpressed": true,
+        "time_zero": true
+      },
+      "nq": 63,
+      "nv": 63,
+      "actuators": 14,
+      "piano_position_m": [
+        0.34,
+        -0.04,
+        0.04
+      ],
+      "piano_quaternion_wxyz": [
+        0.7071067811865476,
+        -0.0,
+        -0.0,
+        -0.7071067811865476
+      ]
+    },
+    {
+      "scene": "current_center.xml",
+      "checks": {
+        "full_qpos_equal": true,
+        "full_qvel_equal": true,
+        "full_ctrl_equal": true,
+        "max_robot_body_position_difference_m": 0.0,
+        "keyboard_keys_initially_unpressed": true,
+        "time_zero": true
+      },
+      "nq": 63,
+      "nv": 63,
+      "actuators": 14,
+      "piano_position_m": [
+        0.34,
+        0.0,
+        0.04
+      ],
+      "piano_quaternion_wxyz": [
+        0.7071067811865476,
+        -0.0,
+        -0.0,
+        -0.7071067811865476
+      ]
+    },
+    {
+      "scene": "original_scene.xml",
+      "checks": {
+        "full_qpos_equal": true,
+        "full_qvel_equal": true,
+        "full_ctrl_equal": true,
+        "max_robot_body_position_difference_m": 0.0,
+        "keyboard_keys_initially_unpressed": true,
+        "time_zero": true
+      },
+      "nq": 63,
+      "nv": 63,
+      "actuators": 14,
+      "piano_position_m": [
+        0.25,
+        -0.11,
+        0.0
+      ],
+      "piano_quaternion_wxyz": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "viewer_calls_mj_step": false,
+  "policy_started": false,
+  "training_started": false,
+  "static_scene_only": true
+}

@@ -1,0 +1,271 @@
+{
+  "revision": "arm12 shoulder_lift home 1162->1112 (回退50步); arm11/13 spr +651.9, arm14 spr -651.9; spread(1/3/5/7/9)负spr; id9 home370; id10 home150+0~0.3rad 2026-11-04",
+  "units": {
+    "angle": "radians",
+    "position": "encoder steps"
+  },
+  "servos": {
+    "1": {
+      "home_step": 501,
+      "reference_rad": 0,
+      "steps_per_radian": -187.5
+    },
+    "2": {
+      "home_step": 274,
+      "points": [
+        {
+          "rad": 0,
+          "step": 274
+        },
+        {
+          "rad": 0.1,
+          "step": 348
+        },
+        {
+          "rad": 0.2,
+          "step": 420
+        },
+        {
+          "rad": 0.3,
+          "step": 531
+        },
+        {
+          "rad": 0.4,
+          "step": 600
+        },
+        {
+          "rad": 0.5,
+          "step": 678
+        },
+        {
+          "rad": 0.6,
+          "step": 760
+        },
+        {
+          "rad": 0.7,
+          "step": 821
+        },
+        {
+          "rad": 0.8,
+          "step": 876
+        },
+        {
+          "rad": 0.9,
+          "step": 913
+        },
+        {
+          "rad": 1,
+          "step": 974
+        }
+      ]
+    },
+    "3": {
+      "home_step": 580,
+      "reference_rad": 0,
+      "steps_per_radian": -177.5
+    },
+    "4": {
+      "home_step": 319,
+      "points": [
+        {
+          "rad": 0,
+          "step": 319
+        },
+        {
+          "rad": 0.1,
+          "step": 403
+        },
+        {
+          "rad": 0.2,
+          "step": 500
+        },
+        {
+          "rad": 0.3,
+          "step": 600
+        },
+        {
+          "rad": 0.4,
+          "step": 694
+        },
+        {
+          "rad": 0.5,
+          "step": 749
+        },
+        {
+          "rad": 0.6,
+          "step": 813
+        },
+        {
+          "rad": 0.7,
+          "step": 889
+        },
+        {
+          "rad": 0.8,
+          "step": 927
+        },
+        {
+          "rad": 0.9,
+          "step": 958
+        },
+        {
+          "rad": 1,
+          "step": 996
+        }
+      ]
+    },
+    "5": {
+      "home_step": 391,
+      "reference_rad": 0,
+      "steps_per_radian": -102.5
+    },
+    "6": {
+      "home_step": 169,
+      "points": [
+        {
+          "rad": 0,
+          "step": 169
+        },
+        {
+          "rad": 0.1,
+          "step": 249
+        },
+        {
+          "rad": 0.2,
+          "step": 309
+        },
+        {
+          "rad": 0.3,
+          "step": 388
+        },
+        {
+          "rad": 0.4,
+          "step": 472
+        },
+        {
+          "rad": 0.5,
+          "step": 555
+        },
+        {
+          "rad": 0.6,
+          "step": 622
+        },
+        {
+          "rad": 0.7,
+          "step": 711
+        },
+        {
+          "rad": 0.8,
+          "step": 779
+        },
+        {
+          "rad": 0.9,
+          "step": 851
+        },
+        {
+          "rad": 1,
+          "step": 890
+        }
+      ]
+    },
+    "7": {
+      "home_step": 849,
+      "reference_rad": 0,
+      "steps_per_radian": -172.5
+    },
+    "8": {
+      "home_step": 140,
+      "points": [
+        {
+          "rad": 0,
+          "step": 140
+        },
+        {
+          "rad": 0.1,
+          "step": 235
+        },
+        {
+          "rad": 0.2,
+          "step": 341
+        },
+        {
+          "rad": 0.3,
+          "step": 429
+        },
+        {
+          "rad": 0.4,
+          "step": 519
+        },
+        {
+          "rad": 0.5,
+          "step": 575
+        },
+        {
+          "rad": 0.6,
+          "step": 644
+        },
+        {
+          "rad": 0.7,
+          "step": 699
+        },
+        {
+          "rad": 0.8,
+          "step": 760
+        },
+        {
+          "rad": 0.9,
+          "step": 822
+        },
+        {
+          "rad": 1,
+          "step": 878
+        }
+      ]
+    },
+    "9": {
+      "home_step": 370,
+      "reference_rad": 0,
+      "steps_per_radian": -195.5
+    },
+    "10": {
+      "home_step": 150,
+      "points": [
+        {
+          "rad": 0.0,
+          "step": 150
+        },
+        {
+          "rad": 0.1,
+          "step": 183
+        },
+        {
+          "rad": 0.2,
+          "step": 216
+        },
+        {
+          "rad": 0.3,
+          "step": 250
+        }
+      ]
+    },
+    "11": {
+      "home_step": 2041,
+      "reference_rad": 0,
+      "steps_per_radian": 651.9
+    },
+    "12": {
+      "home_step": 1112,
+      "reference_rad": -3.17,
+      "steps_per_radian": 651.9
+    },
+    "13": {
+      "home_step": 2048,
+      "reference_rad": 3.14,
+      "steps_per_radian": 651.9
+    },
+    "14": {
+      "home_step": 2777,
+      "reference_rad": 0.802,
+      "steps_per_radian": -651.9
+    }
+  }
+}

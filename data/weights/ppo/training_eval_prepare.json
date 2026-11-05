@@ -1,0 +1,1217 @@
+[
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.3_h0.2_a15",
+    "sequence": [
+      69,
+      65,
+      62,
+      72,
+      71
+    ],
+    "strategy_order": [
+      1,
+      2,
+      4,
+      3,
+      5
+    ],
+    "transitions": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 9.61000000000428,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.3_h0.2_a45",
+    "sequence": [
+      65,
+      71,
+      72,
+      69,
+      62
+    ],
+    "strategy_order": [
+      2,
+      5,
+      3,
+      1,
+      4
+    ],
+    "transitions": [
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 9.890000000003628,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.3_h0.2_a75",
+    "sequence": [
+      71,
+      69,
+      62,
+      65,
+      72
+    ],
+    "strategy_order": [
+      5,
+      1,
+      4,
+      2,
+      3
+    ],
+    "transitions": [
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 9.730000000004,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.2_a15",
+    "sequence": [
+      71,
+      69,
+      72,
+      65,
+      62
+    ],
+    "strategy_order": [
+      5,
+      1,
+      3,
+      2,
+      4
+    ],
+    "transitions": [
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 12.239999999998151,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.2_a45",
+    "sequence": [
+      62,
+      72,
+      71,
+      69,
+      65
+    ],
+    "strategy_order": [
+      4,
+      3,
+      5,
+      1,
+      2
+    ],
+    "transitions": [
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 9.810000000003814,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.2_a75",
+    "sequence": [
+      69,
+      71,
+      62,
+      65,
+      72
+    ],
+    "strategy_order": [
+      1,
+      5,
+      4,
+      2,
+      3
+    ],
+    "transitions": [
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 9.480000000004583,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.325_a15",
+    "sequence": [
+      69,
+      71,
+      72,
+      62,
+      65
+    ],
+    "strategy_order": [
+      1,
+      5,
+      3,
+      4,
+      2
+    ],
+    "transitions": [
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 10.070000000003208,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.325_a45",
+    "sequence": [
+      65,
+      72,
+      69,
+      62,
+      71
+    ],
+    "strategy_order": [
+      2,
+      3,
+      1,
+      4,
+      5
+    ],
+    "transitions": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 9.050000000005586,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.325_a75",
+    "sequence": [
+      72,
+      65,
+      62,
+      69,
+      71
+    ],
+    "strategy_order": [
+      3,
+      2,
+      4,
+      1,
+      5
+    ],
+    "transitions": [
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 9.67000000000414,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.2_a15",
+    "sequence": [
+      69,
+      71,
+      62,
+      65,
+      72
+    ],
+    "strategy_order": [
+      1,
+      5,
+      4,
+      2,
+      3
+    ],
+    "transitions": [
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 9.500000000004537,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.2_a45",
+    "sequence": [
+      69,
+      72,
+      62,
+      71,
+      65
+    ],
+    "strategy_order": [
+      1,
+      3,
+      4,
+      5,
+      2
+    ],
+    "transitions": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 9.570000000004374,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.2_a75",
+    "sequence": [
+      69,
+      72,
+      62,
+      65,
+      71
+    ],
+    "strategy_order": [
+      1,
+      3,
+      4,
+      2,
+      5
+    ],
+    "transitions": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 11.060000000000901,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.325_a15",
+    "sequence": [
+      65,
+      72,
+      71,
+      62,
+      69
+    ],
+    "strategy_order": [
+      2,
+      3,
+      5,
+      4,
+      1
+    ],
+    "transitions": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 9.560000000004397,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.325_a45",
+    "sequence": [
+      62,
+      69,
+      72,
+      65,
+      71
+    ],
+    "strategy_order": [
+      4,
+      1,
+      3,
+      2,
+      5
+    ],
+    "transitions": [
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 15.7799999999899,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.325_a75",
+    "sequence": [
+      72,
+      65,
+      62,
+      69,
+      71
+    ],
+    "strategy_order": [
+      3,
+      2,
+      4,
+      1,
+      5
+    ],
+    "transitions": [
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 10.010000000003348,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.45_a15",
+    "sequence": [
+      62,
+      72,
+      65,
+      69,
+      71
+    ],
+    "strategy_order": [
+      4,
+      3,
+      2,
+      1,
+      5
+    ],
+    "transitions": [
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 9.52000000000449,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.45_a45",
+    "sequence": [
+      72,
+      69,
+      71,
+      65,
+      62
+    ],
+    "strategy_order": [
+      3,
+      1,
+      5,
+      2,
+      4
+    ],
+    "transitions": [
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 9.840000000003744,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.45_a75",
+    "sequence": [
+      65,
+      72,
+      69,
+      71,
+      62
+    ],
+    "strategy_order": [
+      2,
+      3,
+      1,
+      5,
+      4
+    ],
+    "transitions": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 9.420000000004723,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.2_a15",
+    "sequence": [
+      62,
+      71,
+      69,
+      72,
+      65
+    ],
+    "strategy_order": [
+      4,
+      5,
+      1,
+      3,
+      2
+    ],
+    "transitions": [
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 12.039999999998617,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.2_a45",
+    "sequence": [
+      62,
+      72,
+      71,
+      69,
+      65
+    ],
+    "strategy_order": [
+      4,
+      3,
+      5,
+      1,
+      2
+    ],
+    "transitions": [
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 9.820000000003791,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.2_a75",
+    "sequence": [
+      72,
+      62,
+      69,
+      71,
+      65
+    ],
+    "strategy_order": [
+      3,
+      4,
+      1,
+      5,
+      2
+    ],
+    "transitions": [
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 11.180000000000621,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.325_a15",
+    "sequence": [
+      71,
+      62,
+      65,
+      72,
+      69
+    ],
+    "strategy_order": [
+      5,
+      4,
+      2,
+      3,
+      1
+    ],
+    "transitions": [
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 9.260000000005096,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.325_a45",
+    "sequence": [
+      72,
+      62,
+      71,
+      69,
+      65
+    ],
+    "strategy_order": [
+      3,
+      4,
+      5,
+      1,
+      2
+    ],
+    "transitions": [
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 9.200000000005236,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.325_a75",
+    "sequence": [
+      65,
+      72,
+      69,
+      62,
+      71
+    ],
+    "strategy_order": [
+      2,
+      3,
+      1,
+      4,
+      5
+    ],
+    "transitions": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 9.060000000005562,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.45_a15",
+    "sequence": [
+      72,
+      69,
+      65,
+      62,
+      71
+    ],
+    "strategy_order": [
+      3,
+      1,
+      2,
+      4,
+      5
+    ],
+    "transitions": [
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 8.870000000006005,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.45_a45",
+    "sequence": [
+      72,
+      69,
+      65,
+      71,
+      62
+    ],
+    "strategy_order": [
+      3,
+      1,
+      2,
+      5,
+      4
+    ],
+    "transitions": [
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 9.200000000005236,
+    "note_results": [],
+    "episode_success": true
+  },
+  {
+    "hits": 0,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.45_a75",
+    "sequence": [
+      65,
+      71,
+      72,
+      62,
+      69
+    ],
+    "strategy_order": [
+      2,
+      5,
+      3,
+      4,
+      1
+    ],
+    "transitions": [
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "prepare_only": true,
+    "elapsed_sim_s": 10.050000000003255,
+    "note_results": [],
+    "episode_success": true
+  }
+]

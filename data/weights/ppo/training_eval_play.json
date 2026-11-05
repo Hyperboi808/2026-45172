@@ -1,0 +1,1919 @@
+[
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.3_h0.2_a15",
+    "sequence": [
+      69,
+      65,
+      62,
+      72,
+      71
+    ],
+    "strategy_order": [
+      1,
+      2,
+      4,
+      3,
+      5
+    ],
+    "transitions": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.079999999998524,
+    "note_results": [
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6756006411981441
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.5745785841331829
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5604392835419504
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5583849461148754
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6222711637030836
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.3_h0.2_a45",
+    "sequence": [
+      65,
+      71,
+      72,
+      69,
+      62
+    ],
+    "strategy_order": [
+      2,
+      5,
+      3,
+      1,
+      4
+    ],
+    "transitions": [
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.199999999998244,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.5800846947221586
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5735052826209736
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6165026752485713
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6293560046044337
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5698256949796627
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.3_h0.2_a75",
+    "sequence": [
+      71,
+      69,
+      62,
+      65,
+      72
+    ],
+    "strategy_order": [
+      5,
+      1,
+      4,
+      2,
+      3
+    ],
+    "transitions": [
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.389999999997801,
+    "note_results": [
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6267814666583422
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5911311850361767
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5593179344026613
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.5546659904749051
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5782103490753996
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.2_a15",
+    "sequence": [
+      71,
+      69,
+      72,
+      65,
+      62
+    ],
+    "strategy_order": [
+      5,
+      1,
+      3,
+      2,
+      4
+    ],
+    "transitions": [
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.249999999998128,
+    "note_results": [
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6255982755835477
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5684005803683576
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5675917631701318
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6741421180739577
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5624391385972264
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.2_a45",
+    "sequence": [
+      62,
+      72,
+      71,
+      69,
+      65
+    ],
+    "strategy_order": [
+      4,
+      3,
+      5,
+      1,
+      2
+    ],
+    "transitions": [
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.279999999998058,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5618457745983194
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6048803353422804
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6254927645116473
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.677190687659709
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6551265215484923
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.2_a75",
+    "sequence": [
+      69,
+      71,
+      62,
+      65,
+      72
+    ],
+    "strategy_order": [
+      1,
+      5,
+      4,
+      2,
+      3
+    ],
+    "transitions": [
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.049999999998594,
+    "note_results": [
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6915684151844982
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5732934306285866
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5571008389774613
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6358095842420654
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5553493407325654
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.325_a15",
+    "sequence": [
+      69,
+      71,
+      72,
+      62,
+      65
+    ],
+    "strategy_order": [
+      1,
+      5,
+      3,
+      4,
+      2
+    ],
+    "transitions": [
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.419999999997732,
+    "note_results": [
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5898800968457742
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5827401978543273
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5856552932573109
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5530927180659425
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7061640237097937
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.325_a45",
+    "sequence": [
+      65,
+      72,
+      69,
+      62,
+      71
+    ],
+    "strategy_order": [
+      2,
+      3,
+      1,
+      4,
+      5
+    ],
+    "transitions": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.889999999998967,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6883914033385153
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.638945344980678
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7068723606472306
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5517279092905937
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5883219978537172
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.4_h0.325_a75",
+    "sequence": [
+      72,
+      65,
+      62,
+      69,
+      71
+    ],
+    "strategy_order": [
+      3,
+      2,
+      4,
+      1,
+      5
+    ],
+    "transitions": [
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.009999999998687,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6101220616569527
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.5847884206447344
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5961124086069292
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6543154248748203
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5537257556118198
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.2_a15",
+    "sequence": [
+      69,
+      71,
+      62,
+      65,
+      72
+    ],
+    "strategy_order": [
+      1,
+      5,
+      4,
+      2,
+      3
+    ],
+    "transitions": [
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.05999999999857,
+    "note_results": [
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7166418553487489
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6134579335788437
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5786703005528099
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.732286785973248
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7485354390192782
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.2_a45",
+    "sequence": [
+      69,
+      72,
+      62,
+      71,
+      65
+    ],
+    "strategy_order": [
+      1,
+      3,
+      4,
+      5,
+      2
+    ],
+    "transitions": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.269999999998081,
+    "note_results": [
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6842760322171908
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6464554232685599
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5967989536895909
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5546203248847087
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.5660663669522917
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.2_a75",
+    "sequence": [
+      69,
+      72,
+      62,
+      65,
+      71
+    ],
+    "strategy_order": [
+      1,
+      3,
+      4,
+      2,
+      5
+    ],
+    "transitions": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.419999999997732,
+    "note_results": [
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7130724807477671
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5888097119846815
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5717324990368126
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.689185368716488
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6287547941477137
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.325_a15",
+    "sequence": [
+      65,
+      72,
+      71,
+      62,
+      69
+    ],
+    "strategy_order": [
+      2,
+      3,
+      5,
+      4,
+      1
+    ],
+    "transitions": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.959999999998804,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.608066566432818
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.550221274036496
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5562422830901068
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5825536855825302
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7209899315203785
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.325_a45",
+    "sequence": [
+      62,
+      69,
+      72,
+      65,
+      71
+    ],
+    "strategy_order": [
+      4,
+      1,
+      3,
+      2,
+      5
+    ],
+    "transitions": [
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 15.049999999991602,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.6388964912070164
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.720238967375792
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6781384928316492
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.640534056775788
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6305146566605025
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.325_a75",
+    "sequence": [
+      72,
+      65,
+      62,
+      69,
+      71
+    ],
+    "strategy_order": [
+      3,
+      2,
+      4,
+      1,
+      5
+    ],
+    "transitions": [
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.209999999998221,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7608211298610232
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7097427023475855
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5766247410894062
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6876207484731204
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5759679307919042
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.45_a15",
+    "sequence": [
+      62,
+      72,
+      65,
+      69,
+      71
+    ],
+    "strategy_order": [
+      4,
+      3,
+      2,
+      1,
+      5
+    ],
+    "transitions": [
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.199999999998244,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5773033473415838
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.734593663631464
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.5931955060127135
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6482554424490983
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6254409943010568
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.45_a45",
+    "sequence": [
+      72,
+      69,
+      71,
+      65,
+      62
+    ],
+    "strategy_order": [
+      3,
+      1,
+      5,
+      2,
+      4
+    ],
+    "transitions": [
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.02999999999864,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5622724016377515
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6178244261475924
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6065836926565238
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.629567115257173
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5521385374312279
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.55_h0.45_a75",
+    "sequence": [
+      65,
+      72,
+      69,
+      71,
+      62
+    ],
+    "strategy_order": [
+      2,
+      3,
+      1,
+      5,
+      4
+    ],
+    "transitions": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.7899999999992,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6548024406803361
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5997057356051333
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5811802543357825
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6091774044570412
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5521846306403854
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.2_a15",
+    "sequence": [
+      62,
+      71,
+      69,
+      72,
+      65
+    ],
+    "strategy_order": [
+      4,
+      5,
+      1,
+      3,
+      2
+    ],
+    "transitions": [
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 15.829999999989784,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5885587353991896
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6205650296234562
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6772557383758226
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.9872697884571859
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6167335817525604
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.2_a45",
+    "sequence": [
+      62,
+      72,
+      71,
+      69,
+      65
+    ],
+    "strategy_order": [
+      4,
+      3,
+      5,
+      1,
+      2
+    ],
+    "transitions": [
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.259999999998104,
+    "note_results": [
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5889450834769531
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.723383226130749
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.607443871405644
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.554979926078923
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6818818832746384
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.2_a75",
+    "sequence": [
+      72,
+      62,
+      69,
+      71,
+      65
+    ],
+    "strategy_order": [
+      3,
+      4,
+      1,
+      5,
+      2
+    ],
+    "transitions": [
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 13.919999999994236,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5726958580027254
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5657225459903461
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7322411123054574
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.589967575590011
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7569806334496317
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.325_a15",
+    "sequence": [
+      71,
+      62,
+      65,
+      72,
+      69
+    ],
+    "strategy_order": [
+      5,
+      4,
+      2,
+      3,
+      1
+    ],
+    "transitions": [
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.779999999999223,
+    "note_results": [
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6160564524428355
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5903418678897632
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7356229669608676
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7133537677187763
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6782355346915936
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.325_a45",
+    "sequence": [
+      72,
+      62,
+      71,
+      69,
+      65
+    ],
+    "strategy_order": [
+      3,
+      4,
+      5,
+      1,
+      2
+    ],
+    "transitions": [
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 17.069999999986894,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.6768122250152305
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.6310300257173083
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6142138593195878
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5910115952439269
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.638341235381923
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.325_a75",
+    "sequence": [
+      65,
+      72,
+      69,
+      62,
+      71
+    ],
+    "strategy_order": [
+      2,
+      3,
+      1,
+      4,
+      5
+    ],
+    "transitions": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.899999999998943,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6987992718319865
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.5634319098664982
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6236861304289659
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5526374827805256
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5763016099630456
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.45_a15",
+    "sequence": [
+      72,
+      69,
+      65,
+      62,
+      71
+    ],
+    "strategy_order": [
+      3,
+      1,
+      2,
+      4,
+      5
+    ],
+    "transitions": [
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.509999999999852,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.8828839600009151
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.6255403708192253
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.6243400483909815
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5622883663473861
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5887105153382117
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.45_a45",
+    "sequence": [
+      72,
+      69,
+      65,
+      71,
+      62
+    ],
+    "strategy_order": [
+      3,
+      1,
+      2,
+      5,
+      4
+    ],
+    "transitions": [
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 11.469999999999946,
+    "note_results": [
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.7160686411635113
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.5820755830736922
+      },
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.594025913852109
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.6026275067397157
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5643040644544913
+      }
+    ],
+    "episode_success": true
+  },
+  {
+    "hits": 5,
+    "misses": 0,
+    "wrong_events": 0,
+    "prepared": 5,
+    "returned_home": true,
+    "keyboard_penetration_mm": 0.0,
+    "camera_profile": "r0.7_h0.45_a75",
+    "sequence": [
+      65,
+      71,
+      72,
+      62,
+      69
+    ],
+    "strategy_order": [
+      2,
+      5,
+      3,
+      4,
+      1
+    ],
+    "transitions": [
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "prepare_only": false,
+    "elapsed_sim_s": 12.429999999997708,
+    "note_results": [
+      {
+        "midi": 65,
+        "hit": true,
+        "peak_depth": 0.7899098361320142
+      },
+      {
+        "midi": 71,
+        "hit": true,
+        "peak_depth": 0.5694880770217582
+      },
+      {
+        "midi": 72,
+        "hit": true,
+        "peak_depth": 0.9812138474951732
+      },
+      {
+        "midi": 62,
+        "hit": true,
+        "peak_depth": 0.5728542400321105
+      },
+      {
+        "midi": 69,
+        "hit": true,
+        "peak_depth": 0.7378467208532354
+      }
+    ],
+    "episode_success": true
+  }
+]

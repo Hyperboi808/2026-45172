@@ -1,0 +1,9 @@
+{
+  "full_model_parameters": 312445,
+  "actor_parameters": 157054,
+  "max_abs_normalized_action_error": 5.960464477539063e-08,
+  "input_example": "example_observation.json",
+  "source_checkpoint_sha256": "23a54b15d7e647696fd51890574fb4f60ebda83cba10611af1cec810f9bb57e7",
+  "torch_required_to_run_exported_model": false,
+  "physical_servo_commands_sent": false
+}

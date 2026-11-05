@@ -1,0 +1,219 @@
+{
+  "format": "original_fp32_actor_stdlib_v1",
+  "quantization_enabled": false,
+  "precision": "IEEE754_float32",
+  "arithmetic": "Python float64 dot accumulation with float32 layer boundaries",
+  "actor_parameters": 157054,
+  "full_model_parameters": 312445,
+  "weights_file": "weights_fp32.bin",
+  "weights_sha256": "6473c2adbd2867489dfe55ca2cc2f76c6cbdbc116a760a57f8ee15dd1900f368",
+  "source_checkpoint_name": "final_candidate.zip",
+  "source_checkpoint_sha256": "23a54b15d7e647696fd51890574fb4f60ebda83cba10611af1cec810f9bb57e7",
+  "servo_action_mode": "position_targets",
+  "action_output": "14 normalized absolute targets clipped[-1,1], physical servo ID1..14",
+  "input_shapes": {
+    "proprio": [
+      76
+    ],
+    "pointcloud": [
+      256,
+      4
+    ],
+    "goal": [
+      56
+    ],
+    "goal_cloud": [
+      32,
+      4
+    ]
+  },
+  "tensors": {
+    "features_extractor.feedback.0.weight": {
+      "shape": [
+        128,
+        76
+      ],
+      "offset_bytes": 0,
+      "length_bytes": 38912,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.feedback.0.bias": {
+      "shape": [
+        128
+      ],
+      "offset_bytes": 38912,
+      "length_bytes": 512,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.feedback.2.weight": {
+      "shape": [
+        128,
+        128
+      ],
+      "offset_bytes": 39424,
+      "length_bytes": 65536,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.feedback.2.bias": {
+      "shape": [
+        128
+      ],
+      "offset_bytes": 104960,
+      "length_bytes": 512,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.cloud.mlp.0.weight": {
+      "shape": [
+        32,
+        3
+      ],
+      "offset_bytes": 105472,
+      "length_bytes": 384,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.cloud.mlp.0.bias": {
+      "shape": [
+        32
+      ],
+      "offset_bytes": 105856,
+      "length_bytes": 128,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.cloud.mlp.2.weight": {
+      "shape": [
+        32,
+        32
+      ],
+      "offset_bytes": 105984,
+      "length_bytes": 4096,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.cloud.mlp.2.bias": {
+      "shape": [
+        32
+      ],
+      "offset_bytes": 110080,
+      "length_bytes": 128,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.target_cloud.mlp.0.weight": {
+      "shape": [
+        32,
+        3
+      ],
+      "offset_bytes": 110208,
+      "length_bytes": 384,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.target_cloud.mlp.0.bias": {
+      "shape": [
+        32
+      ],
+      "offset_bytes": 110592,
+      "length_bytes": 128,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.target_cloud.mlp.2.weight": {
+      "shape": [
+        16,
+        32
+      ],
+      "offset_bytes": 110720,
+      "length_bytes": 2048,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.target_cloud.mlp.2.bias": {
+      "shape": [
+        16
+      ],
+      "offset_bytes": 112768,
+      "length_bytes": 64,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.goal.0.weight": {
+      "shape": [
+        64,
+        56
+      ],
+      "offset_bytes": 112832,
+      "length_bytes": 14336,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.goal.0.bias": {
+      "shape": [
+        64
+      ],
+      "offset_bytes": 127168,
+      "length_bytes": 256,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.fusion.0.weight": {
+      "shape": [
+        256,
+        288
+      ],
+      "offset_bytes": 127424,
+      "length_bytes": 294912,
+      "dtype": "little_endian_float32"
+    },
+    "features_extractor.fusion.0.bias": {
+      "shape": [
+        256
+      ],
+      "offset_bytes": 422336,
+      "length_bytes": 1024,
+      "dtype": "little_endian_float32"
+    },
+    "mlp_extractor.policy_net.0.weight": {
+      "shape": [
+        128,
+        256
+      ],
+      "offset_bytes": 423360,
+      "length_bytes": 131072,
+      "dtype": "little_endian_float32"
+    },
+    "mlp_extractor.policy_net.0.bias": {
+      "shape": [
+        128
+      ],
+      "offset_bytes": 554432,
+      "length_bytes": 512,
+      "dtype": "little_endian_float32"
+    },
+    "mlp_extractor.policy_net.2.weight": {
+      "shape": [
+        128,
+        128
+      ],
+      "offset_bytes": 554944,
+      "length_bytes": 65536,
+      "dtype": "little_endian_float32"
+    },
+    "mlp_extractor.policy_net.2.bias": {
+      "shape": [
+        128
+      ],
+      "offset_bytes": 620480,
+      "length_bytes": 512,
+      "dtype": "little_endian_float32"
+    },
+    "action_net.weight": {
+      "shape": [
+        14,
+        128
+      ],
+      "offset_bytes": 620992,
+      "length_bytes": 7168,
+      "dtype": "little_endian_float32"
+    },
+    "action_net.bias": {
+      "shape": [
+        14
+      ],
+      "offset_bytes": 628160,
+      "length_bytes": 56,
+      "dtype": "little_endian_float32"
+    }
+  }
+}

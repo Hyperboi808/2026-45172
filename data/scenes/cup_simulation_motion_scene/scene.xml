@@ -1,0 +1,634 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="SO101 RoseWhite updated cup scene">
+  <option integrator="RK4" timestep=".0005" cone="elliptic" iterations="100" ls_iterations="20" impratio="10" />
+  <compiler angle="radian" meshdir="assets" autolimits="true" />
+  <visual>
+    <scale contactwidth="0.1" contactheight="0.05" forcewidth="0.02" framelength="0.75" framewidth="0.025" camera="0.2" />
+    <global offwidth="1200" offheight="900" />
+  </visual>
+  <default>
+    <mesh maxhullvert="128" />
+    <default class="so101">
+      <joint damping="1" frictionloss="0.1" armature="0.005" />
+      <position kp="50" />
+      <default class="visual">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" />
+      </default>
+      <default class="collision">
+        <geom group="3" condim="3" />
+      </default>
+      <default class="collision_gripper">
+        <geom group="3" condim="6" friction="1 5e-3 5e-4" solref="0.01 1" priority="1" rgba="1.0 0 0 1.0" mass="0" />
+      </default>
+      <default class="collision_gripper_mesh">
+        <geom group="4" condim="6" friction="1 5e-3 5e-4" solref="0.01 1" priority="1" rgba="1.0 0 0 1.0" mass="0" />
+      </default>
+    </default>
+    <default class="sts3215">
+      <geom contype="0" conaffinity="0" />
+      <joint damping="0.60" frictionloss="0.052" armature="0.028" />
+      <position kp="998.22" kv="2.731" forcerange="-2.94 2.94" />
+    </default>
+    <default class="backlash">
+      <joint damping="0.01" frictionloss="0" armature="0.01" limited="true" range="-0.0087267 0.0087267" />
+    </default>
+    <default class="nano_cad">
+      <joint damping=".008" armature=".000005" limited="true" />
+      <geom contype="0" conaffinity="0" friction="1 .01 .001" />
+    </default>
+  </default>
+  <asset>
+    <mesh file="000_waveshare_mounting_plate_so101_v2.stl" name="waveshare_mounting_plate_so101_v2" />
+    <mesh file="001_sts3215_03a_v1.stl" name="sts3215_03a_v1" />
+    <mesh file="002_motor_holder_so101_base_v1.stl" name="motor_holder_so101_base_v1" />
+    <mesh file="003_Wrist_Roll_Follower_SO101_trimmed.stl" name="wrist_roll_follower_so101_v1" scale=".001 .001 .001" />
+    <mesh file="004_base_motor_holder_so101_v1.stl" name="base_motor_holder_so101_v1" />
+    <mesh file="006_wrist_roll_pitch_so101_v2.stl" name="wrist_roll_pitch_so101_v2" />
+    <mesh file="008_rotation_pitch_so101_v1.stl" name="rotation_pitch_so101_v1" />
+    <mesh file="009_motor_holder_so101_wrist_v1.stl" name="motor_holder_so101_wrist_v1" />
+    <mesh file="010_sts3215_03a_no_horn_v1.stl" name="sts3215_03a_no_horn_v1" />
+    <mesh file="011_base_so101_v2.stl" name="base_so101_v2" />
+    <material name="base_motor_holder_so101_v1_material" rgba="1 0.82 0.12 1" />
+    <material name="base_so101_v2_material" rgba="1 0.82 0.12 1" />
+    <material name="sts3215_03a_v1_material" rgba="0.1 0.1 0.1 1" />
+    <material name="waveshare_mounting_plate_so101_v2_material" rgba="1 0.82 0.12 1" />
+    <material name="motor_holder_so101_base_v1_material" rgba="1 0.82 0.12 1" />
+    <material name="rotation_pitch_so101_v1_material" rgba="1 0.82 0.12 1" />
+    <material name="motor_holder_so101_wrist_v1_material" rgba="1 0.82 0.12 1" />
+    <material name="sts3215_03a_no_horn_v1_material" rgba="0.1 0.1 0.1 1.0" />
+    <material name="wrist_roll_pitch_so101_v2_material" rgba="1 0.82 0.12 1" />
+    <material name="wrist_roll_follower_so101_v1_material" rgba="1 0.82 0.12 1" />
+    <material name="moving_jaw_so101_v1_material" rgba="1 0.82 0.12 1" />
+    <mesh name="part_000" file="012_part_000.stl" scale=".001 .001 .001" />
+    <mesh name="part_001" file="013_part_001.stl" scale=".001 .001 .001" />
+    <mesh name="part_002" file="014_part_002.stl" scale=".001 .001 .001" />
+    <mesh name="part_003" file="015_part_003.stl" scale=".001 .001 .001" />
+    <mesh name="part_004" file="016_part_004.stl" scale=".001 .001 .001" />
+    <mesh name="part_005" file="017_part_005.stl" scale=".001 .001 .001" />
+    <mesh name="part_006" file="018_part_006.stl" scale=".001 .001 .001" />
+    <mesh name="part_007" file="019_part_007.stl" scale=".001 .001 .001" />
+    <mesh name="part_008" file="020_part_008.stl" scale=".001 .001 .001" />
+    <mesh name="part_009" file="021_part_009.stl" scale=".001 .001 .001" />
+    <mesh name="part_010" file="022_part_010.stl" scale=".001 .001 .001" />
+    <mesh name="part_011" file="023_part_011.stl" scale=".001 .001 .001" />
+    <mesh name="part_012" file="024_part_012.stl" scale=".001 .001 .001" />
+    <mesh name="part_013" file="025_part_013.stl" scale=".001 .001 .001" />
+    <mesh name="part_014" file="026_part_014.stl" scale=".001 .001 .001" />
+    <mesh name="part_015" file="027_part_015.stl" scale=".001 .001 .001" />
+    <mesh name="part_016" file="028_part_016.stl" scale=".001 .001 .001" />
+    <mesh name="part_017" file="029_part_017.stl" scale=".001 .001 .001" />
+    <mesh name="part_018" file="030_part_018.stl" scale=".001 .001 .001" />
+    <mesh name="part_019" file="031_part_019.stl" scale=".001 .001 .001" />
+    <mesh name="part_020" file="032_part_020.stl" scale=".001 .001 .001" />
+    <mesh name="part_021" file="033_part_021.stl" scale=".001 .001 .001" />
+    <mesh name="part_022" file="034_part_022.stl" scale=".001 .001 .001" />
+    <mesh name="part_023" file="035_part_023.stl" scale=".001 .001 .001" />
+    <mesh name="part_024" file="036_part_024.stl" scale=".001 .001 .001" />
+    <mesh name="part_025" file="037_part_025.stl" scale=".001 .001 .001" />
+    <mesh name="part_026" file="038_part_026.stl" scale=".001 .001 .001" />
+    <mesh name="part_027" file="039_part_027.stl" scale=".001 .001 .001" />
+    <mesh name="part_028" file="040_part_028.stl" scale=".001 .001 .001" />
+    <mesh name="part_029" file="041_part_029.stl" scale=".001 .001 .001" />
+    <mesh name="part_030" file="042_part_030.stl" scale=".001 .001 .001" />
+    <mesh name="part_031" file="043_part_031.stl" scale=".001 .001 .001" />
+    <mesh name="part_032" file="044_part_032.stl" scale=".001 .001 .001" />
+    <mesh name="part_033" file="045_part_033.stl" scale=".001 .001 .001" />
+    <mesh name="part_034" file="046_part_034.stl" scale=".001 .001 .001" />
+    <mesh name="part_035" file="047_part_035.stl" scale=".001 .001 .001" />
+    <mesh name="part_036" file="048_part_036.stl" scale=".001 .001 .001" />
+    <mesh name="part_037" file="049_part_037.stl" scale=".001 .001 .001" />
+    <mesh name="part_038" file="050_part_038.stl" scale=".001 .001 .001" />
+    <mesh name="part_039" file="051_part_039.stl" scale=".001 .001 .001" />
+    <mesh name="part_040" file="052_part_040.stl" scale=".001 .001 .001" />
+    <mesh name="part_041" file="053_part_041.stl" scale=".001 .001 .001" />
+    <mesh name="part_042" file="054_part_042.stl" scale=".001 .001 .001" />
+    <mesh name="part_043" file="055_part_043.stl" scale=".001 .001 .001" />
+    <mesh name="part_044" file="056_part_044.stl" scale=".001 .001 .001" />
+    <mesh name="part_045" file="057_part_045.stl" scale=".001 .001 .001" />
+    <mesh name="part_046" file="058_part_046.stl" scale=".001 .001 .001" />
+    <mesh name="part_047" file="059_part_047.stl" scale=".001 .001 .001" />
+    <mesh name="part_048" file="060_part_048.stl" scale=".001 .001 .001" />
+    <mesh name="part_049" file="061_part_049.stl" scale=".001 .001 .001" />
+    <mesh name="part_050" file="062_part_050.stl" scale=".001 .001 .001" />
+    <mesh name="part_051" file="063_part_051.stl" scale=".001 .001 .001" />
+    <mesh name="part_052" file="064_part_052.stl" scale=".001 .001 .001" />
+    <mesh name="part_053" file="065_part_053.stl" scale=".001 .001 .001" />
+    <mesh name="part_054" file="066_part_054.stl" scale=".001 .001 .001" />
+    <mesh name="part_055" file="067_part_055.stl" scale=".001 .001 .001" />
+    <mesh name="part_056" file="068_part_056.stl" scale=".001 .001 .001" />
+    <mesh name="part_057" file="069_part_057.stl" scale=".001 .001 .001" />
+    <mesh name="part_058" file="070_part_058.stl" scale=".001 .001 .001" />
+    <mesh name="part_059" file="071_part_059.stl" scale=".001 .001 .001" />
+    <mesh name="wrist_bracket_fore" file="072_Wrist_Bracket_05-1.STL" scale=".001 .001 .001" />
+    <mesh name="wrist_bracket_little" file="073_Wrist_Bracket_05-2.STL" scale=".001 .001 .001" />
+  <mesh name="papercup_mesh" file="papercup_collision.stl" />
+  <mesh name="floor_collision_mesh" file="floor_collision.stl" /></asset>
+  <worldbody>
+    <body name="base" pos="0 0 0" quat="1 0 0 0" childclass="so101">
+      <inertial pos="0.0137179 -5.19711e-05 0.0334843" mass="0.147" fullinertia="0.000114686 0.000136117 0.000130364 -4.59787e-07 4.97151e-06 9.75275e-08" />
+      <geom type="mesh" class="visual" pos="-0.006365 -9.9e-05 -0.0024" quat="1 1 1 1" mesh="base_motor_holder_so101_v1" rgba="0.97 0.97 0.97 1" />
+      <geom type="mesh" class="visual" pos="-0.006365 0 -0.0024" quat="1 1 1 1" mesh="base_so101_v2" rgba="0.97 0.97 0.97 1" />
+      <geom type="mesh" class="visual" pos="0.0263353 0 0.0437" quat="1 0 0 0" mesh="sts3215_03a_v1" material="sts3215_03a_v1_material" />
+      <geom type="mesh" class="visual" pos="-0.0309827 -0.000199 0.0474" quat="1 1 1 1" mesh="waveshare_mounting_plate_so101_v2" rgba="0.97 0.97 0.97 1" />
+      <site group="3" name="baseframe" pos="0 0 0" quat="1 0 0 0" />
+      <body name="shoulder" pos="0.0388353 0 0.0624" quat="0 0 -1 0">
+        <joint axis="0 0 1" name="shoulder_pan" type="hinge" range="-1.91986 1.91986" class="sts3215" />
+        <inertial pos="-0.0307604 -1.7e-05 -0.0252713" mass="0.100006" fullinertia="8.3759e-05 8.10403e-05 2.39783e-05 7.55525e-08 -1.16342e-06 1.54663e-07" />
+        <geom type="mesh" class="visual" pos="-0.030399 0.000422 -0.0417" quat="1 1 1 -1" mesh="sts3215_03a_no_horn_v1" material="sts3215_03a_no_horn_v1_material" />
+        <geom type="box" class="collision" pos="-0.030399 0.000422 -0.0387" quat="1 1 1 -1" size="0.023 0.015 0.01" />
+        <geom type="mesh" class="visual" pos="-0.067599 -0.0001778 0.01585" quat="1 1 -1 1" mesh="motor_holder_so101_base_v1" rgba="0.97 0.97 0.97 1" />
+        <geom type="box" class="collision" pos="-0.025 0 0.0" quat="1 1 -1 1" size="0.038 0.025 0.02" />
+        <geom type="mesh" class="visual" pos="0.012201 2.2e-05 0.0464" quat="1 -1 0 0" mesh="rotation_pitch_so101_v1" rgba="0.97 0.97 0.97 1" />
+        <body name="servo_connection" pos="-0.0303992 -0.0182778 -0.0542" quat="1 -1 -1 -1">
+          <joint axis="0 0 1" name="shoulder_lift" type="hinge" range="-3.17 0.5" class="sts3215" />
+          <inertial pos="-0.089847 -0.008382 0.018409" mass="0.103" fullinertia="4.08002e-05 0.000147318 0.000142487 -1.97819e-05 -4.03016e-08 8.97326e-09" />
+          
+          <geom name="shoulder_lift_output_hub" type="cylinder" pos="0 0 0" size="0.008 0.0025" rgba="0.78 0.78 0.82 1" contype="0" conaffinity="0" group="2" mass="0" />
+          <geom name="shoulder_lift_output_horn" type="box" pos="0 0 0.0015" size="0.014 0.003 0.002" rgba="0.78 0.78 0.82 1" contype="0" conaffinity="0" group="2" mass="0" />
+<body name="wrist" pos="0 0 0" quat="0.999070652559 -6.68142057815e-17 -1.33537992672e-16 -0.0431025659963">
+          <inertial pos="-0.000103312 -0.0386143 0.0281156" mass="0.079" fullinertia="3.68263e-05 2.5391e-05 2.1e-05 1.7893e-08 -5.28128e-08 3.6412e-06" />
+          <geom type="mesh" class="visual" pos="0 -0.028 0.0181" quat="1 -1 -1 -1" mesh="wrist_roll_pitch_so101_v2" rgba="0.97 0.97 0.97 1" />
+          <geom type="box" class="collision" pos="0 -0.02 0.0191" quat="1 -1 -1 -1" size="0.027 0.01 0.03" />
+          
+          <body name="gripper" pos="5.55112e-17 -0.0611 0.0181" quat="0.0172091 -0.0172091 0.706897 0.706897">
+            <joint axis="0 0 1" name="wrist_roll" type="hinge" range="-3.141592653589793 3.141592653589793" class="sts3215" />
+            <inertial pos="0.000214 0.000245 -0.025187" mass="0.087" fullinertia="2.75087e-05 4.33657e-05 3.45059e-05 -3.35241e-07 -5.7352e-06 -5.17847e-08" />
+            <geom type="mesh" class="visual" pos="0.0077 0.0001 -0.0234" quat="1 -1 0 0" mesh="sts3215_03a_v1" material="sts3215_03a_v1_material" />
+            <geom type="mesh" class="visual" pos="0 -0.000218 0.00095" quat="0 1 0 0" mesh="wrist_roll_follower_so101_v1" rgba="0.97 0.97 0.97 1" />
+            <geom type="box" class="collision" pos="0 -0.000218 0.00095" quat="0 1 0 0" size="0.01 0.01 0.018" />
+            <geom name="retained_servo_collision" type="box" size=".025 .014 .014" pos="0 0 -.023" class="collision" />
+            <body name="original_jaw_mount_reference" pos=".0202 .0188 -.0234" quat="1 1 0 0">
+              <site name="original_jaw_mount_axis" pos="0 0 0" size=".001" rgba="1 0 0 1" group="5" />
+              <geom name="mount_hole_marker_0" type="capsule" fromto="0.005 0.0 0 0.004957224306869052 0.0006526309611002578 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_1" type="capsule" fromto="0.004957224306869052 0.0006526309611002578 0 0.004829629131445342 0.0012940952255126037 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_2" type="capsule" fromto="0.004829629131445342 0.0012940952255126037 0 0.004619397662556434 0.001913417161825449 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_3" type="capsule" fromto="0.004619397662556434 0.001913417161825449 0 0.004330127018922193 0.0024999999999999996 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_4" type="capsule" fromto="0.004330127018922193 0.0024999999999999996 0 0.003966766701456176 0.0030438071450436034 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_5" type="capsule" fromto="0.003966766701456176 0.0030438071450436034 0 0.003535533905932738 0.003535533905932738 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_6" type="capsule" fromto="0.003535533905932738 0.003535533905932738 0 0.0030438071450436034 0.003966766701456176 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_7" type="capsule" fromto="0.0030438071450436034 0.003966766701456176 0 0.0025000000000000005 0.004330127018922193 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_8" type="capsule" fromto="0.0025000000000000005 0.004330127018922193 0 0.0019134171618254492 0.004619397662556434 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_9" type="capsule" fromto="0.0019134171618254492 0.004619397662556434 0 0.0012940952255126037 0.004829629131445342 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_10" type="capsule" fromto="0.0012940952255126037 0.004829629131445342 0 0.0006526309611002586 0.004957224306869052 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_11" type="capsule" fromto="0.0006526309611002586 0.004957224306869052 0 3.061616997868383e-19 0.005 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_12" type="capsule" fromto="3.061616997868383e-19 0.005 0 -0.000652630961100258 0.004957224306869052 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_13" type="capsule" fromto="-0.000652630961100258 0.004957224306869052 0 -0.0012940952255126033 0.004829629131445342 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_14" type="capsule" fromto="-0.0012940952255126033 0.004829629131445342 0 -0.0019134171618254475 0.004619397662556434 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_15" type="capsule" fromto="-0.0019134171618254475 0.004619397662556434 0 -0.0024999999999999988 0.004330127018922193 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_16" type="capsule" fromto="-0.0024999999999999988 0.004330127018922193 0 -0.0030438071450436034 0.003966766701456176 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_17" type="capsule" fromto="-0.0030438071450436034 0.003966766701456176 0 -0.0035355339059327372 0.003535533905932738 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_18" type="capsule" fromto="-0.0035355339059327372 0.003535533905932738 0 -0.003966766701456175 0.0030438071450436047 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_19" type="capsule" fromto="-0.003966766701456175 0.0030438071450436047 0 -0.004330127018922193 0.0024999999999999996 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_20" type="capsule" fromto="-0.004330127018922193 0.0024999999999999996 0 -0.004619397662556434 0.0019134171618254495 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_21" type="capsule" fromto="-0.004619397662556434 0.0019134171618254495 0 -0.004829629131445341 0.0012940952255126052 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_22" type="capsule" fromto="-0.004829629131445341 0.0012940952255126052 0 -0.004957224306869052 0.00065263096110026 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_23" type="capsule" fromto="-0.004957224306869052 0.00065263096110026 0 -0.005 6.123233995736766e-19 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_24" type="capsule" fromto="-0.005 6.123233995736766e-19 0 -0.004957224306869052 -0.0006526309611002588 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_25" type="capsule" fromto="-0.004957224306869052 -0.0006526309611002588 0 -0.004829629131445342 -0.001294095225512604 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_26" type="capsule" fromto="-0.004829629131445342 -0.001294095225512604 0 -0.004619397662556434 -0.0019134171618254484 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_27" type="capsule" fromto="-0.004619397662556434 -0.0019134171618254484 0 -0.004330127018922194 -0.0024999999999999988 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_28" type="capsule" fromto="-0.004330127018922194 -0.0024999999999999988 0 -0.003966766701456176 -0.0030438071450436034 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_29" type="capsule" fromto="-0.003966766701456176 -0.0030438071450436034 0 -0.0035355339059327394 -0.0035355339059327355 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_30" type="capsule" fromto="-0.0035355339059327394 -0.0035355339059327355 0 -0.0030438071450436047 -0.0039667667014561744 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_31" type="capsule" fromto="-0.0030438071450436047 -0.0039667667014561744 0 -0.0025000000000000022 -0.004330127018922192 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_32" type="capsule" fromto="-0.0025000000000000022 -0.004330127018922192 0 -0.0019134171618254475 -0.004619397662556434 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_33" type="capsule" fromto="-0.0019134171618254475 -0.004619397662556434 0 -0.0012940952255126033 -0.004829629131445342 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_34" type="capsule" fromto="-0.0012940952255126033 -0.004829629131445342 0 -0.0006526309611002582 -0.004957224306869052 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_35" type="capsule" fromto="-0.0006526309611002582 -0.004957224306869052 0 -9.184850993605148e-19 -0.005 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_36" type="capsule" fromto="-9.184850993605148e-19 -0.005 0 0.0006526309611002563 -0.004957224306869052 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_37" type="capsule" fromto="0.0006526309611002563 -0.004957224306869052 0 0.0012940952255126015 -0.004829629131445342 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_38" type="capsule" fromto="0.0012940952255126015 -0.004829629131445342 0 0.001913417161825446 -0.004619397662556435 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_39" type="capsule" fromto="0.001913417161825446 -0.004619397662556435 0 0.0025000000000000005 -0.004330127018922193 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_40" type="capsule" fromto="0.0025000000000000005 -0.004330127018922193 0 0.0030438071450435995 -0.003966766701456179 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_41" type="capsule" fromto="0.0030438071450435995 -0.003966766701456179 0 0.003535533905932737 -0.0035355339059327385 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_42" type="capsule" fromto="0.003535533905932737 -0.0035355339059327385 0 0.0039667667014561744 -0.003043807145043605 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_43" type="capsule" fromto="0.0039667667014561744 -0.003043807145043605 0 0.004330127018922192 -0.0025000000000000022 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_44" type="capsule" fromto="0.004330127018922192 -0.0025000000000000022 0 0.004619397662556434 -0.001913417161825448 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_45" type="capsule" fromto="0.004619397662556434 -0.001913417161825448 0 0.004829629131445341 -0.0012940952255126078 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_46" type="capsule" fromto="0.004829629131445341 -0.0012940952255126078 0 0.004957224306869052 -0.0006526309611002585 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="mount_hole_marker_47" type="capsule" fromto="0.004957224306869052 -0.0006526309611002585 0 0.005 -1.2246467991473532e-18 0" size=".00045" rgba="1 .02 .06 1" contype="0" conaffinity="0" mass="0" group="2" />
+            </body>
+            
+            <body name="nano_servo_mount" pos=".0202 -.0188 -.0234" quat="0 1 0 0">
+              <joint name="nano_mount_pitch" type="hinge" axis="0 -1 0" range="-.7853981634 2.0" class="sts3215" />
+              <body name="palm" pos="0.0126488395352 -0.0250133266383 -0.0103182860394" quat="0.682196460702 -0.294542371608 0.269744773257 -0.612446354903" childclass="nano_cad">
+                <geom name="cad_part_000" type="mesh" mesh="part_000" pos="-0.03 0.105 -0" rgba=".97 .97 .97 1" group="2" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                <geom name="cad_part_059" type="mesh" mesh="part_059" pos="-0.03 0.105 -0" rgba="0.95 0.015 0.32 1" group="2" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                <geom name="wrist_bracket_fore" type="mesh" mesh="wrist_bracket_fore" pos="-0.04077036495 0.02859531635 -0.0243070025" quat="-0.4944429529 -0.4494868887 -0.5065978539 0.5448360466" rgba="0.97 0.97 0.97 1" group="2" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                <geom name="wrist_bracket_little" type="mesh" mesh="wrist_bracket_little" pos="-0.07333478324 -0.03769951241 0.001219385424" quat="0.01051535232 0.1024851208 0.7100919512 0.6965311538" rgba="0.97 0.97 0.97 1" group="2" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                <body name="SCS0009_ID07">
+                  <geom name="cad_part_031" type="mesh" mesh="part_031" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="0" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                  <site name="servo_ID7" pos="-0.02975359327 0.07473427572 -0.001411680312" size=".001" rgba="1 .55 .1 1" group="4" />
+                </body>
+                <body name="SCS0009_ID08">
+                  <geom name="cad_part_033" type="mesh" mesh="part_033" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="0" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                  <site name="servo_ID8" pos="-0.02950027213 0.04623865392 -0.003055360739" size=".001" rgba="1 .55 .1 1" group="4" />
+                </body>
+                <body name="SCS0009_ID05">
+                  <geom name="cad_part_034" type="mesh" mesh="part_034" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="0" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                  <site name="servo_ID5" pos="-0.009123214376 0.07860246435 0.002098487121" size=".001" rgba="1 .55 .1 1" group="4" />
+                </body>
+                <body name="SCS0009_ID06">
+                  <geom name="cad_part_036" type="mesh" mesh="part_036" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="0" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                  <site name="servo_ID6" pos="-0.01929943704 0.02217146709 -0.00582522929" size=".001" rgba="1 .55 .1 1" group="4" />
+                </body>
+                <body name="SCS0009_ID03">
+                  <geom name="cad_part_037" type="mesh" mesh="part_037" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="0" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                  <site name="servo_ID3" pos="0.0102238497 0.07171828063 -0.002774715089" size=".001" rgba="1 .55 .1 1" group="4" />
+                </body>
+                <body name="SCS0009_ID04">
+                  <geom name="cad_part_039" type="mesh" mesh="part_039" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="0" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                  <site name="servo_ID4" pos="0.005334456412 0.04361594238 -0.004006761525" size=".001" rgba="1 .55 .1 1" group="4" />
+                </body>
+                <body name="SCS0009_ID01">
+                  <geom name="cad_part_040" type="mesh" mesh="part_040" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="0" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                  <site name="servo_ID1" pos="0.02764745244 0.05867077584 -0.008126299209" size=".001" rgba="1 .55 .1 1" group="4" />
+                </body>
+                <body name="SCS0009_ID02">
+                  <geom name="cad_part_042" type="mesh" mesh="part_042" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="0" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                  <site name="servo_ID2" pos="0.01876208993 0.02649858358 -0.009622928362" size=".001" rgba="1 .55 .1 1" group="4" />
+                </body>
+                <body name="SCS0009_ID09">
+                  <geom name="cad_part_043" type="mesh" mesh="part_043" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="0" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                  <site name="servo_ID9" pos="-0.01213735611 0.01817312423 -0.02668956599" size=".001" rgba="1 .55 .1 1" group="4" />
+                </body>
+                <body name="SCS0009_ID10">
+                  <geom name="cad_part_044" type="mesh" mesh="part_044" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="0" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                  <site name="servo_ID10" pos="-0.01310025889 0.04262568597 -0.008237261613" size=".001" rgba="1 .55 .1 1" group="4" />
+                </body>
+                <inertial pos="0.001094118093 0.05585449143 -0.01051593223" mass="0.22" diaginertia="0.0003153855194 0.0001957446048 0.0003783693567" />
+                <body name="index_spread" pos="-0.03001975049 0.1044814443 -0.004004963505">
+                  <joint name="index_spread" axis="0.0002278288163 -0.001998212963 0.9999979776" range="-.20 .20" />
+                  <inertial pos="0.000463072583 -0.003148339669 -0.002593693275" mass="0.004" diaginertia="3.552021072e-07 1.469834146e-07 3.31052458e-07" />
+                  <geom name="cad_part_001" type="mesh" mesh="part_001" pos="1.975048733e-05 0.0005185556752 0.004004963505" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                  <body name="index_curl" pos="-0.0001798948579 0.002550844339 -0.00259486719">
+                    <joint name="index_curl" axis="-0.9940092802 -0.1092957038 8.067881888e-06" range="-.15 1.15" />
+                    <inertial pos="-0.00284015793 0.02112785671 0.001439307342" mass="0.008" diaginertia="3.15461766e-06 8.503310654e-07 3.166692778e-06" />
+                    <geom name="cad_part_002" type="mesh" mesh="part_002" pos="0.0001996453452 -0.002032288664 0.006599830694" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                    <body name="index_pip" pos="-0.003912659854 0.04473364504 -0.003097110709">
+                      <joint name="index_pip" axis="-0.9940092802 -0.1092957038 8.067881888e-06" range="-1.7 1.7" />
+                      <inertial pos="-0.002687226549 0.01456088947 -0.0006376487162" mass="0.006" diaginertia="1.394671826e-06 5.255956377e-07 1.38968076e-06" />
+                      <geom name="cad_part_003" type="mesh" mesh="part_003" pos="0.0041123052 -0.0467659337 0.009696941404" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                      <body name="index_dip" pos="-0.003458972342 0.03145789055 -0.004736726421">
+                        <joint name="index_dip" axis="-0.9940092802 -0.1092957038 8.067881888e-06" range="-1.7 1.7" />
+                        <inertial pos="-0.001501489797 0.009311160752 -0.001402907663" mass="0.004" diaginertia="5.153304163e-07 2.643853828e-07 5.091596268e-07" />
+                        <geom name="cad_part_004" type="mesh" mesh="part_004" pos="0.007571277542 -0.07822382425 0.01443366782" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                        <site name="index_tip" pos="-0.001501489797 0.009311160752 -0.001402907663" size=".002" rgba="1 0 0 1" />
+                      </body>
+                    </body>
+                    <body name="index_short_link" pos="-0.008358961913 0.04765863972 -0.0001416405114">
+                      <joint name="index_short_link" axis="-0.9940092802 -0.1092957038 8.067881888e-06" range="-2.5 2.5" />
+                      <inertial pos="0.001317345425 0.01546720877 -0.005806894723" mass="0.001" diaginertia="1.387748271e-07 3.283673744e-08 1.199040041e-07" />
+                      <geom name="cad_part_005" type="mesh" mesh="part_005" pos="0.008558607258 -0.04969092839 0.006741471206" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                    </body>
+                  </body>
+                  <body name="index_long_link" pos="-0.001963064687 0.007789189035 0.002462805811">
+                    <joint name="index_long_link" axis="-0.9940092802 -0.1092957038 8.067881888e-06" range="-2.5 2.5" />
+                    <inertial pos="-0.001262918291 0.0215498519 -0.005798667421" mass="0.0015" diaginertia="3.447308741e-07 5.476158178e-08 3.220756137e-07" />
+                    <geom name="cad_part_006" type="mesh" mesh="part_006" pos="0.001982815174 -0.00727063336 0.001542157694" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                  </body>
+                </body>
+                <body name="index_winch" pos="-0.02950027213 0.04623865392 -0.003055360739">
+                  <joint name="index_winch" axis="0 0 1" range="-1.2 1.2" />
+                  <geom name="index_winch_drum" type="cylinder" size=".005 .004" rgba=".92 .68 .20 1" mass=".002" />
+                </body>
+                <body name="middle_spread" pos="-0.007316296818 0.1082886306 -0.001911698411">
+                  <joint name="middle_spread" axis="0.06870842072 -0.03927213357 0.9968635074" range="-.20 .20" />
+                  <inertial pos="-0.0003753916286 -0.002937811573 -0.002457353497" mass="0.004" diaginertia="3.808951903e-07 1.61855733e-07 3.287018277e-07" />
+                  <geom name="cad_part_007" type="mesh" mesh="part_007" pos="-0.02268370318 -0.003288630571 0.001911698411" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                  <body name="middle_curl" pos="-2.070521273e-05 0.002647806569 -0.00250244316">
+                    <joint name="middle_curl" axis="-0.997418553 0.01819492582 0.06946347881" range="-.15 1.15" />
+                    <inertial pos="0.0006078118212 0.02244084704 0.002014970243" mass="0.008" diaginertia="3.401830462e-06 7.814737359e-07 3.288003268e-06" />
+                    <geom name="cad_part_008" type="mesh" mesh="part_008" pos="-0.02266299797 -0.00593643714 0.004414141571" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                    <body name="middle_pip" pos="0.001805376135 0.0472015176 -0.001556392906">
+                      <joint name="middle_pip" axis="-0.997418553 0.01819492582 0.06946347881" range="-1.7 1.7" />
+                      <inertial pos="-0.001122955504 0.01566185757 -4.298319243e-05" mass="0.006" diaginertia="1.49374558e-06 4.932276742e-07 1.436010838e-06" />
+                      <geom name="cad_part_009" type="mesh" mesh="part_009" pos="-0.02446837411 -0.05313795473 0.005970534477" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                      <body name="middle_dip" pos="0.0003589472563 0.03340510145 -0.003595885219">
+                        <joint name="middle_dip" axis="-0.997418553 0.01819492582 0.06946347881" range="-1.7 1.7" />
+                        <inertial pos="-0.001244610149 0.009894704118 -0.001004090208" mass="0.004" diaginertia="5.420608547e-07 2.741766167e-07 5.327325322e-07" />
+                        <geom name="cad_part_010" type="mesh" mesh="part_010" pos="-0.02482732136 -0.08654305618 0.009566419696" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                        <site name="middle_tip" pos="-0.001244610149 0.009894704118 -0.001004090208" size=".002" rgba="1 0 0 1" />
+                      </body>
+                    </body>
+                    <body name="middle_short_link" pos="-0.002201058604 0.05071975083 0.001969109572">
+                      <joint name="middle_short_link" axis="-0.997418553 0.01819492582 0.06946347881" range="-2.5 2.5" />
+                      <inertial pos="0.003235168205 0.01618011503 -0.0052826141" mass="0.001" diaginertia="1.534526876e-07 3.094663984e-08 1.293476866e-07" />
+                      <geom name="cad_part_011" type="mesh" mesh="part_011" pos="-0.02046193937 -0.05665618797 0.002445031999" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                    </body>
+                  </body>
+                  <body name="middle_long_link" pos="-0.0007947851738 0.00813991791 0.003083077846">
+                    <joint name="middle_long_link" axis="-0.997418553 0.01819492582 0.06946347881" range="-2.5 2.5" />
+                    <inertial pos="0.001067520021 0.02283290362 -0.005294413131" mass="0.0015" diaginertia="3.76348949e-07 4.310575028e-08 3.459174853e-07" />
+                    <geom name="cad_part_012" type="mesh" mesh="part_012" pos="-0.02188891801 -0.01142854848 -0.001171379435" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                  </body>
+                </body>
+                <body name="middle_winch" pos="-0.01929943704 0.02217146709 -0.00582522929">
+                  <joint name="middle_winch" axis="0 0 1" range="-1.2 1.2" />
+                  <geom name="middle_winch_drum" type="cylinder" size=".005 .004" rgba=".92 .68 .20 1" mass=".002" />
+                </body>
+                <body name="ring_spread" pos="0.01400674249 0.1010799603 -0.007173475858">
+                  <joint name="ring_spread" axis="0.1418211806 -0.01293770632 0.9898077432" range="-.20 .20" />
+                  <inertial pos="-0.0008631442703 -0.00289734965 -0.002604967827" mass="0.004" diaginertia="3.745851654e-07 1.949667284e-07 3.662986611e-07" />
+                  <geom name="cad_part_013" type="mesh" mesh="part_013" pos="-0.04400674249 0.003920039723 0.007173475858" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                  <body name="ring_curl" pos="0.0001772788203 0.00252608351 -0.002619155268">
+                    <joint name="ring_curl" axis="-0.9741346394 0.1758788082 0.1418744135" range="-.15 1.15" />
+                    <inertial pos="0.003208911638 0.02096074387 -0.000540928566" mass="0.008" diaginertia="3.30716755e-06 1.04977009e-06 3.236433264e-06" />
+                    <geom name="cad_part_014" type="mesh" mesh="part_014" pos="-0.04418402131 0.001393956212 0.009792631126" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                    <body name="ring_pip" pos="0.008022508871 0.04383856137 -0.006310300196">
+                      <joint name="ring_pip" axis="-0.9741346394 0.1758788082 0.1418744135" range="-1.7 1.7" />
+                      <inertial pos="0.0004194502669 0.01424107622 -0.003663736009" mass="0.006" diaginertia="1.502750165e-06 6.936169458e-07 1.353352231e-06" />
+                      <geom name="cad_part_015" type="mesh" mesh="part_015" pos="-0.05220653018 -0.04244460516 0.01610293132" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                      <body name="ring_dip" pos="0.003783950855 0.02981721099 -0.0109825154">
+                        <joint name="ring_dip" axis="-0.9741346394 0.1758788082 0.1418744135" range="-1.7 1.7" />
+                        <inertial pos="-0.001251480248 0.008157990708 -0.005102950879" mass="0.004" diaginertia="5.447861559e-07 3.47695506e-07 4.557115862e-07" />
+                        <geom name="cad_part_016" type="mesh" mesh="part_016" pos="-0.05599048103 -0.07226181615 0.02708544672" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                        <site name="ring_tip" pos="-0.001251480248 0.008157990708 -0.005102950879" size=".002" rgba="1 0 0 1" />
+                      </body>
+                    </body>
+                    <body name="ring_short_link" pos="0.005045220306 0.04802613763 -0.003045341111">
+                      <joint name="ring_short_link" axis="-0.9741346394 0.1758788082 0.1418744135" range="-2.5 2.5" />
+                      <inertial pos="0.004045669322 0.01298736818 -0.009465997941" mass="0.001" diaginertia="1.494378071e-07 5.897414526e-08 1.038600525e-07" />
+                      <geom name="cad_part_017" type="mesh" mesh="part_017" pos="-0.04922924161 -0.04663218142 0.01283797224" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                    </body>
+                  </body>
+                  <body name="ring_long_link" pos="0.0006761501594 0.007999038013 0.002479657966">
+                    <joint name="ring_long_link" axis="-0.9741346394 0.1758788082 0.1418744135" range="-2.5 2.5" />
+                    <inertial pos="0.003728288997 0.02063406323 -0.007735389192" mass="0.0015" diaginertia="3.596296785e-07 8.176844074e-08 3.184365377e-07" />
+                    <geom name="cad_part_018" type="mesh" mesh="part_018" pos="-0.04468289264 -0.004078998291 0.004693817892" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                  </body>
+                </body>
+                <body name="ring_winch" pos="0.005334456412 0.04361594238 -0.004006761525">
+                  <joint name="ring_winch" axis="0 0 1" range="-1.2 1.2" />
+                  <geom name="ring_winch_drum" type="cylinder" size=".005 .004" rgba=".92 .68 .20 1" mass=".002" />
+                </body>
+                <body name="little_spread" pos="0.03319809019 0.08748742952 -0.01432538323">
+                  <joint name="little_spread" axis="0.2194829207 0.02405209889 0.9753198163" range="-.20 .20" />
+                  <inertial pos="-0.001574400955 -0.003322558381 -0.002732875778" mass="0.004" diaginertia="3.549858825e-07 2.034613413e-07 3.703672462e-07" />
+                  <geom name="cad_part_019" type="mesh" mesh="part_019" pos="-0.06319809019 0.01751257048 0.01432538323" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                  <body name="little_curl" pos="0.0004696605873 0.002292558704 -0.002828019364">
+                    <joint name="little_curl" axis="-0.9463278279 0.2483614059 0.2068338807" range="-.15 1.15" />
+                    <inertial pos="0.004113928143 0.01856452474 -0.0005098689377" mass="0.008" diaginertia="2.697999499e-06 9.966446785e-07 2.714499664e-06" />
+                    <geom name="cad_part_020" type="mesh" mesh="part_020" pos="-0.06366775078 0.01522001178 0.01715340259" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                    <body name="little_pip" pos="0.009700379555 0.03884180758 -0.006174359931">
+                      <joint name="little_pip" axis="-0.9463278279 0.2483614059 0.2068338807" range="-1.7 1.7" />
+                      <inertial pos="0.001518841351 0.01309130685 -0.001923582852" mass="0.006" diaginertia="1.204457583e-06 5.577760877e-07 1.184070814e-06" />
+                      <geom name="cad_part_021" type="mesh" mesh="part_021" pos="-0.07336813033 -0.0236217958 0.02332776252" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                      <body name="little_dip" pos="0.005483441396 0.02749878728 -0.006577763182">
+                        <joint name="little_dip" axis="-0.9463278279 0.2483614059 0.2068338807" range="-1.7 1.7" />
+                        <inertial pos="7.025384857e-05 0.008762964478 -0.002165780616" mass="0.004" diaginertia="4.561634522e-07 2.580342242e-07 4.491436556e-07" />
+                        <geom name="cad_part_022" type="mesh" mesh="part_022" pos="-0.07885157173 -0.05112058308 0.02990552571" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                        <site name="little_tip" pos="7.025384857e-05 0.008762964478 -0.002165780616" size=".002" rgba="1 0 0 1" />
+                      </body>
+                    </body>
+                    <body name="little_short_link" pos="0.007251685422 0.04285984667 -0.003008501606">
+                      <joint name="little_short_link" axis="-0.9463278279 0.2483614059 0.2068338807" range="-2.5 2.5" />
+                      <inertial pos="0.004611955382 0.01241572617 -0.006861378236" mass="0.001" diaginertia="1.180096984e-07 3.84524546e-08 9.719732313e-08" />
+                      <geom name="cad_part_023" type="mesh" mesh="part_023" pos="-0.0709194362 -0.02763983489 0.0201619042" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                    </body>
+                  </body>
+                  <body name="little_long_link" pos="0.00125003577 0.007478675847 0.001525519835">
+                    <joint name="little_long_link" axis="-0.9463278279 0.2483614059 0.2068338807" range="-2.5 2.5" />
+                    <inertial pos="0.004367318974 0.0183898735 -0.006886779644" mass="0.0015" diaginertia="2.891088706e-07 7.234523215e-08 2.637985762e-07" />
+                    <geom name="cad_part_024" type="mesh" mesh="part_024" pos="-0.06444812596 0.01003389464 0.01279986339" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                  </body>
+                </body>
+                <body name="little_winch" pos="0.01876208993 0.02649858358 -0.009622928362">
+                  <joint name="little_winch" axis="0 0 1" range="-1.2 1.2" />
+                  <geom name="little_winch_drum" type="cylinder" size=".005 .004" rgba=".92 .68 .20 1" mass=".002" />
+                </body>
+                <body name="thumb_spread" pos="-0.01728030905 0.03360934063 -0.03156098247">
+                  <joint name="thumb_spread" axis="-0.001690288301 0.9875118258 -0.1575358274" range="-.20 1.60" />
+                  <inertial pos="-0.0001217076805 0.007960673952 -0.00785440041" mass="0.004" diaginertia="4.077590962e-07 2.796893401e-07 3.028224952e-07" />
+                  <geom name="cad_part_025" type="mesh" mesh="part_025" pos="-0.01271969095 0.07139065937 0.03156098247" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                  <geom name="cad_part_030" type="mesh" mesh="part_030" pos="-0.01271969095 0.07139065937 0.03156098247" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                  <body name="thumb_curl" pos="-0.000408042129 0.009282149227 -0.009572921829">
+                    <joint name="thumb_curl" axis="0.9981224779 -0.007979315796 -0.06072766823" range="-.15 1.15" />
+                    <inertial pos="-0.001914661257 0.01038726573 -0.01589212375" mass="0.008" diaginertia="3.552621818e-06 2.574663666e-06 1.717175632e-06" />
+                    <geom name="cad_part_026" type="mesh" mesh="part_026" pos="-0.01231164882 0.06210851014 0.0411339043" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                    <body name="thumb_pip" pos="-0.007099356283 0.02485537839 -0.03596969983">
+                      <joint name="thumb_pip" axis="0.9981224779 -0.007979315796 -0.06072766823" range="-1.7 1.7" />
+                      <inertial pos="0.00382811496 0.01344079995 -0.01233966106" mass="0.006" diaginertia="1.984986927e-06 1.211553998e-06 1.359783223e-06" />
+                      <geom name="cad_part_027" type="mesh" mesh="part_027" pos="-0.005212292535 0.03725313175 0.07710360413" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                      <body name="thumb_dip" pos="0.002717589094 0.0299959995 -0.02349605762">
+                        <joint name="thumb_dip" axis="0.9981224779 -0.007979315796 -0.06072766823" range="-1.7 1.7" />
+                        <inertial pos="0.0006669185089 0.01223042243 -0.007600771523" mass="0.004" diaginertia="7.90038009e-07 4.720126124e-07 6.928031346e-07" />
+                        <geom name="cad_part_028" type="mesh" mesh="part_028" pos="-0.00792988163 0.007257132255 0.1005996617" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                        <site name="thumb_tip" pos="0.0006669185089 0.01223042243 -0.007600771523" size=".002" rgba="1 0 0 1" />
+                      </body>
+                    </body>
+                  </body>
+                  <body name="thumb_long_link" pos="-0.005009243016 0.01052478607 -0.01620050088">
+                    <joint name="thumb_long_link" axis="0.9981224779 -0.007979315796 -0.06072766823" range="-2.5 2.5" />
+                    <inertial pos="0.003304865021 0.01426701218 -0.01507024654" mass="0.0015" diaginertia="3.120154072e-07 1.698251776e-07 1.57915845e-07" />
+                    <geom name="cad_part_029" type="mesh" mesh="part_029" pos="-0.007710447931 0.0608658733 0.04776148335" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                  </body>
+                </body>
+                <body name="thumb_winch" pos="-0.01310025889 0.04262568597 -0.008237261613">
+                  <joint name="thumb_winch" axis="0 0 1" range="-1.2 1.2" />
+                  <geom name="thumb_winch_drum" type="cylinder" size=".005 .004" rgba=".92 .68 .20 1" mass=".002" />
+                </body>
+                <geom name="cad_part_032" type="mesh" mesh="part_032" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                <geom name="cad_part_035" type="mesh" mesh="part_035" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                <geom name="cad_part_038" type="mesh" mesh="part_038" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                <geom name="cad_part_041" type="mesh" mesh="part_041" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                <geom name="cad_part_045" type="mesh" mesh="part_045" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                <geom name="cad_part_046" type="mesh" mesh="part_046" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                <geom name="cad_part_047" type="mesh" mesh="part_047" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                <geom name="cad_part_048" type="mesh" mesh="part_048" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                <geom name="cad_part_049" type="mesh" mesh="part_049" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                <geom name="cad_part_050" type="mesh" mesh="part_050" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                <geom name="cad_part_051" type="mesh" mesh="part_051" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                <geom name="cad_part_052" type="mesh" mesh="part_052" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                <geom name="cad_part_053" type="mesh" mesh="part_053" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                <geom name="cad_part_054" type="mesh" mesh="part_054" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                <geom name="cad_part_055" type="mesh" mesh="part_055" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                <geom name="cad_part_056" type="mesh" mesh="part_056" pos="-0.03 0.105 -0" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                <geom name="cad_part_057" type="mesh" mesh="part_057" pos="-0.03 0.105 -0" rgba="0.95 0.015 0.32 1" group="1" mass="0" contype="1" conaffinity="1" condim="3" friction="1 .01 .001" />
+                <geom name="cad_part_058" type="mesh" mesh="part_058" pos="-0.03 0.105 -0" rgba="0.97 0.97 0.97 1" group="1" mass="0" contype="0" conaffinity="0" condim="3" friction="1 .01 .001" />
+                <site name="palm_camera_optical_center" pos="0 .087 -.019" size=".002" rgba=".12 .14 .18 1" group="4" />
+              </body>
+              <geom name="peripheral_screw_14mm_0" type="cylinder" fromto="0.00495050087381 0.0116120530502 -0.00495050087381 0.00495050087381 -0.00238794694979 -0.00495050087381" size=".0014" rgba=".65 .68 .72 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="illustrative_screw_head_0" type="cylinder" pos="0.00495050087381 0.0116120530502 -0.00495050087381" quat="1 1 0 0" size=".0028 .001" rgba=".75 .78 .82 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="peripheral_screw_14mm_1" type="cylinder" fromto="0.00495076319448 0.0116151127899 0.00494901735197 0.00495076319448 -0.0023848872101 0.00494901735197" size=".0014" rgba=".65 .68 .72 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="illustrative_screw_head_1" type="cylinder" pos="0.00495076319448 0.0116151127899 0.00494901735197" quat="1 1 0 0" size=".0028 .001" rgba=".75 .78 .82 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="peripheral_screw_14mm_2" type="cylinder" fromto="-0.00494898200613 0.0116163912425 -0.00495025240552 -0.00494898200613 -0.00238360875748 -0.00495025240552" size=".0014" rgba=".65 .68 .72 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="illustrative_screw_head_2" type="cylinder" pos="-0.00494898200613 0.0116163912425 -0.00495025240552" quat="1 1 0 0" size=".0028 .001" rgba=".75 .78 .82 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="peripheral_screw_14mm_3" type="cylinder" fromto="-0.00494874406059 0.0116194505877 0.00494922829554 -0.00494874406059 -0.00238054941225 0.00494922829554" size=".0014" rgba=".65 .68 .72 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="illustrative_screw_head_3" type="cylinder" pos="-0.00494874406059 0.0116194505877 0.00494922829554" quat="1 1 0 0" size=".0028 .001" rgba=".75 .78 .82 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="peripheral_screw_14mm_4" type="cylinder" fromto="0.00495012964764 -0.0458194902512 -0.00495022880207 0.00495012964764 -0.0318194902512 -0.00495022880207" size=".0014" rgba=".65 .68 .72 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="illustrative_screw_head_4" type="cylinder" pos="0.00495012964764 -0.0458194902512 -0.00495022880207" quat="1 1 0 0" size=".0028 .001" rgba=".75 .78 .82 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="peripheral_screw_14mm_5" type="cylinder" fromto="-0.00494934390138 -0.0458151453947 -0.00494999618846 -0.00494934390138 -0.0318151453947 -0.00494999618846" size=".0014" rgba=".65 .68 .72 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="illustrative_screw_head_5" type="cylinder" pos="-0.00494934390138 -0.0458151453947 -0.00494999618846" quat="1 1 0 0" size=".0028 .001" rgba=".75 .78 .82 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="peripheral_screw_14mm_6" type="cylinder" fromto="0.00495038675446 -0.0458164012453 0.00494922836371 0.00495038675446 -0.0318164012453 0.00494922836371" size=".0014" rgba=".65 .68 .72 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="illustrative_screw_head_6" type="cylinder" pos="0.00495038675446 -0.0458164012453 0.00494922836371" quat="1 1 0 0" size=".0028 .001" rgba=".75 .78 .82 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="peripheral_screw_14mm_7" type="cylinder" fromto="-0.00494911676282 -0.0458120687881 0.00494950133547 -0.00494911676282 -0.0318120687881 0.00494950133547" size=".0014" rgba=".65 .68 .72 1" contype="0" conaffinity="0" mass="0" group="2" />
+              <geom name="illustrative_screw_head_7" type="cylinder" pos="-0.00494911676282 -0.0458120687881 0.00494950133547" quat="1 1 0 0" size=".0028 .001" rgba=".75 .78 .82 1" contype="0" conaffinity="0" mass="0" group="2" />
+            </body>
+          </body>
+        </body>
+          </body>
+      </body>
+    </body>
+    <light pos="0 -1 2" dir="0 0 -1" directional="true" />
+    <light pos="1 1 1.5" dir="-1 -1 -1" />
+    <body name="stereo_camera_rig" pos="0.16 -0.3 0.52" quat="0.955862823 0.286252010 0.018999398 0.063443459">
+      <geom name="stereo_camera_housing" type="box" pos="0 0 0" size=".040 .025 .018" rgba=".12 .14 .17 1" contype="1" conaffinity="1" mass="0" />
+      <geom name="stereo_camera_front" type="box" pos="0 0 -.0185" size=".035 .020 .0015" rgba=".12 .45 .62 .85" contype="0" conaffinity="0" mass="0" />
+      <geom name="stereo_camera_lens_left" type="cylinder" pos="-.0124413815 0 -.0205" quat=".70710678 .70710678 0 0" size=".006 .001" rgba=".04 .08 .11 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="stereo_camera_lens_right" type="cylinder" pos=".0124413815 0 -.0205" quat=".70710678 .70710678 0 0" size=".006 .001" rgba=".04 .08 .11 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="stereo_camera_stand" type="box" pos="0 0 .045" size=".018 .018 .045" rgba=".24 .26 .29 1" contype="1" conaffinity="1" mass="0" />
+      <camera name="stereo_left" pos="-.0124413815 0 -.0205" focalpixel="305.652909 305.652909" principalpixel="82.461040 13.372149" sensorsize="1 1" resolution="320 240" />
+      <camera name="stereo_right" pos=".0124413815 0 -.0205" focalpixel="305.652909 305.652909" principalpixel="82.461040 13.372149" sensorsize="1 1" resolution="320 240" />
+      <site name="stereo_rig_center" pos="0 0 0" size=".002" rgba=".1 .8 1 1" group="4" />
+    </body>
+    <geom name="floor" type="mesh" mesh="floor_collision_mesh" rgba=".18 .22 .27 1" />
+  <body name="papercup" pos="0.14 -0.06 0.041" quat="1 0 0 0">
+      <freejoint name="papercup_joint" />
+      <geom name="papercup_geom" type="mesh" density="10.0" rgba="0.22 0.45 0.85 1" contype="1" conaffinity="3" condim="3" friction="1 0.005 0.0005" priority="2" solref=".006 1" solimp=".99 .999 .001" mesh="papercup_mesh" />
+      <geom name="cup_stereo_dot_0_0" type="sphere" pos="0.027500 0.000000 -0.025000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_0_1" type="sphere" pos="0.025407 0.010524 -0.025000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_0_2" type="sphere" pos="0.019445 0.019445 -0.025000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_0_3" type="sphere" pos="0.010524 0.025407 -0.025000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_0_4" type="sphere" pos="0.000000 0.027500 -0.025000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_0_5" type="sphere" pos="-0.010524 0.025407 -0.025000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_0_6" type="sphere" pos="-0.019445 0.019445 -0.025000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_0_7" type="sphere" pos="-0.025407 0.010524 -0.025000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_0_8" type="sphere" pos="-0.027500 0.000000 -0.025000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_0_9" type="sphere" pos="-0.025407 -0.010524 -0.025000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_0_10" type="sphere" pos="-0.019445 -0.019445 -0.025000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_0_11" type="sphere" pos="-0.010524 -0.025407 -0.025000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_0_12" type="sphere" pos="-0.000000 -0.027500 -0.025000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_0_13" type="sphere" pos="0.010524 -0.025407 -0.025000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_0_14" type="sphere" pos="0.019445 -0.019445 -0.025000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_0_15" type="sphere" pos="0.025407 -0.010524 -0.025000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_1_0" type="sphere" pos="0.029914 0.005950 0.000000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_1_1" type="sphere" pos="0.025360 0.016945 0.000000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_1_2" type="sphere" pos="0.016945 0.025360 0.000000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_1_3" type="sphere" pos="0.005950 0.029914 0.000000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_1_4" type="sphere" pos="-0.005950 0.029914 0.000000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_1_5" type="sphere" pos="-0.016945 0.025360 0.000000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_1_6" type="sphere" pos="-0.025360 0.016945 0.000000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_1_7" type="sphere" pos="-0.029914 0.005950 0.000000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_1_8" type="sphere" pos="-0.029914 -0.005950 0.000000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_1_9" type="sphere" pos="-0.025360 -0.016945 0.000000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_1_10" type="sphere" pos="-0.016945 -0.025360 0.000000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_1_11" type="sphere" pos="-0.005950 -0.029914 0.000000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_1_12" type="sphere" pos="0.005950 -0.029914 0.000000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_1_13" type="sphere" pos="0.016945 -0.025360 0.000000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_1_14" type="sphere" pos="0.025360 -0.016945 0.000000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_1_15" type="sphere" pos="0.029914 -0.005950 0.000000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_2_0" type="sphere" pos="0.033500 0.000000 0.025000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_2_1" type="sphere" pos="0.030950 0.012820 0.025000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_2_2" type="sphere" pos="0.023688 0.023688 0.025000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_2_3" type="sphere" pos="0.012820 0.030950 0.025000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_2_4" type="sphere" pos="0.000000 0.033500 0.025000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_2_5" type="sphere" pos="-0.012820 0.030950 0.025000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_2_6" type="sphere" pos="-0.023688 0.023688 0.025000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_2_7" type="sphere" pos="-0.030950 0.012820 0.025000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_2_8" type="sphere" pos="-0.033500 0.000000 0.025000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_2_9" type="sphere" pos="-0.030950 -0.012820 0.025000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_2_10" type="sphere" pos="-0.023688 -0.023688 0.025000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_2_11" type="sphere" pos="-0.012820 -0.030950 0.025000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_2_12" type="sphere" pos="-0.000000 -0.033500 0.025000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_2_13" type="sphere" pos="0.012820 -0.030950 0.025000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_2_14" type="sphere" pos="0.023688 -0.023688 0.025000" size=".0018" rgba=".04 .05 .06 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="cup_stereo_dot_2_15" type="sphere" pos="0.030950 -0.012820 0.025000" size=".0018" rgba=".95 .95 .90 1" contype="0" conaffinity="0" mass="0" />
+    </body>
+    <body name="placement_target" mocap="true" pos="0.12 0.10 0">
+      <geom name="placement_target_disc" type="cylinder" pos="0 0 .001" size=".055 .001" rgba=".12 .72 .32 1" contype="0" conaffinity="0" mass="0" />
+      <site name="placement_target_center" pos="0 0 .002" size=".003" rgba="1 .1 .1 1" group="4" />
+      <geom name="target_stereo_dot_0" type="sphere" pos="0.032000 0.000000 .003" size=".0022" rgba=".03 .03 .03 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="target_stereo_dot_1" type="sphere" pos="0.027713 0.016000 .003" size=".0022" rgba=".96 .96 .96 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="target_stereo_dot_2" type="sphere" pos="0.016000 0.027713 .003" size=".0022" rgba=".03 .03 .03 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="target_stereo_dot_3" type="sphere" pos="0.000000 0.032000 .003" size=".0022" rgba=".96 .96 .96 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="target_stereo_dot_4" type="sphere" pos="-0.016000 0.027713 .003" size=".0022" rgba=".03 .03 .03 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="target_stereo_dot_5" type="sphere" pos="-0.027713 0.016000 .003" size=".0022" rgba=".96 .96 .96 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="target_stereo_dot_6" type="sphere" pos="-0.032000 0.000000 .003" size=".0022" rgba=".03 .03 .03 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="target_stereo_dot_7" type="sphere" pos="-0.027713 -0.016000 .003" size=".0022" rgba=".96 .96 .96 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="target_stereo_dot_8" type="sphere" pos="-0.016000 -0.027713 .003" size=".0022" rgba=".03 .03 .03 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="target_stereo_dot_9" type="sphere" pos="-0.000000 -0.032000 .003" size=".0022" rgba=".96 .96 .96 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="target_stereo_dot_10" type="sphere" pos="0.016000 -0.027713 .003" size=".0022" rgba=".03 .03 .03 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="target_stereo_dot_11" type="sphere" pos="0.027713 -0.016000 .003" size=".0022" rgba=".96 .96 .96 1" contype="0" conaffinity="0" mass="0" />
+    </body>
+    </worldbody>
+  <contact>
+    <pair name="cup_floor_stl_contact" geom1="papercup_geom" geom2="floor" condim="3" friction="1 1 .005 .0005 .0005" solref=".006 1" solimp=".99 .999 .001" />
+    
+    <exclude body1="palm" body2="index_curl" />
+    <exclude body1="palm" body2="middle_curl" />
+    <exclude body1="palm" body2="ring_curl" />
+    <exclude body1="palm" body2="little_curl" />
+    <exclude body1="palm" body2="thumb_curl" />
+    <exclude body1="palm" body2="thumb_pip" />
+    <exclude body1="index_curl" body2="index_long_link" />
+    <exclude body1="index_pip" body2="index_long_link" />
+    <exclude body1="index_pip" body2="index_short_link" />
+    <exclude body1="index_dip" body2="index_short_link" />
+    <exclude body1="index_short_link" body2="index_long_link" />
+    <exclude body1="middle_curl" body2="middle_long_link" />
+    <exclude body1="middle_pip" body2="middle_long_link" />
+    <exclude body1="middle_pip" body2="middle_short_link" />
+    <exclude body1="middle_dip" body2="middle_short_link" />
+    <exclude body1="middle_short_link" body2="middle_long_link" />
+    <exclude body1="ring_curl" body2="ring_long_link" />
+    <exclude body1="ring_pip" body2="ring_long_link" />
+    <exclude body1="ring_pip" body2="ring_short_link" />
+    <exclude body1="ring_dip" body2="ring_short_link" />
+    <exclude body1="ring_short_link" body2="ring_long_link" />
+    <exclude body1="little_curl" body2="little_long_link" />
+    <exclude body1="little_pip" body2="little_long_link" />
+    <exclude body1="little_pip" body2="little_short_link" />
+    <exclude body1="little_dip" body2="little_short_link" />
+    <exclude body1="little_short_link" body2="little_long_link" />
+    <exclude body1="thumb_curl" body2="thumb_long_link" />
+    <exclude body1="thumb_pip" body2="thumb_long_link" />
+  </contact>
+  <equality>
+    <connect name="index_long_loop" body1="index_long_link" body2="index_pip" anchor="-0.001854123855 0.04317356102 -0.01159734282" solref=".003 1" solimp=".99 .999 .0001" />
+    <connect name="index_short_loop" body1="index_short_link" body2="index_dip" anchor="0.002833492716 0.03095627755 -0.01161379111" solref=".003 1" solimp=".99 .999 .0001" />
+    <joint name="index_tendon_transmission" joint1="index_curl" joint2="index_winch" polycoef="0 .9 0 0 0" solref=".003 1" />
+    <connect name="middle_long_loop" body1="middle_long_link" body2="middle_pip" anchor="0.00310455855 0.04565316608 -0.01063708675" solref=".003 1" solimp=".99 .999 .0001" />
+    <connect name="middle_short_loop" body1="middle_short_link" body2="middle_dip" anchor="0.006332132024 0.03235640861 -0.01127119623" solref=".003 1" solimp=".99 .999 .0001" />
+    <joint name="middle_tendon_transmission" joint1="middle_curl" joint2="middle_winch" polycoef="0 .9 0 0 0" solref=".003 1" />
+    <connect name="ring_long_loop" body1="ring_long_link" body2="ring_pip" anchor="0.008114001248 0.04115243799 -0.01557344978" solref=".003 1" solimp=".99 .999 .0001" />
+    <connect name="ring_short_loop" body1="ring_short_link" body2="ring_dip" anchor="0.008286435295 0.02594103104 -0.01896306669" solref=".003 1" solimp=".99 .999 .0001" />
+    <joint name="ring_tendon_transmission" joint1="ring_curl" joint2="ring_winch" polycoef="0 .9 0 0 0" solref=".003 1" />
+    <connect name="little_long_loop" body1="little_long_link" body2="little_pip" anchor="0.009334068526 0.03662242792 -0.01390457367" solref=".003 1" solimp=".99 .999 .0001" />
+    <connect name="little_short_loop" body1="little_short_link" body2="little_dip" anchor="0.009394249774 0.02478674728 -0.01375998657" solref=".003 1" solimp=".99 .999 .0001" />
+    <joint name="little_tendon_transmission" joint1="little_curl" joint2="little_winch" polycoef="0 .9 0 0 0" solref=".003 1" />
+    <connect name="thumb_long_loop" body1="thumb_long_link" body2="thumb_pip" anchor="0.009839189162 0.02850820701 -0.0303369795" solref=".003 1" solimp=".99 .999 .0001" />
+    <joint name="thumb_distal_APPROXIMATE" joint1="thumb_dip" joint2="thumb_pip" polycoef="0 .65 0 0 0" solref=".003 1" />
+    <joint name="thumb_tendon_transmission" joint1="thumb_curl" joint2="thumb_winch" polycoef="0 .9 0 0 0" solref=".003 1" />
+  </equality>
+  <tendon>
+    <fixed name="index_flexor_tendon"><joint joint="index_winch" coef="-0.005" /><joint joint="index_curl" coef="0.005" /></fixed>
+    <fixed name="middle_flexor_tendon"><joint joint="middle_winch" coef="-0.005" /><joint joint="middle_curl" coef="0.005" /></fixed>
+    <fixed name="ring_flexor_tendon"><joint joint="ring_winch" coef="-0.005" /><joint joint="ring_curl" coef="0.005" /></fixed>
+    <fixed name="little_flexor_tendon"><joint joint="little_winch" coef="-0.005" /><joint joint="little_curl" coef="0.005" /></fixed>
+    <fixed name="thumb_flexor_tendon"><joint joint="thumb_winch" coef="-0.005" /><joint joint="thumb_curl" coef="0.005" /></fixed>
+  </tendon>
+  <actuator>
+    <position class="sts3215" name="shoulder_pan" joint="shoulder_pan" ctrlrange="-1.91986 1.91986" />
+    <position class="sts3215" name="shoulder_lift" joint="shoulder_lift" ctrlrange="-3.17 0.5" />
+    <position class="sts3215" name="wrist_roll" joint="wrist_roll" ctrlrange="-3.141592653589793 3.141592653589793" />
+    <position class="sts3215" name="nano_mount_pitch" joint="nano_mount_pitch" ctrlrange="-.7853981634 2.0" />
+    <position name="ID01_little_spread" joint="little_spread" ctrlrange="-.20 .20" kp="1.2" kv="0.0015" forcerange="-0.06 0.06" class="nano_cad" />
+    <position name="ID02_little_curl" joint="little_winch" ctrlrange="0 1.0" kp="1.8" kv="0.008" forcerange="-0.12 0.12" class="nano_cad" />
+    <position name="ID03_ring_spread" joint="ring_spread" ctrlrange="-.20 .20" kp="1.2" kv="0.0015" forcerange="-0.06 0.06" class="nano_cad" />
+    <position name="ID04_ring_curl" joint="ring_winch" ctrlrange="0 1.0" kp="1.8" kv="0.008" forcerange="-0.12 0.12" class="nano_cad" />
+    <position name="ID05_middle_spread" joint="middle_spread" ctrlrange="-.20 .20" kp="1.2" kv="0.0015" forcerange="-0.06 0.06" class="nano_cad" />
+    <position name="ID06_middle_curl" joint="middle_winch" ctrlrange="0 1.0" kp="1.8" kv="0.008" forcerange="-0.12 0.12" class="nano_cad" />
+    <position name="ID07_index_spread" joint="index_spread" ctrlrange="-.20 .20" kp="1.2" kv="0.0015" forcerange="-0.06 0.06" class="nano_cad" />
+    <position name="ID08_index_curl" joint="index_winch" ctrlrange="0 1.0" kp="1.8" kv="0.008" forcerange="-0.12 0.12" class="nano_cad" />
+    <position name="ID09_thumb_spread" joint="thumb_spread" ctrlrange="0 1.60" kp="1.2" kv="0.0015" forcerange="-0.06 0.06" class="nano_cad" />
+    <position name="ID10_thumb_curl" joint="thumb_winch" ctrlrange="0 1.0" kp="1.8" kv="0.008" forcerange="-0.12 0.12" class="nano_cad" />
+  </actuator>
+  <keyframe>
+    <key name="assembled_open" qpos="0 -3.17 3.14 0.802 0.00175784345246 0.00469205573702 0.0140047286528 0.0195522160249 0.0169618647578 0.00647491224308 0.00423073811212 0.000602278189027 0.0046773398059 0.0139447818517 0.0195021324045 0.0169078553832 0.00645666837762 0.00422039856494 -0.000811050341183 0.00559828811116 0.0142823608139 0.0183341705739 0.0165666273888 0.0073273602929 0.00507629464499 -0.00148078044139 0.00473059882023 0.0142497288372 0.0198824801531 0.0172324423155 0.00653486830243 0.00425836720553 0.000482747876093 -0.00675382308641 -0.00931974687634 -0.00618603119334 -0.00853449611411 -0.00610044115699 0.14 -0.06 0.041 1 0 0 0" ctrl="0 -3.17 3.14 0.802 0 0 0 0 0 0 0 0 0 0" />
+    <key name="hold" qpos="0 -3.17 3.1415903476 2 0.00175784345246 0.00469205573702 0.0140047286528 0.0195522160249 0.0169618647578 0.00647491224308 0.00423073811212 0.000602278189027 0.0046773398059 0.0139447818517 0.0195021324045 0.0169078553832 0.00645666837762 0.00422039856494 -0.000811050341183 0.00559828811116 0.0142823608139 0.0183341705739 0.0165666273888 0.0073273602929 0.00507629464499 -0.00148078044139 0.00473059882023 0.0142497288372 0.0198824801531 0.0172324423155 0.00653486830243 0.00425836720553 0.000482747876093 -0.00675382308641 -0.00931974687634 -0.00618603119334 -0.00853449611411 -0.00610044115699 0.14 -0.06 0.041 1 0 0 0" ctrl="0 -3.17 3.141592653589793 2.0 0 0 0 0 0 0 0 0 0 0" />
+    <key name="curl" qpos="0 -3.17 3.14159007543 2 0.00130299408089 0.366431172047 0.71442085939 0.815481331913 0.776742007117 0.439928432526 0.405830487519 0.000449029652011 0.366820325678 0.716494816219 0.819016753966 0.779632539057 0.440707158956 0.406190619363 -0.000543067009827 0.366328427738 0.667382909965 0.720887153993 0.70159102926 0.42694264232 0.405738354864 -0.0010763958733 0.365862175491 0.711250651292 0.810007881566 0.772278479875 0.438746627027 0.405299620198 0.000267876978594 0.265313759766 0.327427313713 0.212805976175 0.322929710206 0.295786655059 0.14 -0.06 0.041 1 0 0 0" ctrl="0 -3.17 3.141592653589793 2.0 0 0.4 0 0.4 0 0.4 0 0.4 0 0.3" />
+    <key name="mount_motion" qpos="7.10722352875e-05 -3.17 3.14163116929 0.3498782632 0.000352147192681 0.00917760156272 0.0268102627608 0.0371563823335 0.0323910242746 0.0125953260158 0.00832040203208 -0.0210612200774 -0.0415982395461 -0.142020821035 -0.221417541615 -0.178024841637 -0.0598445181568 -0.0377565519304 -0.000308997641828 0.00786479662268 0.0195144872176 0.0247880467301 0.022595799683 0.0102390908847 0.00713147510609 -0.000652435196751 0.00803660400944 0.0236797403927 0.0327904713735 0.028576396914 0.0110419997393 0.00726538565231 0.000528081621646 0.319411973905 0.407885799146 0.264974841267 0.387157768333 0.339561383861 0.14 -0.06 0.041 1 0 0 0" ctrl="0 -3.17 3.141592653589793 0.35 0 0 0 0 0 0 0 0 0 0" />
+  <key name="cup_home" qpos="0 -3.17 3.14 0.802 0.00175784345246 0.00469205573702 0.0140047286528 0.0195522160249 0.0169618647578 0.00647491224308 0.00423073811212 0.000602278189027 0.0046773398059 0.0139447818517 0.0195021324045 0.0169078553832 0.00645666837762 0.00422039856494 -0.000811050341183 0.00559828811116 0.0142823608139 0.0183341705739 0.0165666273888 0.0073273602929 0.00507629464499 -0.00148078044139 0.00473059882023 0.0142497288372 0.0198824801531 0.0172324423155 0.00653486830243 0.00425836720553 0.000482747876093 -0.00675382308641 -0.00931974687634 -0.00618603119334 -0.00853449611411 -0.00610044115699 0.14 -0.06 0.041 1 0 0 0" ctrl="0 -3.17 3.14 0.802 0 0 0 0 0 0 0 0 0 0" />
+    </keyframe>
+</mujoco>
