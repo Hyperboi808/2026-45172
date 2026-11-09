@@ -1,0 +1,39 @@
+{
+  "per_eye_resolution": [
+    1280,
+    720
+  ],
+  "packed_resolution": [
+    2560,
+    720
+  ],
+  "resize": false,
+  "uart": false,
+  "pointcloud": false,
+  "model": false,
+  "calibration_sha256": "3bff5bb64f7f0c7306a61b75d6f64be4178d6a7ac1cc3882afdaf7461d76bf47",
+  "map_sha256": {
+    "0": "b262a666b544b41de01ee3e73e290b73339389ec53035d5c232520667cd005c0",
+    "1": "343a62239d0a50600788e2b9f65d48c9f6ab72d50973aefc88bb3849b2075494"
+  },
+  "clock_mhz": 100,
+  "matching": {
+    "num_disparities": 64,
+    "block_size": 5,
+    "min_disparity": 0,
+    "pre_filter_cap": 31,
+    "pre_filter_type": "XSOBEL",
+    "texture_threshold": 20,
+    "uniqueness_ratio": 15,
+    "support_tolerance_q4": 16,
+    "min_support": 5,
+    "lr_tolerance_q4": 16,
+    "speckle_window_size": 40,
+    "speckle_range_q4": 16
+  },
+  "ps_pl_parameter_contract_equal": true,
+  "PS_OpenCV_and_AMD_BM_bit_equivalence_claimed": false,
+  "parallel_lanes": 16,
+  "scaled_from_640": false,
+  "calibration_source": "board_hd_20261108_direct"
+}
